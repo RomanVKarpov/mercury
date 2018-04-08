@@ -35,8 +35,46 @@ namespace MercuryClassLibrary
         public static string GetLogin() => Login;
         public static string GetApiKey() => ApiKey;
 
-        public void ModifyEnterpriseOperation()
+        public void ModifyEnterpriseOperation(string ownerGuid, string name)
         {
+
+            var Ent = new Enterprise()
+            {
+                name = name,
+                type = "1",
+                address = new Address
+                {
+                    country = new Country
+                    {
+                        guid = "74a3cbb1-56fa-94f3-ab3f-e8db4940d96b" // Россия
+                    },
+                    region = new Region
+                    {
+                        guid = "27eb7c10-a234-44da-a59c-8b1f864966de" // Челябинская обл.
+                    },
+                    locality = new Locality
+                    {
+                        guid = "a376e68d-724a-4472-be7c-891bdb09ae32" // Челябинск
+                    }
+                },
+                owner = new BusinessEntity
+                {
+                    guid = ownerGuid
+                }
+            };
+
+            var activityList = new EnterpriseActivityList();
+            EnterpriseActivity[] activity = new EnterpriseActivity[1];
+            activity[0] = new EnterpriseActivity
+            {
+                name = "Реализация пищевых продуктов"
+            };
+
+            activityList.activity = activity;
+
+            Ent.activityList = activityList;
+            (new Enterprise[1])[0] = Ent;
+
             var req = new ModifyEnterpriseRequest
             {
                 initiator = new User
@@ -47,18 +85,13 @@ namespace MercuryClassLibrary
                 modificationOperation = new ENTModificationOperation
                 {
                     type = RegisterModificationType.CREATE,
-                    reason = "создание"
-                },
+                    reason = "создание",
+                    resultingList = new EnterpriseList
+                    {
+                        enterprise = (new Enterprise[1])
+                    }
+                }
             };
-
-            
-
-            var resultingList = new EnterpriseList();
-
-            req.modificationOperation.resultingList = resultingList;
-
-
-            var ent = resultingList.enterprise;
 
             AppRequest(req);
         }
@@ -67,13 +100,16 @@ namespace MercuryClassLibrary
         {
             var mod = data1.ToString();
 
-            var req = new ApplicationManagementService.submitApplicationRequest
+            var req = new submitApplicationRequest
             {
                 apiKey = ApiKey,
             };
             req.application = new Application();
 
+            req.application.data = new ApplicationDataWrapper();
             req.application.data.Any = SerializeToXmlElement(data1);
+
+            var response = service.submitApplicationRequest(req);
 
 
             //XmlSerializer ser = new XmlSerializer(AppData.GetType());

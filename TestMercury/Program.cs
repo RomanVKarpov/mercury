@@ -31,7 +31,7 @@ namespace TestMercury
             //res.AppRequest();
 
             //string login = GetLogin();
-            res.ModifyEnterpriseOperation();
+            res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
 
             //var merc = new MercuryClassLibrary.DictionaryService();
 
