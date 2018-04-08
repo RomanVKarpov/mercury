@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="139535aa-fb19-424a-a173-13630c8112ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/ams-mercury-g2b.service_v2.0_pilot.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="application_v1.xsd" MetadataType="Schema" ID="6cba96ce-3f69-44e0-be5b-c0a35b268825" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/application_v1.1.xsd" />
+    <MetadataFile FileName="application_ws_definitions_v1.xsd" MetadataType="Schema" ID="05cdcff8-59de-4f41-93ba-168da1b3f4d8" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/application_ws_definitions_v1.1.xsd" />
+    <MetadataFile FileName="dictionary_v2.xsd" MetadataType="Schema" ID="695ac8ed-424c-4bab-8a5c-3e59b340cd3a" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/dictionary_v2.0.xsd" />
+    <MetadataFile FileName="MercuryG2BService.wsdl" MetadataType="Wsdl" ID="9937913e-9d96-420c-9478-40c783044012" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/mercury-g2b.service_v2.0.wsdl" />
+    <MetadataFile FileName="document_v2.xsd" MetadataType="Schema" ID="1a583cb7-bd26-491a-b3b2-f56e06462a9c" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/document_v2.0.xsd" />
+    <MetadataFile FileName="ApplicationManagementService.wsdl" MetadataType="Wsdl" ID="50ffd4d2-cbb3-43f3-b5b3-39c836d5cc35" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/ApplicationManagementService_v1.1.wsdl" />
+    <MetadataFile FileName="base_v1.xsd" MetadataType="Schema" ID="d395db17-8153-421c-ac4c-8ae2415133a4" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/base_v1.1.xsd" />
+    <MetadataFile FileName="ApplicationManagementService1.wsdl" MetadataType="Wsdl" ID="83167f0c-8f59-43d9-8ebf-858c1dc455cb" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/ams-mercury-g2b.service_v2.0_pilot.wsdl" />
+    <MetadataFile FileName="base_ws_definitions_v1.xsd" MetadataType="Schema" ID="8204dc0d-e605-4c49-812e-763ce32bb2b7" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/base_ws_definitions_v1.1.xsd" />
+    <MetadataFile FileName="mercury_g2b_applications_v2.xsd" MetadataType="Schema" ID="24d387b1-8ab3-4d14-9c05-8645c0e3cdec" SourceId="1" SourceUrl="http://api.vetrf.ru/schema/platform/services/2.0-RC-last/mercury_g2b_applications_v2.0.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
