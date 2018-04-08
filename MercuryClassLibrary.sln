@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercuryClassLibrary", "Merc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMercury", "TestMercury\TestMercury.csproj", "{8A77A12E-2549-4D54-802B-F2F51575076E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{DB70269A-8A5C-41F3-9E45-D23793FABE11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8A77A12E-2549-4D54-802B-F2F51575076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A77A12E-2549-4D54-802B-F2F51575076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A77A12E-2549-4D54-802B-F2F51575076E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB70269A-8A5C-41F3-9E45-D23793FABE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB70269A-8A5C-41F3-9E45-D23793FABE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB70269A-8A5C-41F3-9E45-D23793FABE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB70269A-8A5C-41F3-9E45-D23793FABE11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

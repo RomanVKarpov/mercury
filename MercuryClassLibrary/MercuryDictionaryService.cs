@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MercuryClassLibrary.EnterpriseService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,14 +9,29 @@ namespace MercuryClassLibrary
 {
     public class DictionaryService
     {
-        public DictionaryService(string userName, string password)
+        private static EnterpriseServicePortTypeClient service = null;
+
+        public DictionaryService()
         {
-            Common.InitService(userName, password);
+            service = new EnterpriseServicePortTypeClient();
+            var cred = new System.ServiceModel.Description.ClientCredentials();
+
+            var cmn = new Common();
+            cmn.Init();
+
+            service.ClientCredentials.UserName.UserName = cmn.UserName;
+            service.ClientCredentials.UserName.Password = cmn.Password;
         }
 
+        public static EnterpriseServicePortTypeClient GetService()
+        {
+            if (service == null)
+                return null;
+            else
+                return service;
+        }
 
-
-        public List<string> Cs_EnterpriseExistByHs(string guid)
+        public List<string> M_EnterpriseList(string guid)
         {
             List<string> result = new List<string>();
 
@@ -50,7 +66,7 @@ namespace MercuryClassLibrary
                 return new ResultInfo(false, "Не указано наименование предприятия");
             }
 
-            var serv = Common.GetService();
+            var serv = GetService();
 
             var req = new EnterpriseService.getRussianEnterpriseListRequest
             {
@@ -82,9 +98,9 @@ namespace MercuryClassLibrary
             return res;
         }
 
-        private EnterpriseService.getBusinessEntityByGuidResponse GetBusinessEntityByGUID(string guid)
+        private getBusinessEntityByGuidResponse GetBusinessEntityByGUID(string guid)
         {
-            var serv = Common.GetService();
+            var serv = GetService();
 
             var req = new EnterpriseService.getBusinessEntityByGuidRequest
             {

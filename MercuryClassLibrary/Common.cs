@@ -8,25 +8,32 @@ using MercuryClassLibrary.EnterpriseService;
 
 namespace MercuryClassLibrary
 {
-    public static class Common
+    public  class Common
     {
-        private static EnterpriseServicePortTypeClient service = null;
+        public  string guidRu;
+        public string guidGa;
+        public string guidGo;
+        public string guidEx;
 
-        public static void InitService(string userName, string password)
+        internal  string UserName;
+        internal  string Password;
+        internal  string Login;
+        internal  string ApiKey;
+
+        public void Init()
         {
-            service = new EnterpriseServicePortTypeClient();
-            var cred = new System.ServiceModel.Description.ClientCredentials();
+            using (System.IO.StreamReader reader = new System.IO.StreamReader(@"c:\temp\pass.txt"))
+            {
+                UserName = reader.ReadLine();
+                Password = reader.ReadLine();
+                Login = reader.ReadLine();
+                ApiKey = reader.ReadLine();
 
-            service.ClientCredentials.UserName.UserName = userName;
-            service.ClientCredentials.UserName.Password = password;
-        }
-
-        public static EnterpriseServicePortTypeClient GetService()
-        {
-            if (service == null)
-                return null;
-            else
-                return service;
+                guidRu = reader.ReadLine();
+                guidGa = reader.ReadLine();
+                guidGo = reader.ReadLine();
+                guidEx = reader.ReadLine();
+            }
         }
 
         internal static string ServiceModelExceptionToString(FaultException<FaultInfo> exceptionInfo)

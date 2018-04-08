@@ -9,26 +9,41 @@ namespace TestMercury
 {
     class Program
     {
+        private static string guidRu;
+        private static string guidGa;
+        private static string guidGo;
+        private static string guidEx;
+
+        private static string UserName;
+        private static string Password;
+        private static string Login;
+        private static string ApiKey;
+
         static void Main(string[] args)
         {
-            var merc = Init();
+            //var cmn = new MercuryClassLibrary.Common();
+            //cmn.Init();
 
-            string guidGalimova = "2084a15e-e93d-4b36-a604-412681a5da16";
+            Init();
 
             var res = new MercuryClassLibrary.MercuryMainService();
 
-            string login = GetLogin();
-            res.ModifyEnterpriseOperation(login);
+            //res.AppRequest();
 
-            //var res = merc.Cs_EnterpriseExistByHs(guidGalimova);
+            //string login = GetLogin();
+            res.ModifyEnterpriseOperation();
+
+            //var merc = new MercuryClassLibrary.DictionaryService();
+
+            //var res1 = merc.M_EnterpriseList(guidGa);
 
             //if (MercuryClassLibrary.LastError.Success())
             //{
-            //    foreach (var item in res)
+            //    foreach (var item in res1)
             //    {
             //        Console.WriteLine(item);
             //    }
-            //    Console.WriteLine(res.Count());
+            //    Console.WriteLine(res1.Count());
             //}
             //else
             //{
@@ -39,30 +54,32 @@ namespace TestMercury
             Console.ReadKey();
         }
 
-        private static string GetLogin()
+        //private static string GetLogin()
+        //{
+        //    string login = string.Empty;
+
+        //    using (StreamReader reader = new StreamReader(@"c:\temp\login.txt"))
+        //    {
+        //        login = reader.ReadLine();
+        //    }
+
+        //    return login;
+        //}
+
+        private static void Init()
         {
-            string login = string.Empty;
-
-            using (StreamReader reader = new StreamReader(@"c:\temp\login.txt"))
-            {
-                login = reader.ReadLine();
-            }
-
-            return login;
-        }
-
-        private static MercuryClassLibrary.DictionaryService Init()
-        {
-            string UserName = "";
-            string Password = "";
-
             using (StreamReader reader = new StreamReader(@"c:\temp\pass.txt"))
             {
                 UserName = reader.ReadLine();
                 Password = reader.ReadLine();
-            }
+                Login = reader.ReadLine();
+                ApiKey = reader.ReadLine();
 
-            return new MercuryClassLibrary.DictionaryService(UserName, Password);
+                guidRu = reader.ReadLine();
+                guidGa = reader.ReadLine();
+                guidGo = reader.ReadLine();
+                guidEx = reader.ReadLine();
+            }
         }
     }
 }
