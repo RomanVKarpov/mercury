@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
 using MercuryClassLibrary.ApplicationManagementService;
 
 namespace MercuryClassLibrary
@@ -37,34 +39,73 @@ namespace MercuryClassLibrary
         {
             var req = new ModifyEnterpriseRequest
             {
-                initiator = new ApplicationManagementService.User
+                initiator = new User
                 {
                     login = Login
-                }
+                },
+
+                modificationOperation = new ENTModificationOperation
+                {
+                    type = RegisterModificationType.CREATE,
+                    reason = "создание"
+                },
             };
 
-            var modificationOperation = new ApplicationManagementService.ENTModificationOperation
-            {
-                type = ApplicationManagementService.RegisterModificationType.FIND_OR_CREATE,
-                reason = "создание"
-            };
+            
 
-            var resultingList = new ApplicationManagementService.EnterpriseList();
+            var resultingList = new EnterpriseList();
+
+            req.modificationOperation.resultingList = resultingList;
+
+
             var ent = resultingList.enterprise;
+
+            AppRequest(req);
         }
 
-        public void AppRequest(ModifyEnterpriseRequest data)
+        public void AppRequest(ModifyEnterpriseRequest data1)
         {
+            var mod = data1.ToString();
+
             var req = new ApplicationManagementService.submitApplicationRequest
             {
                 apiKey = ApiKey,
             };
-            req.application = new Application
+            req.application = new Application();
+
+            req.application.data.Any = SerializeToXmlElement(data1);
+
+
+            //XmlSerializer ser = new XmlSerializer(AppData.GetType());
+
+            //string serialized = "";
+            //StringBuilder sb = new StringBuilder();
+
+            ////Serialize to memory stream
+            //System.IO.TextWriter w = new System.IO.StringWriter(sb);
+            //ser.Serialize(w, AppData);
+            //w.Close();
+
+            ////Read to string
+            //serialized = sb.ToString();
+
+            //var serializer = new XmlSerializer(typeof(List<Class1>), new XmlRootAttribute("root"));
+            //var ms = new MemoryStream();
+            //serializer.Serialize(ms, list);
+            //ms.Position = 0;
+            //var result = new StreamReader(ms).ReadToEnd();
+        }
+
+        public static XmlElement SerializeToXmlElement(object o)
+        {
+            XmlDocument doc = new XmlDocument();
+
+            using (XmlWriter writer = doc.CreateNavigator().AppendChild())
             {
-                data = new ApplicationDataWrapper()
-            };
+                new XmlSerializer(o.GetType()).Serialize(writer, o);
+            }
 
-
+            return doc.DocumentElement;
         }
     }
 }
