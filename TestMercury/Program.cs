@@ -28,10 +28,17 @@ namespace TestMercury
 
             var res = new MercuryClassLibrary.MercuryMainService();
 
-            //res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
+            bool request = false;
 
-            var ApplicationId = "8fa35d87-1d16-431a-9268-b1a493e5985a";
-            res.AppResponse(ApplicationId);
+            if (request)
+                res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
+            else
+            {
+                var ApplicationId = "af162f18-1ae4-493f-9632-2ee9bde0b31f";
+                var issuerId = "aa714ff6-2e1e-4026-bd3d-feb2c7d7b030";
+
+                res.AppResponse(ApplicationId, issuerId);
+            }
 
             var err = MercuryClassLibrary.LastError.GetError();
 

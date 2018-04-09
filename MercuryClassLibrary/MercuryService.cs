@@ -67,6 +67,7 @@ namespace MercuryClassLibrary
             //client.GetData(123);
 
             service = new ApplicationManagementServicePortTypeClient();
+
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
             var cred = new System.ServiceModel.Description.ClientCredentials();
@@ -126,9 +127,10 @@ namespace MercuryClassLibrary
             Enterprise[] entList = new Enterprise[1];
             entList[0] = Ent;
 
-            var req = new ModifyEnterpriseRequest
+
+            var modifyEnt = new ModifyEnterpriseRequest
             {
-                localTransactionId = "20180101_1",
+                localTransactionId = "20180101_2",
                 initiator = new User
                 {
                     login = Login
@@ -145,10 +147,12 @@ namespace MercuryClassLibrary
                 }
             };
 
-            AppRequest(ownerGuid, req);
+            var modifyEnt_serialized = SerializeToXmlElement(modifyEnt);
+
+            AppRequest(ownerGuid, modifyEnt_serialized);
         }
 
-        public void AppRequest(string issuerId, ModifyEnterpriseRequest data1)
+        public void AppRequest(string issuerId, XmlElement data1)
         {
             var mod = data1.ToString();
 
@@ -162,7 +166,7 @@ namespace MercuryClassLibrary
                 issuerId = issuerId,
                 data = new ApplicationDataWrapper()
             };
-            req.application.data.Any = SerializeToXmlElement(data1);
+            req.application.data.Any = data1;
 
             req.application.issueDate = DateTime.Now;
             req.application.issueDateSpecified = true;
@@ -176,43 +180,40 @@ namespace MercuryClassLibrary
                 LastError.SetError(ex);
                 Common.ServiceModelExceptionToString(ex);
             } 
-
-
-            //XmlSerializer ser = new XmlSerializer(AppData.GetType());
-
-            //string serialized = "";
-            //StringBuilder sb = new StringBuilder();
-
-            ////Serialize to memory stream
-            //System.IO.TextWriter w = new System.IO.StringWriter(sb);
-            //ser.Serialize(w, AppData);
-            //w.Close();
-
-            ////Read to string
-            //serialized = sb.ToString();
-
-            //var serializer = new XmlSerializer(typeof(List<Class1>), new XmlRootAttribute("root"));
-            //var ms = new MemoryStream();
-            //serializer.Serialize(ms, list);
-            //ms.Position = 0;
-            //var result = new StreamReader(ms).ReadToEnd();
         }
 
         public static XmlElement SerializeToXmlElement(object o)
         {
             XmlDocument doc = new XmlDocument();
 
+            //XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+            //ns.Add("merc", "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2");
+            //ns.Add("apl", "http://api.vetrf.ru/schema/cdm/application");
+            //ns.Add("vd", "http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2");
+            //ns.Add("dt", "http://api.vetrf.ru/schema/cdm/dictionary/v2");
+            //ns.Add("bs", "http://api.vetrf.ru/schema/cdm/base");
+            //ns.Add("apldef", "http://api.vetrf.ru/schema/cdm/application/ws-definitions");
+            //ns.Add("SOAP-ENV", "http://schemas.xmlsoap.org/soap/envelope/");
+
             using (XmlWriter writer = doc.CreateNavigator().AppendChild())
             {
-                new XmlSerializer(o.GetType()).Serialize(writer, o);
+                var xml = new XmlSerializer(o.GetType(), new XmlRootAttribute("modifyEnterpriseRequest"));
+                xml.Serialize(writer, o);
             }
 
             return doc.DocumentElement;
         }
 
-        public void AppResponse(string applicationId)
+        public void AppResponse(string applicationId, string issuerId)
         {
-            
+            var req = new receiveApplicationResultRequest
+            {
+                apiKey = ApiKey,
+                issuerId = issuerId,
+                applicationId = applicationId
+            };
+
+            var response = service.receiveApplicationResult(req);
         }
     }
 }
