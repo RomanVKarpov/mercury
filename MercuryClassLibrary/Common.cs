@@ -4,7 +4,7 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
-using MercuryClassLibrary.EnterpriseService;
+//using MercuryClassLibrary.EnterpriseService;
 
 namespace MercuryClassLibrary
 {
@@ -36,7 +36,28 @@ namespace MercuryClassLibrary
             }
         }
 
-        internal static string ServiceModelExceptionToString(FaultException<FaultInfo> exceptionInfo)
+        internal static string ServiceModelExceptionToString(FaultException<EnterpriseService.FaultInfo> exceptionInfo)
+        {
+            var err = string.Empty;
+            var Detail = exceptionInfo.Detail;
+
+            if (Detail != null)
+            {
+                err += Detail.message + Environment.NewLine;
+
+                if (Detail.error != null)
+                {
+                    foreach (var item in Detail.error)
+                    {
+                        err += item.Value + Environment.NewLine;
+                    }
+                }
+            }
+
+            return err;
+        }
+
+        internal static string ServiceModelExceptionToString(FaultException<ApplicationManagementService.FaultInfo> exceptionInfo)
         {
             var err = string.Empty;
             var Detail = exceptionInfo.Detail;

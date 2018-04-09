@@ -28,31 +28,32 @@ namespace TestMercury
 
             var res = new MercuryClassLibrary.MercuryMainService();
 
-            //res.AppRequest();
+            //res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
 
-            //string login = GetLogin();
-            res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
+            var ApplicationId = "8fa35d87-1d16-431a-9268-b1a493e5985a";
+            res.AppResponse(ApplicationId);
 
-            //var merc = new MercuryClassLibrary.DictionaryService();
+            var err = MercuryClassLibrary.LastError.GetError();
 
-            //var res1 = merc.M_EnterpriseList(guidGa);
-
-            //if (MercuryClassLibrary.LastError.Success())
-            //{
-            //    foreach (var item in res1)
-            //    {
-            //        Console.WriteLine(item);
-            //    }
-            //    Console.WriteLine(res1.Count());
-            //}
-            //else
-            //{
-            //    Console.WriteLine(MercuryClassLibrary.LastError.resultInfo.Message);
-            //}
-
+            if (!err.Success)
+                Console.WriteLine(err.Message);
+            else
+                Console.WriteLine("Success");
 
             Console.ReadKey();
         }
+
+        /*
+       // This is just to illustrate how it can be implemented on an imperative declarared binding, channel and client.
+
+       string url = "SOME WCF URL";
+       BasicHttpBinding wsBinding = new BasicHttpBinding();                
+       EndpointAddress endpointAddress = new EndpointAddress(url);
+
+       ChannelFactory<ISomeService> channelFactory = new ChannelFactory<ISomeService>(wsBinding, endpointAddress);
+       channelFactory.Endpoint.Behaviors.Add(new InspectorBehavior());
+       ISomeService client = channelFactory.CreateChannel();
+   */
 
         //private static string GetLogin()
         //{

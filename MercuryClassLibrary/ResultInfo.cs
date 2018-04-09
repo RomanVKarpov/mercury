@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
-using MercuryClassLibrary.EnterpriseService;
+//using MercuryClassLibrary.EnterpriseService;
 
 namespace MercuryClassLibrary
 {
@@ -8,11 +8,12 @@ namespace MercuryClassLibrary
     {
         public static ResultInfo resultInfo = new ResultInfo();
 
-        public static void SetError(string message) => resultInfo = new ResultInfo(false, message);
-
+        public static bool Success() => resultInfo.Success;
         public static ResultInfo GetError() => resultInfo;
 
-        internal static void SetError(FaultException<FaultInfo> e)
+        public static void SetError(string message) => resultInfo = new ResultInfo(false, message);
+
+        internal static void SetError(FaultException<EnterpriseService.FaultInfo> e)
         {
             string err = Common.ServiceModelExceptionToString(e);
 
@@ -24,7 +25,18 @@ namespace MercuryClassLibrary
             resultInfo = new ResultInfo(false, message);
         }
 
-        public static bool Success() => resultInfo.Success;
+        internal static void SetError(FaultException<ApplicationManagementService.FaultInfo> e)
+        {
+            string err = Common.ServiceModelExceptionToString(e);
+
+            string message = e.Detail.message;
+
+            if (!string.IsNullOrEmpty(err))
+                message += Environment.NewLine + err;
+
+            resultInfo = new ResultInfo(false, message);
+        }
+
     }
 
     public class ResultInfo
