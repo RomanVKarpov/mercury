@@ -41,12 +41,17 @@ namespace MercuryClassLibrary
     {
         public object BeforeSendRequest(ref Message request, IClientChannel channel)
         {
+            //Get rid of mustUnderstand Action node
+            int headerIndexOfAction = request.Headers.FindHeader("Action", "http://schemas.microsoft.com/ws/2005/05/addressing/none");
+            if (headerIndexOfAction > -1)
+                request.Headers.RemoveAt(headerIndexOfAction);
+
             // Do something with the SOAP request
             string req = request.ToString();
             return null;
         }
 
-        public void AfterReceiveReply(ref System.ServiceModel.Channels.Message reply, object correlationState)
+        public void AfterReceiveReply(ref Message reply, object correlationState)
         {
             // Do something with the SOAP reply
             string replySoap = reply.ToString();
@@ -70,7 +75,22 @@ namespace MercuryClassLibrary
 
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
-            var cred = new System.ServiceModel.Description.ClientCredentials();
+            //var transportElement = new HttpsTransportBindingElement();
+            //(transportElement).AuthenticationScheme = System.Net.AuthenticationSchemes.Basic;
+
+            //var messageElement = new TextMessageEncodingBindingElement
+            //{
+            //    MessageVersion = MessageVersion.CreateVersion(EnvelopeVersion.Soap11, AddressingVersion.None)
+            //};
+            //var binding = new CustomBinding(messageElement, transportElement);
+            //service.Endpoint.Binding = binding;
+
+
+            //var mu = new MustUnderstandBehavior(false);
+            //mu.ValidateMustUnderstand = false;
+            //service.Endpoint.EndpointBehaviors.Add(mu);
+
+            var cred = new ClientCredentials();
 
             var cmn = new Common();
             cmn.Init();
@@ -105,6 +125,7 @@ namespace MercuryClassLibrary
                     {
                         guid = "a376e68d-724a-4472-be7c-891bdb09ae32" // Челябинск
                     }
+                    
                 },
                 owner = new BusinessEntity
                 {
@@ -130,7 +151,7 @@ namespace MercuryClassLibrary
 
             var modifyEnt = new ModifyEnterpriseRequest
             {
-                localTransactionId = "20180101_2",
+                localTransactionId = "20180101_3",
                 initiator = new User
                 {
                     login = Login

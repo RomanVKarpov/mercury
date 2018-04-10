@@ -18,6 +18,7 @@ namespace TestMercury
         private static string Password;
         private static string Login;
         private static string ApiKey;
+        private static string serviceName;
 
         static void Main(string[] args)
         {
@@ -31,11 +32,11 @@ namespace TestMercury
             bool request = false;
 
             if (request)
-                res.ModifyEnterpriseOperation(guidGa, "Тестовая площадка 1");
+                res.ModifyEnterpriseOperation(guidGa, "Акапулько");
             else
             {
-                var ApplicationId = "af162f18-1ae4-493f-9632-2ee9bde0b31f";
-                var issuerId = "aa714ff6-2e1e-4026-bd3d-feb2c7d7b030";
+                var ApplicationId = "bff8d4c6-80ed-4f0b-8422-1457c6deb6b0";
+                var issuerId = guidGa;
 
                 res.AppResponse(ApplicationId, issuerId);
             }
@@ -83,6 +84,7 @@ namespace TestMercury
                 Login = reader.ReadLine();
                 ApiKey = reader.ReadLine();
 
+                serviceName = reader.ReadLine();
                 guidRu = reader.ReadLine();
                 guidGa = reader.ReadLine();
                 guidGo = reader.ReadLine();
