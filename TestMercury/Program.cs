@@ -29,13 +29,13 @@ namespace TestMercury
 
             var res = new MercuryClassLibrary.MercuryMainService();
 
-            bool request = false;
+            bool request = true;
 
             if (request)
-                res.ModifyEnterpriseOperation(guidGa, "Акапулько");
+                res.ModifyEnterpriseOperation(guidGa, "Сириус");
             else
             {
-                var ApplicationId = "bff8d4c6-80ed-4f0b-8422-1457c6deb6b0";
+                var ApplicationId = "4abd3e3d-4892-483f-a23b-a15c2bcfc189";
                 var issuerId = guidGa;
 
                 res.AppResponse(ApplicationId, issuerId);
@@ -44,11 +44,13 @@ namespace TestMercury
             var err = MercuryClassLibrary.LastError.GetError();
 
             if (!err.Success)
+            {
                 Console.WriteLine(err.Message);
+                Console.ReadKey();
+            }
             else
                 Console.WriteLine("Success");
 
-            Console.ReadKey();
         }
 
         /*

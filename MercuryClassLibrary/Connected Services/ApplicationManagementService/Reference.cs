@@ -1260,7 +1260,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Delivery))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DiscrepancyReason))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(User))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShipmentRoutePoint))]
@@ -1269,8 +1268,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DiscrepancyReport))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReferencedDocument))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VetDocument))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(IncorporationForm))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericVersioningEntity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Indicator))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntry))]
@@ -1295,6 +1292,9 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PackingType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Unit))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Purpose))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Delivery))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(IncorporationForm))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivity))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
