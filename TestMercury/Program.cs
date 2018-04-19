@@ -29,13 +29,13 @@ namespace TestMercury
 
             var res = new MercuryClassLibrary.MercuryMainService();
 
-            bool request = true;
+            bool request = false;
 
             if (request)
-                res.ModifyEnterpriseOperation(guidGa, "Сириус");
+                res.ModifyEnterpriseOperation(guidGa, "Меркурий-6");
             else
             {
-                var ApplicationId = "4abd3e3d-4892-483f-a23b-a15c2bcfc189";
+                var ApplicationId = "c9f830b5-f99a-4f1e-9b96-5a1436e0ac9c";
                 var issuerId = guidGa;
 
                 res.AppResponse(ApplicationId, issuerId);

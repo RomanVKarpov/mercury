@@ -12,6 +12,7 @@ using System.ServiceModel.Channels;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.IO;
+using System.Runtime.Serialization;
 
 namespace MercuryClassLibrary
 {
@@ -72,7 +73,11 @@ namespace MercuryClassLibrary
 
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
-            
+            //var binding = new BasicHttpBinding();
+            //var endpoint = new EndpointAddress("http://example.com/myservice");
+            //var channelFactory = new ChannelFactory<IMyService>(binding, endpoint);
+            //var client = channelFactory.CreateChannel();
+            //client.SomeServiceMethod(request);
 
             //var transportElement = new HttpsTransportBindingElement();
             //(transportElement).AuthenticationScheme = System.Net.AuthenticationSchemes.Basic;
@@ -141,30 +146,29 @@ namespace MercuryClassLibrary
             Enterprise[] entList = new Enterprise[1];
             entList[0] = Ent;
 
-
             var modifyEnt = new ModifyEnterpriseRequest
             {
-                    localTransactionId = "20180101_3",
-                    initiator = new User
-                    {
-                        login = Login
-                    },
+                localTransactionId = "20180101_3",
+                initiator = new User
+                {
+                    login = Login
+                },
 
-                    modificationOperation = new ENTModificationOperation
+                modificationOperation = new ENTModificationOperation
+                {
+                    type = RegisterModificationType.CREATE,
+                    reason = "создание",
+                    resultingList = new EnterpriseList
                     {
-                        type = RegisterModificationType.CREATE,
-                        reason = "создание",
-                        resultingList = new EnterpriseList
-                        {
-                            enterprise = entList
-                        }
-
+                        enterprise = entList
                     }
+                }
             };
 
-            //var result = SerializeByteByType(modifyEnt, modifyEnt.GetType());
 
-            var modifyEnt_serialized = SerializeToXmlElement(modifyEnt);
+            var wrapper = new modifyEnterpriseRequestRequest(modifyEnt);
+            
+            var modifyEnt_serialized = SerializeToXmlElement(wrapper, modifyEnt);
 
             AppRequest(ownerGuid, modifyEnt_serialized);
         }
@@ -173,20 +177,24 @@ namespace MercuryClassLibrary
         {
             var mod = data1.ToString();
 
+            var dat1 = new ApplicationDataWrapper();
+            dat1.Any = data1;
+
             var req = new submitApplicationRequest
             {
-                apiKey = ApiKey
+                apiKey = ApiKey,
+                application = new Application
+                {
+                    serviceId = "mercury-g2b.service:2.0",
+                    issuerId = issuerId,
+                    issueDate = DateTime.Now,
+                    issueDateSpecified = true,
+                    data = new ApplicationDataWrapper
+                    {
+                        Any = data1
+                    }
+                }
             };
-            req.application = new Application
-            {
-                serviceId = "mercury-g2b.service:2.0",
-                issuerId = issuerId,
-                data = new ApplicationDataWrapper()
-            };
-            req.application.data.Any = data1;
-
-            req.application.issueDate = DateTime.Now;
-            req.application.issueDateSpecified = true;
 
             try
             {
@@ -197,45 +205,47 @@ namespace MercuryClassLibrary
                 LastError.SetError(ex);
                 Common.ServiceModelExceptionToString(ex);
             }
+
+
         }
 
-        public static XmlElement SerializeToXmlElement(object o)
+        public static XmlElement SerializeToXmlElement(object wrapper, object element)
         {
-            XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-            ns.Add("merc", "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2");
-            ns.Add("apl", "http://api.vetrf.ru/schema/cdm/application");
-            ns.Add("vd", "http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2");
-            ns.Add("dt", "http://api.vetrf.ru/schema/cdm/dictionary/v2");
-            ns.Add("bs", "http://api.vetrf.ru/schema/cdm/base");
-            ns.Add("apldef", "http://api.vetrf.ru/schema/cdm/application/ws-definitions");
-            ns.Add("SOAP-ENV", "http://schemas.xmlsoap.org/soap/envelope/");
+            XmlTypeAttribute xmlAttribute = (XmlTypeAttribute)Attribute.GetCustomAttribute(
+                                   element.GetType(),
+                                   typeof(XmlTypeAttribute)
+                                 );
 
-            //var ns = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+            var elemNamespace = xmlAttribute.Namespace;
 
-            //var strWriter = new StringWriter();
+            //XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+            //ns.Add("merc", "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2");
+            //ns.Add("apl", "http://api.vetrf.ru/schema/cdm/application");
+            //ns.Add("vd", "http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2");
+            //ns.Add("dt", "http://api.vetrf.ru/schema/cdm/dictionary/v2");
+            //ns.Add("bs", "http://api.vetrf.ru/schema/cdm/base");
+            //ns.Add("apldef", "http://api.vetrf.ru/schema/cdm/application/ws-definitions");
+            //ns.Add("SOAP-ENV", "http://schemas.xmlsoap.org/soap/envelope/");
 
             var doc = new XmlDocument();
 
             using (XmlWriter writer = doc.CreateNavigator().AppendChild())
             {
-                var xml = new XmlSerializer(o.GetType(), new XmlRootAttribute("modifyEnterpriseRequest"));
-                xml.Serialize(writer, o);
+                var xml = new XmlSerializer(wrapper.GetType(), elemNamespace); //, "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2"); //, new XmlRootAttribute("modifyEnterpriseRequest"));
+                xml.Serialize(writer, wrapper);
             }
 
-            //var output = strWriter.ToString();
+            //var out1 = doc.DocumentElement.OuterXml;
 
-            //doc.LoadXml(output);
+            var elem = (XmlElement)doc.DocumentElement.FirstChild;
 
+            //var attr = doc.CreateAttribute("xmlns:merc", elemNamespace);
 
-            var out1 = doc.DocumentElement.OuterXml;
+            //XmlDocument.DocumentElement.SetAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+            //elem.Attributes.Append(attr);
+            //elem.SetAttribute("xmlns", elemNamespace);
 
-            //doc.DocumentElement.Prefix = "ns2";
-
-            //var pref = doc.DocumentElement;
-            //pref.Prefix = "ns2";
-
-            return doc.DocumentElement;
-
+            return elem;
         }
 
         public void AppResponse(string applicationId, string issuerId)
@@ -248,45 +258,6 @@ namespace MercuryClassLibrary
             };
 
             var response = service.receiveApplicationResult(req);
-        }
-
-        public static byte[] SerializeByteByType(object objectToSerialize, Type type)
-        {
-            XmlWriterSettings xmlSetting = new XmlWriterSettings()
-            {
-                NewLineOnAttributes = false,
-                OmitXmlDeclaration = true,
-                Indent = false,
-                NewLineHandling = NewLineHandling.None,
-                Encoding = Encoding.UTF8,
-                NamespaceHandling = NamespaceHandling.OmitDuplicates
-            };
-
-            using (MemoryStream stm = new MemoryStream())
-            {
-                using (XmlWriter writer = XmlWriter.Create(stm, xmlSetting))
-                {
-                    var xmlAttributes = new XmlAttributes();
-                    var xmlAttributeOverrides = new XmlAttributeOverrides();
-
-                    xmlAttributes.Xmlns = false;
-                    xmlAttributes.XmlType = new XmlTypeAttribute() { Namespace = "" };
-                    xmlAttributeOverrides.Add(type, xmlAttributes);
-
-                    XmlSerializer serializer = new XmlSerializer(type, xmlAttributeOverrides);
-                    //Use the following to serialize without namespaces
-                    XmlSerializerNamespaces xmlSrzNamespace = new XmlSerializerNamespaces();
-                    xmlSrzNamespace.Add("", "");
-
-                    serializer.Serialize(writer, objectToSerialize, xmlSrzNamespace);
-                    stm.Flush();
-                    stm.Position = 0;
-                }
-
-                var t = stm.ToString();
-
-                return stm.ToArray();
-            }
         }
     }
 }

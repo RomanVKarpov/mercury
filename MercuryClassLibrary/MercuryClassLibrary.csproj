@@ -11,6 +11,7 @@
     <AssemblyName>MercuryClassLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,121 +68,61 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetStockEntryListResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentResponse.datasource">
@@ -188,58 +131,28 @@
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse1.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.submitApplicationResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Connected Services\ApplicationManagementService\MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentResponse.datasource">
