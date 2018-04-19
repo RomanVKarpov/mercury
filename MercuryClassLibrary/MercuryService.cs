@@ -69,7 +69,35 @@ namespace MercuryClassLibrary
 
         public MercuryMainService()
         {
-            service = new ApplicationManagementServicePortTypeClient();
+            var contr = new ContractDescription("EnterpriseService.EnterpriseServicePortType");
+
+            var sec = new BasicHttpSecurity
+            {
+                Mode = BasicHttpSecurityMode.Transport,
+                Transport = new HttpTransportSecurity()
+                {
+                    ClientCredentialType = HttpClientCredentialType.Basic
+                }
+            };
+
+            var binding = new BasicHttpBinding();
+
+            binding.Security = sec;
+
+            var addr = new EndpointAddress("https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService");
+            //var endpoint = new ServiceEndpoint(contr, binding, addr);
+
+
+            service = new ApplicationManagementServicePortTypeClient(binding, addr);
+
+            //          < endpoint address = "https://api2.vetrf.ru:8002/platform/services/2.0/EnterpriseService"
+            //  binding = "basicHttpBinding" bindingConfiguration = "EnterpriseServiceBinding"
+            //  contract = "EnterpriseService.EnterpriseServicePortType" name = "EnterpriseServiceBindingQSPort" />
+
+            //< endpoint address = "https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService"
+            //  binding = "basicHttpBinding" bindingConfiguration = "ApplicationManagementServiceBinding"
+            //  contract = "ApplicationManagementService.ApplicationManagementServicePortType"
+            //  name = "ApplicationManagementServiceBindingQSPort" />
 
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
@@ -89,7 +117,7 @@ namespace MercuryClassLibrary
             //var binding = new CustomBinding(messageElement, transportElement);
             //service.Endpoint.Binding = binding;
 
-            var cred = new ClientCredentials();
+            //var cred = new ClientCredentials();
 
             var cmn = new Common();
             cmn.Init();
@@ -168,17 +196,17 @@ namespace MercuryClassLibrary
 
             var wrapper = new modifyEnterpriseRequestRequest(modifyEnt);
             
-            var modifyEnt_serialized = SerializeToXmlElement(wrapper, modifyEnt);
+            var dataObject = SerializeToXmlElement(wrapper, modifyEnt);
 
-            AppRequest(ownerGuid, modifyEnt_serialized);
+            AppRequest(ownerGuid, dataObject);
         }
 
-        public void AppRequest(string issuerId, XmlElement data1)
+        public void AppRequest(string issuerId, XmlElement data)
         {
-            var mod = data1.ToString();
+            var mod = data.ToString();
 
             var dat1 = new ApplicationDataWrapper();
-            dat1.Any = data1;
+            dat1.Any = data;
 
             var req = new submitApplicationRequest
             {
@@ -191,7 +219,7 @@ namespace MercuryClassLibrary
                     issueDateSpecified = true,
                     data = new ApplicationDataWrapper
                     {
-                        Any = data1
+                        Any = data
                     }
                 }
             };
@@ -216,7 +244,7 @@ namespace MercuryClassLibrary
                                    typeof(XmlTypeAttribute)
                                  );
 
-            var elemNamespace = xmlAttribute.Namespace;
+            var elementNamespace = xmlAttribute.Namespace;
 
             //XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
             //ns.Add("merc", "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2");
@@ -231,19 +259,13 @@ namespace MercuryClassLibrary
 
             using (XmlWriter writer = doc.CreateNavigator().AppendChild())
             {
-                var xml = new XmlSerializer(wrapper.GetType(), elemNamespace); //, "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2"); //, new XmlRootAttribute("modifyEnterpriseRequest"));
+                var xml = new XmlSerializer(wrapper.GetType(), elementNamespace);
                 xml.Serialize(writer, wrapper);
             }
 
             //var out1 = doc.DocumentElement.OuterXml;
 
             var elem = (XmlElement)doc.DocumentElement.FirstChild;
-
-            //var attr = doc.CreateAttribute("xmlns:merc", elemNamespace);
-
-            //XmlDocument.DocumentElement.SetAttribute("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
-            //elem.Attributes.Append(attr);
-            //elem.SetAttribute("xmlns", elemNamespace);
 
             return elem;
         }

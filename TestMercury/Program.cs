@@ -32,10 +32,10 @@ namespace TestMercury
             bool request = false;
 
             if (request)
-                res.ModifyEnterpriseOperation(guidGa, "Меркурий-6");
+                res.ModifyEnterpriseOperation(guidGa, "Меркурий-7");
             else
             {
-                var ApplicationId = "c9f830b5-f99a-4f1e-9b96-5a1436e0ac9c";
+                var ApplicationId = "5e912049-b7b5-4c10-a192-60daf85b0998";
                 var issuerId = guidGa;
 
                 res.AppResponse(ApplicationId, issuerId);
