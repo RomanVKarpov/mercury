@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MercuryClassLibrary.ApplicationManagementService;
+using System;
+using System.ServiceModel;
+using System.ServiceModel.Channels;
+using System.ServiceModel.Description;
+using System.ServiceModel.Dispatcher;
 using System.Xml;
 using System.Xml.Serialization;
-using MercuryClassLibrary.ApplicationManagementService;
-
-using System.ServiceModel.Dispatcher;
-using System.ServiceModel.Channels;
-using System.ServiceModel;
-using System.ServiceModel.Description;
-using System.IO;
-using System.Runtime.Serialization;
 
 namespace MercuryClassLibrary
 {
@@ -62,6 +55,11 @@ namespace MercuryClassLibrary
 
     public class MercuryMainService
     {
+        enum EnterpriseType
+        {
+            Предприятие = 1, Рынок, СББЖ, Судно
+        };
+
         private ApplicationManagementServicePortTypeClient service = null;
 
         private static string Login = string.Empty;
@@ -69,35 +67,39 @@ namespace MercuryClassLibrary
 
         public MercuryMainService()
         {
-            var contr = new ContractDescription("EnterpriseService.EnterpriseServicePortType");
-
-            var sec = new BasicHttpSecurity
+            if (!Common.Initialized)
             {
-                Mode = BasicHttpSecurityMode.Transport,
-                Transport = new HttpTransportSecurity()
+                throw new InvalidOperationException("Сервис не инициализирован. Используйте метод InitService()");
+            }
+
+            //var contr = new ContractDescription("EnterpriseService.EnterpriseServicePortType");
+
+            //var sec = new BasicHttpSecurity
+            //{
+            //    Mode = BasicHttpSecurityMode.Transport,
+            //    Transport = new HttpTransportSecurity()
+            //    {
+            //        ClientCredentialType = HttpClientCredentialType.Basic
+            //    }
+            //};
+
+            //var addr = new EndpointAddress("https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService");
+
+            var addr = new EndpointAddress(Common.EndpointAddressAms);
+
+            var binding = new BasicHttpBinding
+            {
+                Security = new BasicHttpSecurity
                 {
-                    ClientCredentialType = HttpClientCredentialType.Basic
+                    Mode = BasicHttpSecurityMode.Transport,
+                    Transport = new HttpTransportSecurity()
+                    {
+                        ClientCredentialType = HttpClientCredentialType.Basic
+                    }
                 }
             };
 
-            var binding = new BasicHttpBinding();
-
-            binding.Security = sec;
-
-            var addr = new EndpointAddress("https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService");
-            //var endpoint = new ServiceEndpoint(contr, binding, addr);
-
-
             service = new ApplicationManagementServicePortTypeClient(binding, addr);
-
-            //          < endpoint address = "https://api2.vetrf.ru:8002/platform/services/2.0/EnterpriseService"
-            //  binding = "basicHttpBinding" bindingConfiguration = "EnterpriseServiceBinding"
-            //  contract = "EnterpriseService.EnterpriseServicePortType" name = "EnterpriseServiceBindingQSPort" />
-
-            //< endpoint address = "https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService"
-            //  binding = "basicHttpBinding" bindingConfiguration = "ApplicationManagementServiceBinding"
-            //  contract = "ApplicationManagementService.ApplicationManagementServicePortType"
-            //  name = "ApplicationManagementServiceBindingQSPort" />
 
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
@@ -107,37 +109,24 @@ namespace MercuryClassLibrary
             //var client = channelFactory.CreateChannel();
             //client.SomeServiceMethod(request);
 
-            //var transportElement = new HttpsTransportBindingElement();
-            //(transportElement).AuthenticationScheme = System.Net.AuthenticationSchemes.Basic;
-
-            //var messageElement = new TextMessageEncodingBindingElement
-            //{
-            //    MessageVersion = MessageVersion.CreateVersion(EnvelopeVersion.Soap11, AddressingVersion.None)
-            //};
-            //var binding = new CustomBinding(messageElement, transportElement);
-            //service.Endpoint.Binding = binding;
-
             //var cred = new ClientCredentials();
 
-            var cmn = new Common();
-            cmn.Init();
+            Login = Common.Login;
+            ApiKey = Common.ApiKey;
 
-            Login = cmn.Login;
-            ApiKey = cmn.ApiKey;
-
-            service.ClientCredentials.UserName.UserName = cmn.UserName;
-            service.ClientCredentials.UserName.Password = cmn.Password;
+            service.ClientCredentials.UserName.UserName = Common.UserName;
+            service.ClientCredentials.UserName.Password = Common.UserPassword;
         }
 
         public static string GetLogin() => Login;
         public static string GetApiKey() => ApiKey;
 
-        public void ModifyEnterpriseOperation(string ownerGuid, string name)
+        public void ModifyEnterpriseOperation(string ownerGuid, string transactionId, string enterpriseName, string ActivityName, string reason)
         {
             var Ent = new Enterprise()
             {
-                name = name,
-                type = "1",
+                name = enterpriseName,
+                type = ((int)EnterpriseType.Предприятие).ToString(),
                 address = new Address
                 {
                     country = new Country
@@ -154,29 +143,50 @@ namespace MercuryClassLibrary
                     }
 
                 },
+                activityList = new EnterpriseActivityList
+                {
+                    activity = new EnterpriseActivity[1]
+                    {
+                        new EnterpriseActivity
+                        {
+                            name = ActivityName
+                        }
+                    }
+                },
                 owner = new BusinessEntity
                 {
                     guid = ownerGuid
                 }
             };
 
-            var activityList = new EnterpriseActivityList();
-            EnterpriseActivity[] activity = new EnterpriseActivity[1];
-            activity[0] = new EnterpriseActivity
-            {
-                name = "Реализация пищевых продуктов"
-            };
+            //Ent.activityList = new EnterpriseActivityList
+            //{
+            //    activity = new EnterpriseActivity[1]
+            //    {
+            //        new EnterpriseActivity
+            //        {
+            //            name = ActivityName
+            //        }
+            //    }
+            //};
 
-            activityList.activity = activity;
+            //var activityList = new EnterpriseActivityList();
+            //EnterpriseActivity[] activity = new EnterpriseActivity[1];
+            //activity[0] = new EnterpriseActivity
+            //{
+            //    name = "Реализация пищевых продуктов"
+            //};
 
-            Ent.activityList = activityList;
+            //activityList.activity = activity;
 
-            Enterprise[] entList = new Enterprise[1];
-            entList[0] = Ent;
+            //Ent.activityList = activityList;
+
+            //Enterprise[] entList = new Enterprise[1] { Ent };
+            //entList[0] = Ent;
 
             var modifyEnt = new ModifyEnterpriseRequest
             {
-                localTransactionId = "20180101_3",
+                localTransactionId = transactionId,
                 initiator = new User
                 {
                     login = Login
@@ -185,17 +195,17 @@ namespace MercuryClassLibrary
                 modificationOperation = new ENTModificationOperation
                 {
                     type = RegisterModificationType.CREATE,
-                    reason = "создание",
+                    reason = reason,
                     resultingList = new EnterpriseList
                     {
-                        enterprise = entList
+                        enterprise = new Enterprise[1] { Ent }
                     }
                 }
             };
 
 
             var wrapper = new modifyEnterpriseRequestRequest(modifyEnt);
-            
+
             var dataObject = SerializeToXmlElement(wrapper, modifyEnt);
 
             AppRequest(ownerGuid, dataObject);
@@ -205,8 +215,10 @@ namespace MercuryClassLibrary
         {
             var mod = data.ToString();
 
-            var dat1 = new ApplicationDataWrapper();
-            dat1.Any = data;
+            //var dat1 = new ApplicationDataWrapper
+            //{
+            //    Any = data
+            //};
 
             var req = new submitApplicationRequest
             {

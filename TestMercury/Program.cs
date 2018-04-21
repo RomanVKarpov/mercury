@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MercuryClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,30 +19,30 @@ namespace TestMercury
         private static string Password;
         private static string Login;
         private static string ApiKey;
-        private static string serviceName;
+        //private static string serviceName;
 
         static void Main(string[] args)
         {
-            //var cmn = new MercuryClassLibrary.Common();
-            //cmn.Init();
-
             Init();
 
-            var res = new MercuryClassLibrary.MercuryMainService();
+            Common.SetCredential(Login, ApiKey, UserName, Password);
+            Common.EndpointAddressAms = "https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService";
+
+            var res = new MercuryMainService();
 
             bool request = false;
 
             if (request)
-                res.ModifyEnterpriseOperation(guidGa, "Меркурий-7");
+                res.ModifyEnterpriseOperation(guidEx, "20180421_1", "Парус", "Реализация пищевых продуктов",  "создание площадки");
             else
             {
-                var ApplicationId = "5e912049-b7b5-4c10-a192-60daf85b0998";
-                var issuerId = guidGa;
+                var ApplicationId = "42ae0fc2-efcc-4158-a260-9cdcd3dcf607";
+                var issuerId = guidEx;
 
                 res.AppResponse(ApplicationId, issuerId);
             }
 
-            var err = MercuryClassLibrary.LastError.GetError();
+            var err = LastError.GetError();
 
             if (!err.Success)
             {
@@ -86,7 +87,8 @@ namespace TestMercury
                 Login = reader.ReadLine();
                 ApiKey = reader.ReadLine();
 
-                serviceName = reader.ReadLine();
+                //serviceName = reader.ReadLine();
+                reader.ReadLine();
                 guidRu = reader.ReadLine();
                 guidGa = reader.ReadLine();
                 guidGo = reader.ReadLine();

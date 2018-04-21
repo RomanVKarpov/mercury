@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,29 +14,38 @@ namespace MercuryClassLibrary
 
         public DictionaryService()
         {
-            service = new EnterpriseServicePortTypeClient();
-            var cred = new System.ServiceModel.Description.ClientCredentials();
+            if (!Common.Initialized)
+            {
+                throw new InvalidOperationException("Сервис не инициализирован. Используйте метод InitService()");
+            }
 
-            var cmn = new Common();
-            cmn.Init();
+            string endpoint = Common.EndpointAddressDictionary ?? throw new ArgumentNullException(nameof(Common.EndpointAddressDictionary));
 
-            service.ClientCredentials.UserName.UserName = cmn.UserName;
-            service.ClientCredentials.UserName.Password = cmn.Password;
+            var addr = new EndpointAddress(Common.EndpointAddressDictionary);
+
+            var binding = new BasicHttpBinding
+            {
+                Security = new BasicHttpSecurity
+                {
+                    Mode = BasicHttpSecurityMode.Transport,
+                    Transport = new HttpTransportSecurity()
+                    {
+                        ClientCredentialType = HttpClientCredentialType.Basic
+                    }
+                }
+            };
+
+            service = new EnterpriseServicePortTypeClient(binding, addr);
+
+            service.ClientCredentials.UserName.UserName = Common.UserName;
+            service.ClientCredentials.UserName.Password = Common.UserPassword;
         }
 
-        public static EnterpriseServicePortTypeClient GetService()
-        {
-            if (service == null)
-                return null;
-            else
-                return service;
-        }
-
-        public List<string> M_EnterpriseList(string guid)
+        public List<string> EnterpriseList(string guid)
         {
             List<string> result = new List<string>();
 
-            var response = GetBusinessEntityByGUID(guid);
+            var response = GetBusinessEntityByGuid(guid);
 
             int cnt = 0;
 
@@ -59,24 +69,21 @@ namespace MercuryClassLibrary
             return result;
         }
 
-        public ResultInfo getRussianEnterpriseListRequest(string enterpriseName)
+        public ResultInfo getRussianEnterpriseList(string enterpriseName)
         {
             if (string.IsNullOrEmpty(enterpriseName))
             {
                 return new ResultInfo(false, "Не указано наименование предприятия");
             }
 
-            var serv = GetService();
-
-            var req = new EnterpriseService.getRussianEnterpriseListRequest
+            var req = new getRussianEnterpriseListRequest
             {
-                listOptions = new EnterpriseService.ListOptions
+                listOptions = new ListOptions
                 {
                     count = "100"
                 },
-                enterprise = new EnterpriseService.Enterprise
+                enterprise = new Enterprise
                 {
-                    //guid = "3560d237-8c42-abce-9bb3-d4d48b4d2130"
                     name = enterpriseName
                 }
             };
@@ -85,9 +92,9 @@ namespace MercuryClassLibrary
 
             try
             {
-                var list = serv.GetRussianEnterpriseList(req);
+                var list = service.GetRussianEnterpriseList(req);
             }
-            catch (System.ServiceModel.FaultException<EnterpriseService.FaultInfo> e)
+            catch (System.ServiceModel.FaultException<FaultInfo> e)
             {
                 res.Success = false;
                 string err = Common.ServiceModelExceptionToString(e);
@@ -98,24 +105,22 @@ namespace MercuryClassLibrary
             return res;
         }
 
-        private getBusinessEntityByGuidResponse GetBusinessEntityByGUID(string guid)
+        private getBusinessEntityByGuidResponse GetBusinessEntityByGuid(string guid)
         {
-            var serv = GetService();
-
-            var req = new EnterpriseService.getBusinessEntityByGuidRequest
+            var req = new getBusinessEntityByGuidRequest
             {
                 guid = guid
             };
 
             var res = new ResultInfo();
 
-            EnterpriseService.getBusinessEntityByGuidResponse response = null;
+            getBusinessEntityByGuidResponse response = null;
 
             try
             {
-                response = serv.GetBusinessEntityByGuid(req);
+                response = service.GetBusinessEntityByGuid(req);
             }
-            catch (System.ServiceModel.FaultException<EnterpriseService.FaultInfo> e)
+            catch (System.ServiceModel.FaultException<FaultInfo> e)
             {
                 LastError.SetError(e);
             }
