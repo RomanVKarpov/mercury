@@ -1,4 +1,4 @@
-﻿using MercuryClassLibrary;
+﻿using Cs_Mercury;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
@@ -35,9 +35,10 @@ namespace UnitTestProject
                 guidEx = reader.ReadLine();
             }
 
-            Common.SetCredential(Login, ApiKey, UserName, Password);
-            Common.EndpointAddressAms = "https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService";
-            Common.EndpointAddressDictionary = "https://api2.vetrf.ru:8002/platform/services/2.0/EnterpriseService";
+            var cmn = new Common();
+            cmn.SetCredential(Login, ApiKey, UserName, Password);
+            cmn.SetEndpoint("ApplicationManagementService", "https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService");
+            cmn.SetEndpoint("EnterpriseService", "https://api2.vetrf.ru:8002/platform/services/2.0/EnterpriseService");
 
             //Common.InitService("https://api2.vetrf.ru:8002/platform/services/2.0/ApplicationManagementService",
             //    "mercury-g2b.service:2.0",
@@ -50,6 +51,7 @@ namespace UnitTestProject
         public void GetEnterpriseList()
         {
             var service = new DictionaryService();
+            service.Init();
             var res = service.EnterpriseList(guidGa);
 
             Assert.IsNotNull(res);

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MercuryClassLibrary.EnterpriseService {
+namespace Cs_Mercury.EnterpriseService {
     
     
     /// <remarks/>
@@ -4448,159 +4448,159 @@ namespace MercuryClassLibrary.EnterpriseService {
         
         // CODEGEN: Контракт генерации сообщений с операцией GetBusinessEntityByGuid не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityByGuid", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByGuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.businessEntityByResponse GetBusinessEntityByGuid(MercuryClassLibrary.EnterpriseService.businessEntityByGuid request);
+        Cs_Mercury.EnterpriseService.businessEntityByResponse GetBusinessEntityByGuid(Cs_Mercury.EnterpriseService.businessEntityByGuid request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityByGuid", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByResponse> GetBusinessEntityByGuidAsync(MercuryClassLibrary.EnterpriseService.businessEntityByGuid request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByResponse> GetBusinessEntityByGuidAsync(Cs_Mercury.EnterpriseService.businessEntityByGuid request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetBusinessEntityByUuid не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityByUuid", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityByUuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse GetBusinessEntityByUuid(MercuryClassLibrary.EnterpriseService.businessEntityByUuid request);
+        Cs_Mercury.EnterpriseService.businessEntityByUuidResponse GetBusinessEntityByUuid(Cs_Mercury.EnterpriseService.businessEntityByUuid request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityByUuid", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse> GetBusinessEntityByUuidAsync(MercuryClassLibrary.EnterpriseService.businessEntityByUuid request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByUuidResponse> GetBusinessEntityByUuidAsync(Cs_Mercury.EnterpriseService.businessEntityByUuid request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetBusinessEntityList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.businessEntityListResponse GetBusinessEntityList(MercuryClassLibrary.EnterpriseService.businessEntityList1 request);
+        Cs_Mercury.EnterpriseService.businessEntityListResponse GetBusinessEntityList(Cs_Mercury.EnterpriseService.businessEntityList1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityListResponse> GetBusinessEntityListAsync(MercuryClassLibrary.EnterpriseService.businessEntityList1 request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityListResponse> GetBusinessEntityListAsync(Cs_Mercury.EnterpriseService.businessEntityList1 request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetBusinessEntityChangesList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityChangesList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessEntityChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse GetBusinessEntityChangesList(MercuryClassLibrary.EnterpriseService.businessEntityChangesList request);
+        Cs_Mercury.EnterpriseService.businessEntityChangesListResponse GetBusinessEntityChangesList(Cs_Mercury.EnterpriseService.businessEntityChangesList request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessEntityChangesList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse> GetBusinessEntityChangesListAsync(MercuryClassLibrary.EnterpriseService.businessEntityChangesList request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityChangesListResponse> GetBusinessEntityChangesListAsync(Cs_Mercury.EnterpriseService.businessEntityChangesList request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetEnterpriseByGuid не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetEnterpriseByGuid", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByGuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.enterpriseByResponse GetEnterpriseByGuid(MercuryClassLibrary.EnterpriseService.enterpriseByGuid request);
+        Cs_Mercury.EnterpriseService.enterpriseByResponse GetEnterpriseByGuid(Cs_Mercury.EnterpriseService.enterpriseByGuid request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetEnterpriseByGuid", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByResponse> GetEnterpriseByGuidAsync(MercuryClassLibrary.EnterpriseService.enterpriseByGuid request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByResponse> GetEnterpriseByGuidAsync(Cs_Mercury.EnterpriseService.enterpriseByGuid request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetEnterpriseByUuid не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetEnterpriseByUuid", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetEnterpriseByUuid", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse GetEnterpriseByUuid(MercuryClassLibrary.EnterpriseService.enterpriseByUuid request);
+        Cs_Mercury.EnterpriseService.enterpriseByUuidResponse GetEnterpriseByUuid(Cs_Mercury.EnterpriseService.enterpriseByUuid request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetEnterpriseByUuid", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse> GetEnterpriseByUuidAsync(MercuryClassLibrary.EnterpriseService.enterpriseByUuid request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByUuidResponse> GetEnterpriseByUuidAsync(Cs_Mercury.EnterpriseService.enterpriseByUuid request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetForeignEnterpriseList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetForeignEnterpriseList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse GetForeignEnterpriseList(MercuryClassLibrary.EnterpriseService.foreignEnterpriseList request);
+        Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse GetForeignEnterpriseList(Cs_Mercury.EnterpriseService.foreignEnterpriseList request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetForeignEnterpriseList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse> GetForeignEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.foreignEnterpriseList request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse> GetForeignEnterpriseListAsync(Cs_Mercury.EnterpriseService.foreignEnterpriseList request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetRussianEnterpriseList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetRussianEnterpriseList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse GetRussianEnterpriseList(MercuryClassLibrary.EnterpriseService.russianEnterpriseList request);
+        Cs_Mercury.EnterpriseService.russianEnterpriseListResponse GetRussianEnterpriseList(Cs_Mercury.EnterpriseService.russianEnterpriseList request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetRussianEnterpriseList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse> GetRussianEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.russianEnterpriseList request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseListResponse> GetRussianEnterpriseListAsync(Cs_Mercury.EnterpriseService.russianEnterpriseList request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetForeignEnterpriseChangesList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetForeignEnterpriseChangesList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetForeignEnterpriseChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse GetForeignEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList request);
+        Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse GetForeignEnterpriseChangesList(Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetForeignEnterpriseChangesList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse> GetForeignEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse> GetForeignEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetRussianEnterpriseChangesList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetRussianEnterpriseChangesList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetRussianEnterpriseChangesList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse GetRussianEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList request);
+        Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse GetRussianEnterpriseChangesList(Cs_Mercury.EnterpriseService.russianEnterpriseChangesList request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetRussianEnterpriseChangesList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse> GetRussianEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse> GetRussianEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.russianEnterpriseChangesList request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetBusinessMemberByGLN не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessMemberByGLN", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetBusinessMemberByGLN", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse GetBusinessMemberByGLN(MercuryClassLibrary.EnterpriseService.businessMemberByGLN request);
+        Cs_Mercury.EnterpriseService.businessMemberByGLNResponse GetBusinessMemberByGLN(Cs_Mercury.EnterpriseService.businessMemberByGLN request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetBusinessMemberByGLN", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse> GetBusinessMemberByGLNAsync(MercuryClassLibrary.EnterpriseService.businessMemberByGLN request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessMemberByGLNResponse> GetBusinessMemberByGLNAsync(Cs_Mercury.EnterpriseService.businessMemberByGLN request);
         
         // CODEGEN: Контракт генерации сообщений с операцией GetActivityLocationList не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="GetActivityLocationList", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.EnterpriseService.FaultInfo), Action="GetActivityLocationList", Name="offsetOutOfRangeFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(EntityList))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(GenericEntity))]
-        MercuryClassLibrary.EnterpriseService.activityLocationListResponse GetActivityLocationList(MercuryClassLibrary.EnterpriseService.activityLocationList1 request);
+        Cs_Mercury.EnterpriseService.activityLocationListResponse GetActivityLocationList(Cs_Mercury.EnterpriseService.activityLocationList1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="GetActivityLocationList", ReplyAction="*")]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.activityLocationListResponse> GetActivityLocationListAsync(MercuryClassLibrary.EnterpriseService.activityLocationList1 request);
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.activityLocationListResponse> GetActivityLocationListAsync(Cs_Mercury.EnterpriseService.activityLocationList1 request);
     }
     
     /// <remarks/>
@@ -4674,12 +4674,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityByGuid {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest;
         
         public businessEntityByGuid() {
         }
         
-        public businessEntityByGuid(MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
+        public businessEntityByGuid(Cs_Mercury.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
             this.getBusinessEntityByGuidRequest = getBusinessEntityByGuidRequest;
         }
     }
@@ -4691,12 +4691,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityByResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidResponse getBusinessEntityByGuidResponse;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByGuidResponse getBusinessEntityByGuidResponse;
         
         public businessEntityByResponse() {
         }
         
-        public businessEntityByResponse(MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidResponse getBusinessEntityByGuidResponse) {
+        public businessEntityByResponse(Cs_Mercury.EnterpriseService.getBusinessEntityByGuidResponse getBusinessEntityByGuidResponse) {
             this.getBusinessEntityByGuidResponse = getBusinessEntityByGuidResponse;
         }
     }
@@ -4772,12 +4772,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityByUuid {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest;
         
         public businessEntityByUuid() {
         }
         
-        public businessEntityByUuid(MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
+        public businessEntityByUuid(Cs_Mercury.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
             this.getBusinessEntityByUuidRequest = getBusinessEntityByUuidRequest;
         }
     }
@@ -4789,12 +4789,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityByUuidResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidResponse getBusinessEntityByUuidResponse;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByUuidResponse getBusinessEntityByUuidResponse;
         
         public businessEntityByUuidResponse() {
         }
         
-        public businessEntityByUuidResponse(MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidResponse getBusinessEntityByUuidResponse) {
+        public businessEntityByUuidResponse(Cs_Mercury.EnterpriseService.getBusinessEntityByUuidResponse getBusinessEntityByUuidResponse) {
             this.getBusinessEntityByUuidResponse = getBusinessEntityByUuidResponse;
         }
     }
@@ -4930,12 +4930,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityList1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest;
         
         public businessEntityList1() {
         }
         
-        public businessEntityList1(MercuryClassLibrary.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
+        public businessEntityList1(Cs_Mercury.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
             this.getBusinessEntityListRequest = getBusinessEntityListRequest;
         }
     }
@@ -4947,12 +4947,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityListResponse getBusinessEntityListResponse;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityListResponse getBusinessEntityListResponse;
         
         public businessEntityListResponse() {
         }
         
-        public businessEntityListResponse(MercuryClassLibrary.EnterpriseService.getBusinessEntityListResponse getBusinessEntityListResponse) {
+        public businessEntityListResponse(Cs_Mercury.EnterpriseService.getBusinessEntityListResponse getBusinessEntityListResponse) {
             this.getBusinessEntityListResponse = getBusinessEntityListResponse;
         }
     }
@@ -5116,12 +5116,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityChangesList {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest;
         
         public businessEntityChangesList() {
         }
         
-        public businessEntityChangesList(MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
+        public businessEntityChangesList(Cs_Mercury.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
             this.getBusinessEntityChangesListRequest = getBusinessEntityChangesListRequest;
         }
     }
@@ -5133,12 +5133,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessEntityChangesListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListResponse getBusinessEntityChangesListResponse;
+        public Cs_Mercury.EnterpriseService.getBusinessEntityChangesListResponse getBusinessEntityChangesListResponse;
         
         public businessEntityChangesListResponse() {
         }
         
-        public businessEntityChangesListResponse(MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListResponse getBusinessEntityChangesListResponse) {
+        public businessEntityChangesListResponse(Cs_Mercury.EnterpriseService.getBusinessEntityChangesListResponse getBusinessEntityChangesListResponse) {
             this.getBusinessEntityChangesListResponse = getBusinessEntityChangesListResponse;
         }
     }
@@ -5214,12 +5214,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class enterpriseByGuid {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest;
+        public Cs_Mercury.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest;
         
         public enterpriseByGuid() {
         }
         
-        public enterpriseByGuid(MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
+        public enterpriseByGuid(Cs_Mercury.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
             this.getEnterpriseByGuidRequest = getEnterpriseByGuidRequest;
         }
     }
@@ -5231,12 +5231,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class enterpriseByResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidResponse getEnterpriseByGuidResponse;
+        public Cs_Mercury.EnterpriseService.getEnterpriseByGuidResponse getEnterpriseByGuidResponse;
         
         public enterpriseByResponse() {
         }
         
-        public enterpriseByResponse(MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidResponse getEnterpriseByGuidResponse) {
+        public enterpriseByResponse(Cs_Mercury.EnterpriseService.getEnterpriseByGuidResponse getEnterpriseByGuidResponse) {
             this.getEnterpriseByGuidResponse = getEnterpriseByGuidResponse;
         }
     }
@@ -5312,12 +5312,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class enterpriseByUuid {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest;
+        public Cs_Mercury.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest;
         
         public enterpriseByUuid() {
         }
         
-        public enterpriseByUuid(MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
+        public enterpriseByUuid(Cs_Mercury.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
             this.getEnterpriseByUuidRequest = getEnterpriseByUuidRequest;
         }
     }
@@ -5329,12 +5329,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class enterpriseByUuidResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidResponse getEnterpriseByUuidResponse;
+        public Cs_Mercury.EnterpriseService.getEnterpriseByUuidResponse getEnterpriseByUuidResponse;
         
         public enterpriseByUuidResponse() {
         }
         
-        public enterpriseByUuidResponse(MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidResponse getEnterpriseByUuidResponse) {
+        public enterpriseByUuidResponse(Cs_Mercury.EnterpriseService.getEnterpriseByUuidResponse getEnterpriseByUuidResponse) {
             this.getEnterpriseByUuidResponse = getEnterpriseByUuidResponse;
         }
     }
@@ -5471,12 +5471,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class foreignEnterpriseList {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest;
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest;
         
         public foreignEnterpriseList() {
         }
         
-        public foreignEnterpriseList(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
+        public foreignEnterpriseList(Cs_Mercury.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
             this.getForeignEnterpriseListRequest = getForeignEnterpriseListRequest;
         }
     }
@@ -5488,12 +5488,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class foreignEnterpriseListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListResponse getForeignEnterpriseListResponse;
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseListResponse getForeignEnterpriseListResponse;
         
         public foreignEnterpriseListResponse() {
         }
         
-        public foreignEnterpriseListResponse(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListResponse getForeignEnterpriseListResponse) {
+        public foreignEnterpriseListResponse(Cs_Mercury.EnterpriseService.getForeignEnterpriseListResponse getForeignEnterpriseListResponse) {
             this.getForeignEnterpriseListResponse = getForeignEnterpriseListResponse;
         }
     }
@@ -5583,12 +5583,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class russianEnterpriseList {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest;
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest;
         
         public russianEnterpriseList() {
         }
         
-        public russianEnterpriseList(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
+        public russianEnterpriseList(Cs_Mercury.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
             this.getRussianEnterpriseListRequest = getRussianEnterpriseListRequest;
         }
     }
@@ -5600,12 +5600,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class russianEnterpriseListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListResponse getRussianEnterpriseListResponse;
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseListResponse getRussianEnterpriseListResponse;
         
         public russianEnterpriseListResponse() {
         }
         
-        public russianEnterpriseListResponse(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListResponse getRussianEnterpriseListResponse) {
+        public russianEnterpriseListResponse(Cs_Mercury.EnterpriseService.getRussianEnterpriseListResponse getRussianEnterpriseListResponse) {
             this.getRussianEnterpriseListResponse = getRussianEnterpriseListResponse;
         }
     }
@@ -5695,12 +5695,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class foreignEnterpriseChangesList {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest;
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest;
         
         public foreignEnterpriseChangesList() {
         }
         
-        public foreignEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
+        public foreignEnterpriseChangesList(Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
             this.getForeignEnterpriseChangesListRequest = getForeignEnterpriseChangesListRequest;
         }
     }
@@ -5712,12 +5712,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class foreignEnterpriseChangesListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListResponse getForeignEnterpriseChangesListResponse;
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListResponse getForeignEnterpriseChangesListResponse;
         
         public foreignEnterpriseChangesListResponse() {
         }
         
-        public foreignEnterpriseChangesListResponse(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListResponse getForeignEnterpriseChangesListResponse) {
+        public foreignEnterpriseChangesListResponse(Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListResponse getForeignEnterpriseChangesListResponse) {
             this.getForeignEnterpriseChangesListResponse = getForeignEnterpriseChangesListResponse;
         }
     }
@@ -5807,12 +5807,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class russianEnterpriseChangesList {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest;
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest;
         
         public russianEnterpriseChangesList() {
         }
         
-        public russianEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
+        public russianEnterpriseChangesList(Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
             this.getRussianEnterpriseChangesListRequest = getRussianEnterpriseChangesListRequest;
         }
     }
@@ -5824,12 +5824,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class russianEnterpriseChangesListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListResponse getRussianEnterpriseChangesListResponse;
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListResponse getRussianEnterpriseChangesListResponse;
         
         public russianEnterpriseChangesListResponse() {
         }
         
-        public russianEnterpriseChangesListResponse(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListResponse getRussianEnterpriseChangesListResponse) {
+        public russianEnterpriseChangesListResponse(Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListResponse getRussianEnterpriseChangesListResponse) {
             this.getRussianEnterpriseChangesListResponse = getRussianEnterpriseChangesListResponse;
         }
     }
@@ -5905,12 +5905,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessMemberByGLN {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest;
+        public Cs_Mercury.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest;
         
         public businessMemberByGLN() {
         }
         
-        public businessMemberByGLN(MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
+        public businessMemberByGLN(Cs_Mercury.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
             this.getBusinessMemberByGLNRequest = getBusinessMemberByGLNRequest;
         }
     }
@@ -5922,12 +5922,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class businessMemberByGLNResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNResponse getBusinessMemberByGLNResponse;
+        public Cs_Mercury.EnterpriseService.getBusinessMemberByGLNResponse getBusinessMemberByGLNResponse;
         
         public businessMemberByGLNResponse() {
         }
         
-        public businessMemberByGLNResponse(MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNResponse getBusinessMemberByGLNResponse) {
+        public businessMemberByGLNResponse(Cs_Mercury.EnterpriseService.getBusinessMemberByGLNResponse getBusinessMemberByGLNResponse) {
             this.getBusinessMemberByGLNResponse = getBusinessMemberByGLNResponse;
         }
     }
@@ -6017,12 +6017,12 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class activityLocationList1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest;
+        public Cs_Mercury.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest;
         
         public activityLocationList1() {
         }
         
-        public activityLocationList1(MercuryClassLibrary.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
+        public activityLocationList1(Cs_Mercury.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
             this.getActivityLocationListRequest = getActivityLocationListRequest;
         }
     }
@@ -6034,23 +6034,23 @@ namespace MercuryClassLibrary.EnterpriseService {
     public partial class activityLocationListResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/registry/ws-definitions/v2", Order=0)]
-        public MercuryClassLibrary.EnterpriseService.getActivityLocationListResponse getActivityLocationListResponse;
+        public Cs_Mercury.EnterpriseService.getActivityLocationListResponse getActivityLocationListResponse;
         
         public activityLocationListResponse() {
         }
         
-        public activityLocationListResponse(MercuryClassLibrary.EnterpriseService.getActivityLocationListResponse getActivityLocationListResponse) {
+        public activityLocationListResponse(Cs_Mercury.EnterpriseService.getActivityLocationListResponse getActivityLocationListResponse) {
             this.getActivityLocationListResponse = getActivityLocationListResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface EnterpriseServicePortTypeChannel : MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType, System.ServiceModel.IClientChannel {
+    public interface EnterpriseServicePortTypeChannel : Cs_Mercury.EnterpriseService.EnterpriseServicePortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EnterpriseServicePortTypeClient : System.ServiceModel.ClientBase<MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType>, MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType {
+    public partial class EnterpriseServicePortTypeClient : System.ServiceModel.ClientBase<Cs_Mercury.EnterpriseService.EnterpriseServicePortType>, Cs_Mercury.EnterpriseService.EnterpriseServicePortType {
         
         public EnterpriseServicePortTypeClient() {
         }
@@ -6072,279 +6072,279 @@ namespace MercuryClassLibrary.EnterpriseService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.businessEntityByResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByGuid(MercuryClassLibrary.EnterpriseService.businessEntityByGuid request) {
+        Cs_Mercury.EnterpriseService.businessEntityByResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByGuid(Cs_Mercury.EnterpriseService.businessEntityByGuid request) {
             return base.Channel.GetBusinessEntityByGuid(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidResponse GetBusinessEntityByGuid(MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityByGuid inValue = new MercuryClassLibrary.EnterpriseService.businessEntityByGuid();
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByGuidResponse GetBusinessEntityByGuid(Cs_Mercury.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityByGuid inValue = new Cs_Mercury.EnterpriseService.businessEntityByGuid();
             inValue.getBusinessEntityByGuidRequest = getBusinessEntityByGuidRequest;
-            MercuryClassLibrary.EnterpriseService.businessEntityByResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByGuid(inValue);
+            Cs_Mercury.EnterpriseService.businessEntityByResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByGuid(inValue);
             return retVal.getBusinessEntityByGuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByGuidAsync(MercuryClassLibrary.EnterpriseService.businessEntityByGuid request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByGuidAsync(Cs_Mercury.EnterpriseService.businessEntityByGuid request) {
             return base.Channel.GetBusinessEntityByGuidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByResponse> GetBusinessEntityByGuidAsync(MercuryClassLibrary.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityByGuid inValue = new MercuryClassLibrary.EnterpriseService.businessEntityByGuid();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByResponse> GetBusinessEntityByGuidAsync(Cs_Mercury.EnterpriseService.getBusinessEntityByGuidRequest getBusinessEntityByGuidRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityByGuid inValue = new Cs_Mercury.EnterpriseService.businessEntityByGuid();
             inValue.getBusinessEntityByGuidRequest = getBusinessEntityByGuidRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByGuidAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByGuidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByUuid(MercuryClassLibrary.EnterpriseService.businessEntityByUuid request) {
+        Cs_Mercury.EnterpriseService.businessEntityByUuidResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByUuid(Cs_Mercury.EnterpriseService.businessEntityByUuid request) {
             return base.Channel.GetBusinessEntityByUuid(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidResponse GetBusinessEntityByUuid(MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityByUuid inValue = new MercuryClassLibrary.EnterpriseService.businessEntityByUuid();
+        public Cs_Mercury.EnterpriseService.getBusinessEntityByUuidResponse GetBusinessEntityByUuid(Cs_Mercury.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityByUuid inValue = new Cs_Mercury.EnterpriseService.businessEntityByUuid();
             inValue.getBusinessEntityByUuidRequest = getBusinessEntityByUuidRequest;
-            MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByUuid(inValue);
+            Cs_Mercury.EnterpriseService.businessEntityByUuidResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByUuid(inValue);
             return retVal.getBusinessEntityByUuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByUuidAsync(MercuryClassLibrary.EnterpriseService.businessEntityByUuid request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByUuidResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityByUuidAsync(Cs_Mercury.EnterpriseService.businessEntityByUuid request) {
             return base.Channel.GetBusinessEntityByUuidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityByUuidResponse> GetBusinessEntityByUuidAsync(MercuryClassLibrary.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityByUuid inValue = new MercuryClassLibrary.EnterpriseService.businessEntityByUuid();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityByUuidResponse> GetBusinessEntityByUuidAsync(Cs_Mercury.EnterpriseService.getBusinessEntityByUuidRequest getBusinessEntityByUuidRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityByUuid inValue = new Cs_Mercury.EnterpriseService.businessEntityByUuid();
             inValue.getBusinessEntityByUuidRequest = getBusinessEntityByUuidRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByUuidAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityByUuidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.businessEntityListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityList(MercuryClassLibrary.EnterpriseService.businessEntityList1 request) {
+        Cs_Mercury.EnterpriseService.businessEntityListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityList(Cs_Mercury.EnterpriseService.businessEntityList1 request) {
             return base.Channel.GetBusinessEntityList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityListResponse GetBusinessEntityList(MercuryClassLibrary.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityList1 inValue = new MercuryClassLibrary.EnterpriseService.businessEntityList1();
+        public Cs_Mercury.EnterpriseService.getBusinessEntityListResponse GetBusinessEntityList(Cs_Mercury.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityList1 inValue = new Cs_Mercury.EnterpriseService.businessEntityList1();
             inValue.getBusinessEntityListRequest = getBusinessEntityListRequest;
-            MercuryClassLibrary.EnterpriseService.businessEntityListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityList(inValue);
+            Cs_Mercury.EnterpriseService.businessEntityListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityList(inValue);
             return retVal.getBusinessEntityListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityListAsync(MercuryClassLibrary.EnterpriseService.businessEntityList1 request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityListAsync(Cs_Mercury.EnterpriseService.businessEntityList1 request) {
             return base.Channel.GetBusinessEntityListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityListResponse> GetBusinessEntityListAsync(MercuryClassLibrary.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityList1 inValue = new MercuryClassLibrary.EnterpriseService.businessEntityList1();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityListResponse> GetBusinessEntityListAsync(Cs_Mercury.EnterpriseService.getBusinessEntityListRequest getBusinessEntityListRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityList1 inValue = new Cs_Mercury.EnterpriseService.businessEntityList1();
             inValue.getBusinessEntityListRequest = getBusinessEntityListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityChangesList(MercuryClassLibrary.EnterpriseService.businessEntityChangesList request) {
+        Cs_Mercury.EnterpriseService.businessEntityChangesListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityChangesList(Cs_Mercury.EnterpriseService.businessEntityChangesList request) {
             return base.Channel.GetBusinessEntityChangesList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListResponse GetBusinessEntityChangesList(MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityChangesList inValue = new MercuryClassLibrary.EnterpriseService.businessEntityChangesList();
+        public Cs_Mercury.EnterpriseService.getBusinessEntityChangesListResponse GetBusinessEntityChangesList(Cs_Mercury.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityChangesList inValue = new Cs_Mercury.EnterpriseService.businessEntityChangesList();
             inValue.getBusinessEntityChangesListRequest = getBusinessEntityChangesListRequest;
-            MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityChangesList(inValue);
+            Cs_Mercury.EnterpriseService.businessEntityChangesListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityChangesList(inValue);
             return retVal.getBusinessEntityChangesListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityChangesListAsync(MercuryClassLibrary.EnterpriseService.businessEntityChangesList request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityChangesListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessEntityChangesListAsync(Cs_Mercury.EnterpriseService.businessEntityChangesList request) {
             return base.Channel.GetBusinessEntityChangesListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessEntityChangesListResponse> GetBusinessEntityChangesListAsync(MercuryClassLibrary.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.businessEntityChangesList inValue = new MercuryClassLibrary.EnterpriseService.businessEntityChangesList();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessEntityChangesListResponse> GetBusinessEntityChangesListAsync(Cs_Mercury.EnterpriseService.getBusinessEntityChangesListRequest getBusinessEntityChangesListRequest) {
+            Cs_Mercury.EnterpriseService.businessEntityChangesList inValue = new Cs_Mercury.EnterpriseService.businessEntityChangesList();
             inValue.getBusinessEntityChangesListRequest = getBusinessEntityChangesListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityChangesListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessEntityChangesListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.enterpriseByResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByGuid(MercuryClassLibrary.EnterpriseService.enterpriseByGuid request) {
+        Cs_Mercury.EnterpriseService.enterpriseByResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByGuid(Cs_Mercury.EnterpriseService.enterpriseByGuid request) {
             return base.Channel.GetEnterpriseByGuid(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidResponse GetEnterpriseByGuid(MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
-            MercuryClassLibrary.EnterpriseService.enterpriseByGuid inValue = new MercuryClassLibrary.EnterpriseService.enterpriseByGuid();
+        public Cs_Mercury.EnterpriseService.getEnterpriseByGuidResponse GetEnterpriseByGuid(Cs_Mercury.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
+            Cs_Mercury.EnterpriseService.enterpriseByGuid inValue = new Cs_Mercury.EnterpriseService.enterpriseByGuid();
             inValue.getEnterpriseByGuidRequest = getEnterpriseByGuidRequest;
-            MercuryClassLibrary.EnterpriseService.enterpriseByResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByGuid(inValue);
+            Cs_Mercury.EnterpriseService.enterpriseByResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByGuid(inValue);
             return retVal.getEnterpriseByGuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByGuidAsync(MercuryClassLibrary.EnterpriseService.enterpriseByGuid request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByGuidAsync(Cs_Mercury.EnterpriseService.enterpriseByGuid request) {
             return base.Channel.GetEnterpriseByGuidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByResponse> GetEnterpriseByGuidAsync(MercuryClassLibrary.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
-            MercuryClassLibrary.EnterpriseService.enterpriseByGuid inValue = new MercuryClassLibrary.EnterpriseService.enterpriseByGuid();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByResponse> GetEnterpriseByGuidAsync(Cs_Mercury.EnterpriseService.getEnterpriseByGuidRequest getEnterpriseByGuidRequest) {
+            Cs_Mercury.EnterpriseService.enterpriseByGuid inValue = new Cs_Mercury.EnterpriseService.enterpriseByGuid();
             inValue.getEnterpriseByGuidRequest = getEnterpriseByGuidRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByGuidAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByGuidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByUuid(MercuryClassLibrary.EnterpriseService.enterpriseByUuid request) {
+        Cs_Mercury.EnterpriseService.enterpriseByUuidResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByUuid(Cs_Mercury.EnterpriseService.enterpriseByUuid request) {
             return base.Channel.GetEnterpriseByUuid(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidResponse GetEnterpriseByUuid(MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
-            MercuryClassLibrary.EnterpriseService.enterpriseByUuid inValue = new MercuryClassLibrary.EnterpriseService.enterpriseByUuid();
+        public Cs_Mercury.EnterpriseService.getEnterpriseByUuidResponse GetEnterpriseByUuid(Cs_Mercury.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
+            Cs_Mercury.EnterpriseService.enterpriseByUuid inValue = new Cs_Mercury.EnterpriseService.enterpriseByUuid();
             inValue.getEnterpriseByUuidRequest = getEnterpriseByUuidRequest;
-            MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByUuid(inValue);
+            Cs_Mercury.EnterpriseService.enterpriseByUuidResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByUuid(inValue);
             return retVal.getEnterpriseByUuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByUuidAsync(MercuryClassLibrary.EnterpriseService.enterpriseByUuid request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByUuidResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetEnterpriseByUuidAsync(Cs_Mercury.EnterpriseService.enterpriseByUuid request) {
             return base.Channel.GetEnterpriseByUuidAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.enterpriseByUuidResponse> GetEnterpriseByUuidAsync(MercuryClassLibrary.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
-            MercuryClassLibrary.EnterpriseService.enterpriseByUuid inValue = new MercuryClassLibrary.EnterpriseService.enterpriseByUuid();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.enterpriseByUuidResponse> GetEnterpriseByUuidAsync(Cs_Mercury.EnterpriseService.getEnterpriseByUuidRequest getEnterpriseByUuidRequest) {
+            Cs_Mercury.EnterpriseService.enterpriseByUuid inValue = new Cs_Mercury.EnterpriseService.enterpriseByUuid();
             inValue.getEnterpriseByUuidRequest = getEnterpriseByUuidRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByUuidAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetEnterpriseByUuidAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseList(MercuryClassLibrary.EnterpriseService.foreignEnterpriseList request) {
+        Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseList(Cs_Mercury.EnterpriseService.foreignEnterpriseList request) {
             return base.Channel.GetForeignEnterpriseList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListResponse GetForeignEnterpriseList(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseList inValue = new MercuryClassLibrary.EnterpriseService.foreignEnterpriseList();
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseListResponse GetForeignEnterpriseList(Cs_Mercury.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
+            Cs_Mercury.EnterpriseService.foreignEnterpriseList inValue = new Cs_Mercury.EnterpriseService.foreignEnterpriseList();
             inValue.getForeignEnterpriseListRequest = getForeignEnterpriseListRequest;
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseList(inValue);
+            Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseList(inValue);
             return retVal.getForeignEnterpriseListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.foreignEnterpriseList request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseListAsync(Cs_Mercury.EnterpriseService.foreignEnterpriseList request) {
             return base.Channel.GetForeignEnterpriseListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseListResponse> GetForeignEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseList inValue = new MercuryClassLibrary.EnterpriseService.foreignEnterpriseList();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseListResponse> GetForeignEnterpriseListAsync(Cs_Mercury.EnterpriseService.getForeignEnterpriseListRequest getForeignEnterpriseListRequest) {
+            Cs_Mercury.EnterpriseService.foreignEnterpriseList inValue = new Cs_Mercury.EnterpriseService.foreignEnterpriseList();
             inValue.getForeignEnterpriseListRequest = getForeignEnterpriseListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseList(MercuryClassLibrary.EnterpriseService.russianEnterpriseList request) {
+        Cs_Mercury.EnterpriseService.russianEnterpriseListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseList(Cs_Mercury.EnterpriseService.russianEnterpriseList request) {
             return base.Channel.GetRussianEnterpriseList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListResponse GetRussianEnterpriseList(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseList inValue = new MercuryClassLibrary.EnterpriseService.russianEnterpriseList();
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseListResponse GetRussianEnterpriseList(Cs_Mercury.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
+            Cs_Mercury.EnterpriseService.russianEnterpriseList inValue = new Cs_Mercury.EnterpriseService.russianEnterpriseList();
             inValue.getRussianEnterpriseListRequest = getRussianEnterpriseListRequest;
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseList(inValue);
+            Cs_Mercury.EnterpriseService.russianEnterpriseListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseList(inValue);
             return retVal.getRussianEnterpriseListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.russianEnterpriseList request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseListAsync(Cs_Mercury.EnterpriseService.russianEnterpriseList request) {
             return base.Channel.GetRussianEnterpriseListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseListResponse> GetRussianEnterpriseListAsync(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseList inValue = new MercuryClassLibrary.EnterpriseService.russianEnterpriseList();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseListResponse> GetRussianEnterpriseListAsync(Cs_Mercury.EnterpriseService.getRussianEnterpriseListRequest getRussianEnterpriseListRequest) {
+            Cs_Mercury.EnterpriseService.russianEnterpriseList inValue = new Cs_Mercury.EnterpriseService.russianEnterpriseList();
             inValue.getRussianEnterpriseListRequest = getRussianEnterpriseListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList request) {
+        Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseChangesList(Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList request) {
             return base.Channel.GetForeignEnterpriseChangesList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListResponse GetForeignEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList inValue = new MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList();
+        public Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListResponse GetForeignEnterpriseChangesList(Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
+            Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList inValue = new Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList();
             inValue.getForeignEnterpriseChangesListRequest = getForeignEnterpriseChangesListRequest;
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseChangesList(inValue);
+            Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseChangesList(inValue);
             return retVal.getForeignEnterpriseChangesListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetForeignEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList request) {
             return base.Channel.GetForeignEnterpriseChangesListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesListResponse> GetForeignEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList inValue = new MercuryClassLibrary.EnterpriseService.foreignEnterpriseChangesList();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.foreignEnterpriseChangesListResponse> GetForeignEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.getForeignEnterpriseChangesListRequest getForeignEnterpriseChangesListRequest) {
+            Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList inValue = new Cs_Mercury.EnterpriseService.foreignEnterpriseChangesList();
             inValue.getForeignEnterpriseChangesListRequest = getForeignEnterpriseChangesListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseChangesListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetForeignEnterpriseChangesListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList request) {
+        Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseChangesList(Cs_Mercury.EnterpriseService.russianEnterpriseChangesList request) {
             return base.Channel.GetRussianEnterpriseChangesList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListResponse GetRussianEnterpriseChangesList(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList inValue = new MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList();
+        public Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListResponse GetRussianEnterpriseChangesList(Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
+            Cs_Mercury.EnterpriseService.russianEnterpriseChangesList inValue = new Cs_Mercury.EnterpriseService.russianEnterpriseChangesList();
             inValue.getRussianEnterpriseChangesListRequest = getRussianEnterpriseChangesListRequest;
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseChangesList(inValue);
+            Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseChangesList(inValue);
             return retVal.getRussianEnterpriseChangesListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetRussianEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.russianEnterpriseChangesList request) {
             return base.Channel.GetRussianEnterpriseChangesListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesListResponse> GetRussianEnterpriseChangesListAsync(MercuryClassLibrary.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
-            MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList inValue = new MercuryClassLibrary.EnterpriseService.russianEnterpriseChangesList();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.russianEnterpriseChangesListResponse> GetRussianEnterpriseChangesListAsync(Cs_Mercury.EnterpriseService.getRussianEnterpriseChangesListRequest getRussianEnterpriseChangesListRequest) {
+            Cs_Mercury.EnterpriseService.russianEnterpriseChangesList inValue = new Cs_Mercury.EnterpriseService.russianEnterpriseChangesList();
             inValue.getRussianEnterpriseChangesListRequest = getRussianEnterpriseChangesListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseChangesListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetRussianEnterpriseChangesListAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessMemberByGLN(MercuryClassLibrary.EnterpriseService.businessMemberByGLN request) {
+        Cs_Mercury.EnterpriseService.businessMemberByGLNResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessMemberByGLN(Cs_Mercury.EnterpriseService.businessMemberByGLN request) {
             return base.Channel.GetBusinessMemberByGLN(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNResponse GetBusinessMemberByGLN(MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
-            MercuryClassLibrary.EnterpriseService.businessMemberByGLN inValue = new MercuryClassLibrary.EnterpriseService.businessMemberByGLN();
+        public Cs_Mercury.EnterpriseService.getBusinessMemberByGLNResponse GetBusinessMemberByGLN(Cs_Mercury.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
+            Cs_Mercury.EnterpriseService.businessMemberByGLN inValue = new Cs_Mercury.EnterpriseService.businessMemberByGLN();
             inValue.getBusinessMemberByGLNRequest = getBusinessMemberByGLNRequest;
-            MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessMemberByGLN(inValue);
+            Cs_Mercury.EnterpriseService.businessMemberByGLNResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessMemberByGLN(inValue);
             return retVal.getBusinessMemberByGLNResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetBusinessMemberByGLNAsync(MercuryClassLibrary.EnterpriseService.businessMemberByGLN request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessMemberByGLNResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetBusinessMemberByGLNAsync(Cs_Mercury.EnterpriseService.businessMemberByGLN request) {
             return base.Channel.GetBusinessMemberByGLNAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.businessMemberByGLNResponse> GetBusinessMemberByGLNAsync(MercuryClassLibrary.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
-            MercuryClassLibrary.EnterpriseService.businessMemberByGLN inValue = new MercuryClassLibrary.EnterpriseService.businessMemberByGLN();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.businessMemberByGLNResponse> GetBusinessMemberByGLNAsync(Cs_Mercury.EnterpriseService.getBusinessMemberByGLNRequest getBusinessMemberByGLNRequest) {
+            Cs_Mercury.EnterpriseService.businessMemberByGLN inValue = new Cs_Mercury.EnterpriseService.businessMemberByGLN();
             inValue.getBusinessMemberByGLNRequest = getBusinessMemberByGLNRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessMemberByGLNAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetBusinessMemberByGLNAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.EnterpriseService.activityLocationListResponse MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetActivityLocationList(MercuryClassLibrary.EnterpriseService.activityLocationList1 request) {
+        Cs_Mercury.EnterpriseService.activityLocationListResponse Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetActivityLocationList(Cs_Mercury.EnterpriseService.activityLocationList1 request) {
             return base.Channel.GetActivityLocationList(request);
         }
         
-        public MercuryClassLibrary.EnterpriseService.getActivityLocationListResponse GetActivityLocationList(MercuryClassLibrary.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
-            MercuryClassLibrary.EnterpriseService.activityLocationList1 inValue = new MercuryClassLibrary.EnterpriseService.activityLocationList1();
+        public Cs_Mercury.EnterpriseService.getActivityLocationListResponse GetActivityLocationList(Cs_Mercury.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
+            Cs_Mercury.EnterpriseService.activityLocationList1 inValue = new Cs_Mercury.EnterpriseService.activityLocationList1();
             inValue.getActivityLocationListRequest = getActivityLocationListRequest;
-            MercuryClassLibrary.EnterpriseService.activityLocationListResponse retVal = ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetActivityLocationList(inValue);
+            Cs_Mercury.EnterpriseService.activityLocationListResponse retVal = ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetActivityLocationList(inValue);
             return retVal.getActivityLocationListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.activityLocationListResponse> MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType.GetActivityLocationListAsync(MercuryClassLibrary.EnterpriseService.activityLocationList1 request) {
+        System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.activityLocationListResponse> Cs_Mercury.EnterpriseService.EnterpriseServicePortType.GetActivityLocationListAsync(Cs_Mercury.EnterpriseService.activityLocationList1 request) {
             return base.Channel.GetActivityLocationListAsync(request);
         }
         
-        public System.Threading.Tasks.Task<MercuryClassLibrary.EnterpriseService.activityLocationListResponse> GetActivityLocationListAsync(MercuryClassLibrary.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
-            MercuryClassLibrary.EnterpriseService.activityLocationList1 inValue = new MercuryClassLibrary.EnterpriseService.activityLocationList1();
+        public System.Threading.Tasks.Task<Cs_Mercury.EnterpriseService.activityLocationListResponse> GetActivityLocationListAsync(Cs_Mercury.EnterpriseService.getActivityLocationListRequest getActivityLocationListRequest) {
+            Cs_Mercury.EnterpriseService.activityLocationList1 inValue = new Cs_Mercury.EnterpriseService.activityLocationList1();
             inValue.getActivityLocationListRequest = getActivityLocationListRequest;
-            return ((MercuryClassLibrary.EnterpriseService.EnterpriseServicePortType)(this)).GetActivityLocationListAsync(inValue);
+            return ((Cs_Mercury.EnterpriseService.EnterpriseServicePortType)(this)).GetActivityLocationListAsync(inValue);
         }
     }
 }

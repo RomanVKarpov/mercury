@@ -1,12 +1,18 @@
 ﻿using System;
 using System.ServiceModel;
+using Cs_Mercury.ApplicationManagementService;
 //using MercuryClassLibrary.EnterpriseService;
 
-namespace MercuryClassLibrary
+namespace Cs_Mercury
 {
+    //enum ApplicationStatus
+    //{
+    //    NULL, ACCEPTED, IN_PROCESS, COMPLETED, REJECTED
+    //}
+
     public static class LastError
     {
-        public static ResultInfo resultInfo = new ResultInfo();
+        private static ResultInfo resultInfo = new ResultInfo();
 
         public static bool Success() => resultInfo.Success;
         public static ResultInfo GetError() => resultInfo;
@@ -25,7 +31,7 @@ namespace MercuryClassLibrary
             resultInfo = new ResultInfo(false, message);
         }
 
-        internal static void SetError(FaultException<ApplicationManagementService.FaultInfo> e)
+        internal static void SetError(FaultException<FaultInfo> e)
         {
             string err = Common.ServiceModelExceptionToString(e);
 
@@ -37,13 +43,22 @@ namespace MercuryClassLibrary
             resultInfo = new ResultInfo(false, message);
         }
 
+        internal static void SetError(ApplicationStatus status)
+        {
+            resultInfo = new ResultInfo(false, "Заявка еще не обработана")
+            {
+                Status = status
+            };
+        }
     }
 
     public class ResultInfo
     {
         public bool Success { get; set; }
         public string Message { get; set; } = string.Empty;
-        public string Type { get; set; }
+        public ApplicationStatus Status { get; set; }
+
+        //public string Type { get; set; }
 
         public ResultInfo()
         {

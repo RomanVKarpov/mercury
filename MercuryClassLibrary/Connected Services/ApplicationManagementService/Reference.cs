@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MercuryClassLibrary.ApplicationManagementService {
+namespace Cs_Mercury.ApplicationManagementService {
     
     
     /// <remarks/>
@@ -501,142 +501,142 @@ namespace MercuryClassLibrary.ApplicationManagementService {
         // CODEGEN: Контракт генерации сообщений с операцией processIncomingConsignmentRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="processIncomingConsignmentRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestResponse processIncomingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestResponse processIncomingConsignmentRequest(Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией prepareOutgoingConsignmentRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="prepareOutgoingConsignmentRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse prepareOutgoingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse prepareOutgoingConsignmentRequest(Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией registerProductionOperationRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="registerProductionOperationRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestResponse registerProductionOperationRequest(MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestResponse registerProductionOperationRequest(Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией mergeStockEntriesRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="mergeStockEntriesRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestResponse mergeStockEntriesRequest(MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestResponse mergeStockEntriesRequest(Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией withdrawVetDocumentRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="withdrawVetDocumentRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestResponse withdrawVetDocumentRequest(MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestResponse withdrawVetDocumentRequest(Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией modifyBusinessEntityRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="modifyBusinessEntityRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestResponse modifyBusinessEntityRequest(MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestResponse modifyBusinessEntityRequest(Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией modifyEnterpriseRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="modifyEnterpriseRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestResponse modifyEnterpriseRequest(MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestResponse modifyEnterpriseRequest(Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией modifyActivityLocationsRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="modifyActivityLocationsRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestResponse modifyActivityLocationsRequest(MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestResponse modifyActivityLocationsRequest(Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией resolveDiscrepancyRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="resolveDiscrepancyRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestResponse resolveDiscrepancyRequest(MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestResponse resolveDiscrepancyRequest(Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией modifyProducerStockListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="modifyProducerStockListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestResponse modifyProducerStockListRequest(MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestResponse modifyProducerStockListRequest(Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getVetDocumentByUuidRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getVetDocumentByUuidRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestResponse getVetDocumentByUuidRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestResponse getVetDocumentByUuidRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getVetDocumentListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getVetDocumentListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestResponse getVetDocumentListRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestResponse getVetDocumentListRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getVetDocumentChangesListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getVetDocumentChangesListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestResponse getVetDocumentChangesListRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestResponse getVetDocumentChangesListRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getStockEntryByGuidRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getStockEntryByGuidRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestResponse getStockEntryByGuidRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestResponse getStockEntryByGuidRequest(Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getStockEntryByUuidRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getStockEntryByUuidRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestResponse getStockEntryByUuidRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestResponse getStockEntryByUuidRequest(Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getStockEntryListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getStockEntryListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestResponse getStockEntryListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getStockEntryListRequestResponse getStockEntryListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getStockEntryChangesListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getStockEntryChangesListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestResponse getStockEntryChangesListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestResponse getStockEntryChangesListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getStockEntryVersionListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getStockEntryVersionListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestResponse getStockEntryVersionListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestResponse getStockEntryVersionListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией updateTransportMovementDetailsRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="updateTransportMovementDetailsRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestResponse updateTransportMovementDetailsRequest(MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestResponse updateTransportMovementDetailsRequest(Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией updateVeterinaryEventsRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="updateVeterinaryEventsRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestResponse updateVeterinaryEventsRequest(MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestResponse updateVeterinaryEventsRequest(Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией checkShipmentRegionalizationRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="checkShipmentRegionalizationRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestResponse checkShipmentRegionalizationRequest(MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestResponse checkShipmentRegionalizationRequest(Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией addBusinessEntityUserRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="addBusinessEntityUserRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestResponse addBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestResponse addBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getBusinessEntityUserListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getBusinessEntityUserListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestResponse getBusinessEntityUserListRequest(MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestResponse getBusinessEntityUserListRequest(Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getBusinessEntityUserRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getBusinessEntityUserRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestResponse getBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestResponse getBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией updateUserAuthoritiesRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="updateUserAuthoritiesRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestResponse updateUserAuthoritiesRequest(MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestResponse updateUserAuthoritiesRequest(Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией updateUserWorkingAreasRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="updateUserWorkingAreasRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestResponse updateUserWorkingAreasRequest(MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestResponse updateUserWorkingAreasRequest(Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией unbindBusinessEntityUserRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="unbindBusinessEntityUserRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestResponse unbindBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestResponse unbindBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией getAppliedUserAuthorityListRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="getAppliedUserAuthorityListRequest", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse getAppliedUserAuthorityListRequest(MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse getAppliedUserAuthorityListRequest(Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest request);
     }
     
     /// <remarks/>
@@ -1176,7 +1176,7 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Delivery))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DiscrepancyReason))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(User))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShipmentRoutePoint))]
@@ -1186,16 +1186,20 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReferencedDocument))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VetDocument))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(IncorporationForm))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericVersioningEntity))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PackingType))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Indicator))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntry))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethod))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationShippingRule))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationRegionStatus))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Unit))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationCondition))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethod))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalDisease))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Indicator))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Purpose))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationCondition))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItem))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProduct))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Product))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Enterprise))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressObjectView))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Street))]
@@ -1204,13 +1208,9 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Region))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(FederalDistrict))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Country))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntity))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItem))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProduct))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Product))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntry))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Delivery))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PackingType))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Unit))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Purpose))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -1238,29 +1238,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
             System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
             if ((propertyChanged != null)) {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class EnterpriseActivity : GenericEntity {
-        
-        private string nameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
             }
         }
     }
@@ -2186,15 +2163,18 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PackingType))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Indicator))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntry))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethod))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationShippingRule))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationRegionStatus))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Unit))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationCondition))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethod))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalDisease))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Indicator))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Purpose))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationCondition))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItem))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProduct))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Product))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Enterprise))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressObjectView))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Street))]
@@ -2203,12 +2183,9 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Region))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(FederalDistrict))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Country))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntity))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItem))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProduct))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Product))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntry))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PackingType))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Unit))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Purpose))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -2381,6 +2358,4376 @@ namespace MercuryClassLibrary.ApplicationManagementService {
             set {
                 this.nextField = value;
                 this.RaisePropertyChanged("next");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Indicator : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class StockEntry : GenericVersioningEntity {
+        
+        private string entryNumberField;
+        
+        private Batch batchField;
+        
+        private VetDocument[] vetDocumentField;
+        
+        private StockEntryEventList vetEventListField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string entryNumber {
+            get {
+                return this.entryNumberField;
+            }
+            set {
+                this.entryNumberField = value;
+                this.RaisePropertyChanged("entryNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Batch batch {
+            get {
+                return this.batchField;
+            }
+            set {
+                this.batchField = value;
+                this.RaisePropertyChanged("batch");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("vetDocument", Order=2)]
+        public VetDocument[] vetDocument {
+            get {
+                return this.vetDocumentField;
+            }
+            set {
+                this.vetDocumentField = value;
+                this.RaisePropertyChanged("vetDocument");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public StockEntryEventList vetEventList {
+            get {
+                return this.vetEventListField;
+            }
+            set {
+                this.vetEventListField = value;
+                this.RaisePropertyChanged("vetEventList");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductiveBatch))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Consignment))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class Batch : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ProductType productTypeField;
+        
+        private bool productTypeFieldSpecified;
+        
+        private Product productField;
+        
+        private SubProduct subProductField;
+        
+        private ProductItem productItemField;
+        
+        private decimal volumeField;
+        
+        private bool volumeFieldSpecified;
+        
+        private Unit unitField;
+        
+        private GoodsDate dateOfProductionField;
+        
+        private GoodsDate expiryDateField;
+        
+        private string[] batchIDField;
+        
+        private bool perishableField;
+        
+        private bool perishableFieldSpecified;
+        
+        private BatchOrigin originField;
+        
+        private bool lowGradeCargoField;
+        
+        private bool lowGradeCargoFieldSpecified;
+        
+        private Package[] packageListField;
+        
+        private BusinessEntity ownerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ProductType productType {
+            get {
+                return this.productTypeField;
+            }
+            set {
+                this.productTypeField = value;
+                this.RaisePropertyChanged("productType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool productTypeSpecified {
+            get {
+                return this.productTypeFieldSpecified;
+            }
+            set {
+                this.productTypeFieldSpecified = value;
+                this.RaisePropertyChanged("productTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Product product {
+            get {
+                return this.productField;
+            }
+            set {
+                this.productField = value;
+                this.RaisePropertyChanged("product");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public SubProduct subProduct {
+            get {
+                return this.subProductField;
+            }
+            set {
+                this.subProductField = value;
+                this.RaisePropertyChanged("subProduct");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ProductItem productItem {
+            get {
+                return this.productItemField;
+            }
+            set {
+                this.productItemField = value;
+                this.RaisePropertyChanged("productItem");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public decimal volume {
+            get {
+                return this.volumeField;
+            }
+            set {
+                this.volumeField = value;
+                this.RaisePropertyChanged("volume");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool volumeSpecified {
+            get {
+                return this.volumeFieldSpecified;
+            }
+            set {
+                this.volumeFieldSpecified = value;
+                this.RaisePropertyChanged("volumeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public Unit unit {
+            get {
+                return this.unitField;
+            }
+            set {
+                this.unitField = value;
+                this.RaisePropertyChanged("unit");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public GoodsDate dateOfProduction {
+            get {
+                return this.dateOfProductionField;
+            }
+            set {
+                this.dateOfProductionField = value;
+                this.RaisePropertyChanged("dateOfProduction");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public GoodsDate expiryDate {
+            get {
+                return this.expiryDateField;
+            }
+            set {
+                this.expiryDateField = value;
+                this.RaisePropertyChanged("expiryDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("batchID", DataType="token", Order=8)]
+        public string[] batchID {
+            get {
+                return this.batchIDField;
+            }
+            set {
+                this.batchIDField = value;
+                this.RaisePropertyChanged("batchID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public bool perishable {
+            get {
+                return this.perishableField;
+            }
+            set {
+                this.perishableField = value;
+                this.RaisePropertyChanged("perishable");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool perishableSpecified {
+            get {
+                return this.perishableFieldSpecified;
+            }
+            set {
+                this.perishableFieldSpecified = value;
+                this.RaisePropertyChanged("perishableSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public BatchOrigin origin {
+            get {
+                return this.originField;
+            }
+            set {
+                this.originField = value;
+                this.RaisePropertyChanged("origin");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public bool lowGradeCargo {
+            get {
+                return this.lowGradeCargoField;
+            }
+            set {
+                this.lowGradeCargoField = value;
+                this.RaisePropertyChanged("lowGradeCargo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool lowGradeCargoSpecified {
+            get {
+                return this.lowGradeCargoFieldSpecified;
+            }
+            set {
+                this.lowGradeCargoFieldSpecified = value;
+                this.RaisePropertyChanged("lowGradeCargoSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=12)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("package", Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2", IsNullable=false)]
+        public Package[] packageList {
+            get {
+                return this.packageListField;
+            }
+            set {
+                this.packageListField = value;
+                this.RaisePropertyChanged("packageList");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public BusinessEntity owner {
+            get {
+                return this.ownerField;
+            }
+            set {
+                this.ownerField = value;
+                this.RaisePropertyChanged("owner");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum ProductType {
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        Item1,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("2")]
+        Item2,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        Item3,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("4")]
+        Item4,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("5")]
+        Item5,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("6")]
+        Item6,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("7")]
+        Item7,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("8")]
+        Item8,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Product : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private string codeField;
+        
+        private string englishNameField;
+        
+        private ProductType productTypeField;
+        
+        private bool productTypeFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string code {
+            get {
+                return this.codeField;
+            }
+            set {
+                this.codeField = value;
+                this.RaisePropertyChanged("code");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string englishName {
+            get {
+                return this.englishNameField;
+            }
+            set {
+                this.englishNameField = value;
+                this.RaisePropertyChanged("englishName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ProductType productType {
+            get {
+                return this.productTypeField;
+            }
+            set {
+                this.productTypeField = value;
+                this.RaisePropertyChanged("productType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool productTypeSpecified {
+            get {
+                return this.productTypeFieldSpecified;
+            }
+            set {
+                this.productTypeFieldSpecified = value;
+                this.RaisePropertyChanged("productTypeSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class SubProduct : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private string codeField;
+        
+        private string englishNameField;
+        
+        private string productGuidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string code {
+            get {
+                return this.codeField;
+            }
+            set {
+                this.codeField = value;
+                this.RaisePropertyChanged("code");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string englishName {
+            get {
+                return this.englishNameField;
+            }
+            set {
+                this.englishNameField = value;
+                this.RaisePropertyChanged("englishName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string productGuid {
+            get {
+                return this.productGuidField;
+            }
+            set {
+                this.productGuidField = value;
+                this.RaisePropertyChanged("productGuid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ProductItem : GenericVersioningEntity {
+        
+        private string globalIDField;
+        
+        private string nameField;
+        
+        private string codeField;
+        
+        private ProductType productTypeField;
+        
+        private bool productTypeFieldSpecified;
+        
+        private Product productField;
+        
+        private SubProduct subProductField;
+        
+        private bool correspondsToGostField;
+        
+        private bool correspondsToGostFieldSpecified;
+        
+        private string gostField;
+        
+        private BusinessEntity producerField;
+        
+        private BusinessEntity tmOwnerField;
+        
+        private ProductItemProducing[] producingField;
+        
+        private Packaging packagingField;
+        
+        private bool isPublicField;
+        
+        private bool isPublicFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string globalID {
+            get {
+                return this.globalIDField;
+            }
+            set {
+                this.globalIDField = value;
+                this.RaisePropertyChanged("globalID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string code {
+            get {
+                return this.codeField;
+            }
+            set {
+                this.codeField = value;
+                this.RaisePropertyChanged("code");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ProductType productType {
+            get {
+                return this.productTypeField;
+            }
+            set {
+                this.productTypeField = value;
+                this.RaisePropertyChanged("productType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool productTypeSpecified {
+            get {
+                return this.productTypeFieldSpecified;
+            }
+            set {
+                this.productTypeFieldSpecified = value;
+                this.RaisePropertyChanged("productTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public Product product {
+            get {
+                return this.productField;
+            }
+            set {
+                this.productField = value;
+                this.RaisePropertyChanged("product");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public SubProduct subProduct {
+            get {
+                return this.subProductField;
+            }
+            set {
+                this.subProductField = value;
+                this.RaisePropertyChanged("subProduct");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public bool correspondsToGost {
+            get {
+                return this.correspondsToGostField;
+            }
+            set {
+                this.correspondsToGostField = value;
+                this.RaisePropertyChanged("correspondsToGost");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool correspondsToGostSpecified {
+            get {
+                return this.correspondsToGostFieldSpecified;
+            }
+            set {
+                this.correspondsToGostFieldSpecified = value;
+                this.RaisePropertyChanged("correspondsToGostSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string gost {
+            get {
+                return this.gostField;
+            }
+            set {
+                this.gostField = value;
+                this.RaisePropertyChanged("gost");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public BusinessEntity producer {
+            get {
+                return this.producerField;
+            }
+            set {
+                this.producerField = value;
+                this.RaisePropertyChanged("producer");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public BusinessEntity tmOwner {
+            get {
+                return this.tmOwnerField;
+            }
+            set {
+                this.tmOwnerField = value;
+                this.RaisePropertyChanged("tmOwner");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("producing", Order=10)]
+        public ProductItemProducing[] producing {
+            get {
+                return this.producingField;
+            }
+            set {
+                this.producingField = value;
+                this.RaisePropertyChanged("producing");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public Packaging packaging {
+            get {
+                return this.packagingField;
+            }
+            set {
+                this.packagingField = value;
+                this.RaisePropertyChanged("packaging");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public bool isPublic {
+            get {
+                return this.isPublicField;
+            }
+            set {
+                this.isPublicField = value;
+                this.RaisePropertyChanged("isPublic");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool isPublicSpecified {
+            get {
+                return this.isPublicFieldSpecified;
+            }
+            set {
+                this.isPublicFieldSpecified = value;
+                this.RaisePropertyChanged("isPublicSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ProductItemProducing : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private Enterprise locationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Enterprise location {
+            get {
+                return this.locationField;
+            }
+            set {
+                this.locationField = value;
+                this.RaisePropertyChanged("location");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Enterprise : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private string englishNameField;
+        
+        private string typeField;
+        
+        private string[] numberListField;
+        
+        private Address addressField;
+        
+        private EnterpriseActivityList activityListField;
+        
+        private BusinessEntity ownerField;
+        
+        private EnterpriseOfficialRegistration[] officialRegistrationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string englishName {
+            get {
+                return this.englishNameField;
+            }
+            set {
+                this.englishNameField = value;
+                this.RaisePropertyChanged("englishName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
+        public string type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("enterpriseNumber", IsNullable=false)]
+        public string[] numberList {
+            get {
+                return this.numberListField;
+            }
+            set {
+                this.numberListField = value;
+                this.RaisePropertyChanged("numberList");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public Address address {
+            get {
+                return this.addressField;
+            }
+            set {
+                this.addressField = value;
+                this.RaisePropertyChanged("address");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public EnterpriseActivityList activityList {
+            get {
+                return this.activityListField;
+            }
+            set {
+                this.activityListField = value;
+                this.RaisePropertyChanged("activityList");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public BusinessEntity owner {
+            get {
+                return this.ownerField;
+            }
+            set {
+                this.ownerField = value;
+                this.RaisePropertyChanged("owner");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("officialRegistration", Order=7)]
+        public EnterpriseOfficialRegistration[] officialRegistration {
+            get {
+                return this.officialRegistrationField;
+            }
+            set {
+                this.officialRegistrationField = value;
+                this.RaisePropertyChanged("officialRegistration");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class EnterpriseActivityList : EntityList {
+        
+        private EnterpriseActivity[] activityField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("activity", Order=0)]
+        public EnterpriseActivity[] activity {
+            get {
+                return this.activityField;
+            }
+            set {
+                this.activityField = value;
+                this.RaisePropertyChanged("activity");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class EnterpriseActivity : GenericEntity {
+        
+        private string nameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(UserList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntryList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WorkingAreaList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(VetDocumentList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ActivityLocationList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethodList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalDiseaseList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationShippingRuleList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationRegionStatusList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationConditionList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItemList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProductList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntityList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivityList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StreetList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocalityList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DistrictList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(CountryList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(UnitList))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PurposeList))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/base")]
+    public partial class EntityList : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private int countField;
+        
+        private bool countFieldSpecified;
+        
+        private long totalField;
+        
+        private bool totalFieldSpecified;
+        
+        private int offsetField;
+        
+        private bool offsetFieldSpecified;
+        
+        private bool hasMoreField;
+        
+        private bool hasMoreFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int count {
+            get {
+                return this.countField;
+            }
+            set {
+                this.countField = value;
+                this.RaisePropertyChanged("count");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool countSpecified {
+            get {
+                return this.countFieldSpecified;
+            }
+            set {
+                this.countFieldSpecified = value;
+                this.RaisePropertyChanged("countSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public long total {
+            get {
+                return this.totalField;
+            }
+            set {
+                this.totalField = value;
+                this.RaisePropertyChanged("total");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool totalSpecified {
+            get {
+                return this.totalFieldSpecified;
+            }
+            set {
+                this.totalFieldSpecified = value;
+                this.RaisePropertyChanged("totalSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int offset {
+            get {
+                return this.offsetField;
+            }
+            set {
+                this.offsetField = value;
+                this.RaisePropertyChanged("offset");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool offsetSpecified {
+            get {
+                return this.offsetFieldSpecified;
+            }
+            set {
+                this.offsetFieldSpecified = value;
+                this.RaisePropertyChanged("offsetSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public bool hasMore {
+            get {
+                return this.hasMoreField;
+            }
+            set {
+                this.hasMoreField = value;
+                this.RaisePropertyChanged("hasMore");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool hasMoreSpecified {
+            get {
+                return this.hasMoreFieldSpecified;
+            }
+            set {
+                this.hasMoreFieldSpecified = value;
+                this.RaisePropertyChanged("hasMoreSpecified");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class UserList : EntityList {
+        
+        private User[] userField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("user", Order=0)]
+        public User[] user {
+            get {
+                return this.userField;
+            }
+            set {
+                this.userField = value;
+                this.RaisePropertyChanged("user");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class StockEntryList : EntityList {
+        
+        private StockEntry[] stockEntryField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("stockEntry", Order=0)]
+        public StockEntry[] stockEntry {
+            get {
+                return this.stockEntryField;
+            }
+            set {
+                this.stockEntryField = value;
+                this.RaisePropertyChanged("stockEntry");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class WorkingAreaList : EntityList {
+        
+        private WorkingArea[] workingAreaField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("workingArea", Order=0)]
+        public WorkingArea[] workingArea {
+            get {
+                return this.workingAreaField;
+            }
+            set {
+                this.workingAreaField = value;
+                this.RaisePropertyChanged("workingArea");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class WorkingArea : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("area", typeof(Area), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Area : Address {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class VetDocumentList : EntityList {
+        
+        private VetDocument[] vetDocumentField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("vetDocument", Order=0)]
+        public VetDocument[] vetDocument {
+            get {
+                return this.vetDocumentField;
+            }
+            set {
+                this.vetDocumentField = value;
+                this.RaisePropertyChanged("vetDocument");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class VetDocument : Document {
+        
+        private VetDocumentForm vetDFormField;
+        
+        private bool vetDFormFieldSpecified;
+        
+        private VetDocumentType vetDTypeField;
+        
+        private bool vetDTypeFieldSpecified;
+        
+        private VetDocumentStatus vetDStatusField;
+        
+        private bool vetDStatusFieldSpecified;
+        
+        private bool finalizedField;
+        
+        private bool finalizedFieldSpecified;
+        
+        private System.DateTime lastUpdateDateField;
+        
+        private bool lastUpdateDateFieldSpecified;
+        
+        private object itemField;
+        
+        private VeterinaryAuthentication authenticationField;
+        
+        private string precedingVetDocumentsField;
+        
+        private ReferencedDocument[] referencedDocumentField;
+        
+        private VetDocumentStatusChange[] statusChangeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public VetDocumentForm vetDForm {
+            get {
+                return this.vetDFormField;
+            }
+            set {
+                this.vetDFormField = value;
+                this.RaisePropertyChanged("vetDForm");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool vetDFormSpecified {
+            get {
+                return this.vetDFormFieldSpecified;
+            }
+            set {
+                this.vetDFormFieldSpecified = value;
+                this.RaisePropertyChanged("vetDFormSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public VetDocumentType vetDType {
+            get {
+                return this.vetDTypeField;
+            }
+            set {
+                this.vetDTypeField = value;
+                this.RaisePropertyChanged("vetDType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool vetDTypeSpecified {
+            get {
+                return this.vetDTypeFieldSpecified;
+            }
+            set {
+                this.vetDTypeFieldSpecified = value;
+                this.RaisePropertyChanged("vetDTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public VetDocumentStatus vetDStatus {
+            get {
+                return this.vetDStatusField;
+            }
+            set {
+                this.vetDStatusField = value;
+                this.RaisePropertyChanged("vetDStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool vetDStatusSpecified {
+            get {
+                return this.vetDStatusFieldSpecified;
+            }
+            set {
+                this.vetDStatusFieldSpecified = value;
+                this.RaisePropertyChanged("vetDStatusSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public bool finalized {
+            get {
+                return this.finalizedField;
+            }
+            set {
+                this.finalizedField = value;
+                this.RaisePropertyChanged("finalized");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool finalizedSpecified {
+            get {
+                return this.finalizedFieldSpecified;
+            }
+            set {
+                this.finalizedFieldSpecified = value;
+                this.RaisePropertyChanged("finalizedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public System.DateTime lastUpdateDate {
+            get {
+                return this.lastUpdateDateField;
+            }
+            set {
+                this.lastUpdateDateField = value;
+                this.RaisePropertyChanged("lastUpdateDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool lastUpdateDateSpecified {
+            get {
+                return this.lastUpdateDateFieldSpecified;
+            }
+            set {
+                this.lastUpdateDateFieldSpecified = value;
+                this.RaisePropertyChanged("lastUpdateDateSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("certifiedBatch", typeof(CertifiedBatch), Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute("certifiedConsignment", typeof(CertifiedConsignment), Order=5)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public VeterinaryAuthentication authentication {
+            get {
+                return this.authenticationField;
+            }
+            set {
+                this.authenticationField = value;
+                this.RaisePropertyChanged("authentication");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string precedingVetDocuments {
+            get {
+                return this.precedingVetDocumentsField;
+            }
+            set {
+                this.precedingVetDocumentsField = value;
+                this.RaisePropertyChanged("precedingVetDocuments");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("referencedDocument", Order=8)]
+        public ReferencedDocument[] referencedDocument {
+            get {
+                return this.referencedDocumentField;
+            }
+            set {
+                this.referencedDocumentField = value;
+                this.RaisePropertyChanged("referencedDocument");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("statusChange", Order=9)]
+        public VetDocumentStatusChange[] statusChange {
+            get {
+                return this.statusChangeField;
+            }
+            set {
+                this.statusChangeField = value;
+                this.RaisePropertyChanged("statusChange");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public enum VetDocumentForm {
+        
+        /// <remarks/>
+        CERTCU1,
+        
+        /// <remarks/>
+        LIC1,
+        
+        /// <remarks/>
+        CERTCU2,
+        
+        /// <remarks/>
+        LIC2,
+        
+        /// <remarks/>
+        CERTCU3,
+        
+        /// <remarks/>
+        LIC3,
+        
+        /// <remarks/>
+        NOTE4,
+        
+        /// <remarks/>
+        CERT5I,
+        
+        /// <remarks/>
+        CERT61,
+        
+        /// <remarks/>
+        CERT62,
+        
+        /// <remarks/>
+        CERT63,
+        
+        /// <remarks/>
+        PRODUCTIVE,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public enum VetDocumentType {
+        
+        /// <remarks/>
+        TRANSPORT,
+        
+        /// <remarks/>
+        PRODUCTIVE,
+        
+        /// <remarks/>
+        RETURNABLE,
+        
+        /// <remarks/>
+        INCOMING,
+        
+        /// <remarks/>
+        OUTGOING,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public enum VetDocumentStatus {
+        
+        /// <remarks/>
+        CREATED,
+        
+        /// <remarks/>
+        CONFIRMED,
+        
+        /// <remarks/>
+        WITHDRAWN,
+        
+        /// <remarks/>
+        UTILIZED,
+        
+        /// <remarks/>
+        FINALIZED,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class CertifiedBatch : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private BusinessMember producerField;
+        
+        private Batch batchField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public BusinessMember producer {
+            get {
+                return this.producerField;
+            }
+            set {
+                this.producerField = value;
+                this.RaisePropertyChanged("producer");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Batch batch {
+            get {
+                return this.batchField;
+            }
+            set {
+                this.batchField = value;
+                this.RaisePropertyChanged("batch");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class CertifiedConsignment : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private BusinessMember consignorField;
+        
+        private BusinessMember consigneeField;
+        
+        private BusinessEntity brokerField;
+        
+        private TransportInfo transportInfoField;
+        
+        private TransportationStorageType transportStorageTypeField;
+        
+        private bool transportStorageTypeFieldSpecified;
+        
+        private ShipmentRoutePoint[] shipmentRouteField;
+        
+        private Batch batchField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public BusinessMember consignor {
+            get {
+                return this.consignorField;
+            }
+            set {
+                this.consignorField = value;
+                this.RaisePropertyChanged("consignor");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public BusinessMember consignee {
+            get {
+                return this.consigneeField;
+            }
+            set {
+                this.consigneeField = value;
+                this.RaisePropertyChanged("consignee");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public BusinessEntity broker {
+            get {
+                return this.brokerField;
+            }
+            set {
+                this.brokerField = value;
+                this.RaisePropertyChanged("broker");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public TransportInfo transportInfo {
+            get {
+                return this.transportInfoField;
+            }
+            set {
+                this.transportInfoField = value;
+                this.RaisePropertyChanged("transportInfo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public TransportationStorageType transportStorageType {
+            get {
+                return this.transportStorageTypeField;
+            }
+            set {
+                this.transportStorageTypeField = value;
+                this.RaisePropertyChanged("transportStorageType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool transportStorageTypeSpecified {
+            get {
+                return this.transportStorageTypeFieldSpecified;
+            }
+            set {
+                this.transportStorageTypeFieldSpecified = value;
+                this.RaisePropertyChanged("transportStorageTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=5)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("routePoint", IsNullable=false)]
+        public ShipmentRoutePoint[] shipmentRoute {
+            get {
+                return this.shipmentRouteField;
+            }
+            set {
+                this.shipmentRouteField = value;
+                this.RaisePropertyChanged("shipmentRoute");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public Batch batch {
+            get {
+                return this.batchField;
+            }
+            set {
+                this.batchField = value;
+                this.RaisePropertyChanged("batch");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class TransportInfo : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private TransportType transportTypeField;
+        
+        private bool transportTypeFieldSpecified;
+        
+        private TransportNumber transportNumberField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public TransportType transportType {
+            get {
+                return this.transportTypeField;
+            }
+            set {
+                this.transportTypeField = value;
+                this.RaisePropertyChanged("transportType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool transportTypeSpecified {
+            get {
+                return this.transportTypeFieldSpecified;
+            }
+            set {
+                this.transportTypeFieldSpecified = value;
+                this.RaisePropertyChanged("transportTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public TransportNumber transportNumber {
+            get {
+                return this.transportNumberField;
+            }
+            set {
+                this.transportNumberField = value;
+                this.RaisePropertyChanged("transportNumber");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum TransportType {
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        Item1,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("2")]
+        Item2,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        Item3,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("4")]
+        Item4,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("5")]
+        Item5,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class TransportNumber : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string containerNumberField;
+        
+        private string wagonNumberField;
+        
+        private string vehicleNumberField;
+        
+        private string trailerNumberField;
+        
+        private string shipNameField;
+        
+        private string flightNumberField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string containerNumber {
+            get {
+                return this.containerNumberField;
+            }
+            set {
+                this.containerNumberField = value;
+                this.RaisePropertyChanged("containerNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string wagonNumber {
+            get {
+                return this.wagonNumberField;
+            }
+            set {
+                this.wagonNumberField = value;
+                this.RaisePropertyChanged("wagonNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string vehicleNumber {
+            get {
+                return this.vehicleNumberField;
+            }
+            set {
+                this.vehicleNumberField = value;
+                this.RaisePropertyChanged("vehicleNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string trailerNumber {
+            get {
+                return this.trailerNumberField;
+            }
+            set {
+                this.trailerNumberField = value;
+                this.RaisePropertyChanged("trailerNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string shipName {
+            get {
+                return this.shipNameField;
+            }
+            set {
+                this.shipNameField = value;
+                this.RaisePropertyChanged("shipName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string flightNumber {
+            get {
+                return this.flightNumberField;
+            }
+            set {
+                this.flightNumberField = value;
+                this.RaisePropertyChanged("flightNumber");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum TransportationStorageType {
+        
+        /// <remarks/>
+        FROZEN,
+        
+        /// <remarks/>
+        CHILLED,
+        
+        /// <remarks/>
+        COOLED,
+        
+        /// <remarks/>
+        VENTILATED,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class ShipmentRoutePoint : GenericEntity {
+        
+        private string sqnIdField;
+        
+        private object itemField;
+        
+        private bool transshipmentField;
+        
+        private bool transshipmentFieldSpecified;
+        
+        private TransportInfo nextTransportField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="positiveInteger", Order=0)]
+        public string sqnId {
+            get {
+                return this.sqnIdField;
+            }
+            set {
+                this.sqnIdField = value;
+                this.RaisePropertyChanged("sqnId");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("location", typeof(Location), Order=1)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public bool transshipment {
+            get {
+                return this.transshipmentField;
+            }
+            set {
+                this.transshipmentField = value;
+                this.RaisePropertyChanged("transshipment");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool transshipmentSpecified {
+            get {
+                return this.transshipmentFieldSpecified;
+            }
+            set {
+                this.transshipmentFieldSpecified = value;
+                this.RaisePropertyChanged("transshipmentSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public TransportInfo nextTransport {
+            get {
+                return this.nextTransportField;
+            }
+            set {
+                this.nextTransportField = value;
+                this.RaisePropertyChanged("nextTransport");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Location : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string nameField;
+        
+        private Address addressField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Address address {
+            get {
+                return this.addressField;
+            }
+            set {
+                this.addressField = value;
+                this.RaisePropertyChanged("address");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class VeterinaryAuthentication : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private Purpose purposeField;
+        
+        private bool cargoInspectedField;
+        
+        private bool cargoInspectedFieldSpecified;
+        
+        private ResearchResult cargoExpertizedField;
+        
+        private bool cargoExpertizedFieldSpecified;
+        
+        private string locationProsperityField;
+        
+        private AnimalSpentPeriod animalSpentPeriodField;
+        
+        private bool animalSpentPeriodFieldSpecified;
+        
+        private string monthsSpentField;
+        
+        private LaboratoryResearchEvent[] laboratoryResearchField;
+        
+        private QuarantineEvent quarantineField;
+        
+        private AnimalMedicationEvent[] immunizationField;
+        
+        private VeterinaryEvent[] veterinaryEventField;
+        
+        private RegionalizationClause[] r13nClauseField;
+        
+        private string specialMarksField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public Purpose purpose {
+            get {
+                return this.purposeField;
+            }
+            set {
+                this.purposeField = value;
+                this.RaisePropertyChanged("purpose");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool cargoInspected {
+            get {
+                return this.cargoInspectedField;
+            }
+            set {
+                this.cargoInspectedField = value;
+                this.RaisePropertyChanged("cargoInspected");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool cargoInspectedSpecified {
+            get {
+                return this.cargoInspectedFieldSpecified;
+            }
+            set {
+                this.cargoInspectedFieldSpecified = value;
+                this.RaisePropertyChanged("cargoInspectedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public ResearchResult cargoExpertized {
+            get {
+                return this.cargoExpertizedField;
+            }
+            set {
+                this.cargoExpertizedField = value;
+                this.RaisePropertyChanged("cargoExpertized");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool cargoExpertizedSpecified {
+            get {
+                return this.cargoExpertizedFieldSpecified;
+            }
+            set {
+                this.cargoExpertizedFieldSpecified = value;
+                this.RaisePropertyChanged("cargoExpertizedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string locationProsperity {
+            get {
+                return this.locationProsperityField;
+            }
+            set {
+                this.locationProsperityField = value;
+                this.RaisePropertyChanged("locationProsperity");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public AnimalSpentPeriod animalSpentPeriod {
+            get {
+                return this.animalSpentPeriodField;
+            }
+            set {
+                this.animalSpentPeriodField = value;
+                this.RaisePropertyChanged("animalSpentPeriod");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool animalSpentPeriodSpecified {
+            get {
+                return this.animalSpentPeriodFieldSpecified;
+            }
+            set {
+                this.animalSpentPeriodFieldSpecified = value;
+                this.RaisePropertyChanged("animalSpentPeriodSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string monthsSpent {
+            get {
+                return this.monthsSpentField;
+            }
+            set {
+                this.monthsSpentField = value;
+                this.RaisePropertyChanged("monthsSpent");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("laboratoryResearch", Order=6)]
+        public LaboratoryResearchEvent[] laboratoryResearch {
+            get {
+                return this.laboratoryResearchField;
+            }
+            set {
+                this.laboratoryResearchField = value;
+                this.RaisePropertyChanged("laboratoryResearch");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public QuarantineEvent quarantine {
+            get {
+                return this.quarantineField;
+            }
+            set {
+                this.quarantineField = value;
+                this.RaisePropertyChanged("quarantine");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("immunization", Order=8)]
+        public AnimalMedicationEvent[] immunization {
+            get {
+                return this.immunizationField;
+            }
+            set {
+                this.immunizationField = value;
+                this.RaisePropertyChanged("immunization");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("veterinaryEvent", Order=9)]
+        public VeterinaryEvent[] veterinaryEvent {
+            get {
+                return this.veterinaryEventField;
+            }
+            set {
+                this.veterinaryEventField = value;
+                this.RaisePropertyChanged("veterinaryEvent");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("r13nClause", Order=10)]
+        public RegionalizationClause[] r13nClause {
+            get {
+                return this.r13nClauseField;
+            }
+            set {
+                this.r13nClauseField = value;
+                this.RaisePropertyChanged("r13nClause");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
+        public string specialMarks {
+            get {
+                return this.specialMarksField;
+            }
+            set {
+                this.specialMarksField = value;
+                this.RaisePropertyChanged("specialMarks");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Purpose : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private bool forSubstandardField;
+        
+        private bool forSubstandardFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public bool forSubstandard {
+            get {
+                return this.forSubstandardField;
+            }
+            set {
+                this.forSubstandardField = value;
+                this.RaisePropertyChanged("forSubstandard");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool forSubstandardSpecified {
+            get {
+                return this.forSubstandardFieldSpecified;
+            }
+            set {
+                this.forSubstandardFieldSpecified = value;
+                this.RaisePropertyChanged("forSubstandardSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum ResearchResult {
+        
+        /// <remarks/>
+        UNKNOWN,
+        
+        /// <remarks/>
+        UNDEFINED,
+        
+        /// <remarks/>
+        POSITIVE,
+        
+        /// <remarks/>
+        NEGATIVE,
+        
+        /// <remarks/>
+        UNFULFILLED,
+        
+        /// <remarks/>
+        VSERAW,
+        
+        /// <remarks/>
+        VSEFULL,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public enum AnimalSpentPeriod {
+        
+        /// <remarks/>
+        FROM_BIRTH,
+        
+        /// <remarks/>
+        NOT_LESS_SIX_MONTHS,
+        
+        /// <remarks/>
+        IN_MONTHS,
+        
+        /// <remarks/>
+        ZERO,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class LaboratoryResearchEvent : VeterinaryEvent {
+        
+        private string[] batchIDField;
+        
+        private string expertiseIDField;
+        
+        private GenericVersioningEntity item1Field;
+        
+        private ResearchMethod methodField;
+        
+        private ResearchResult resultField;
+        
+        private bool resultFieldSpecified;
+        
+        private string conclusionField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("batchID", DataType="token", Order=0)]
+        public string[] batchID {
+            get {
+                return this.batchIDField;
+            }
+            set {
+                this.batchIDField = value;
+                this.RaisePropertyChanged("batchID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string expertiseID {
+            get {
+                return this.expertiseIDField;
+            }
+            set {
+                this.expertiseIDField = value;
+                this.RaisePropertyChanged("expertiseID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("disease", typeof(AnimalDisease), Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute("indicator", typeof(Indicator), Order=2)]
+        public GenericVersioningEntity Item1 {
+            get {
+                return this.item1Field;
+            }
+            set {
+                this.item1Field = value;
+                this.RaisePropertyChanged("Item1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public ResearchMethod method {
+            get {
+                return this.methodField;
+            }
+            set {
+                this.methodField = value;
+                this.RaisePropertyChanged("method");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public ResearchResult result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool resultSpecified {
+            get {
+                return this.resultFieldSpecified;
+            }
+            set {
+                this.resultFieldSpecified = value;
+                this.RaisePropertyChanged("resultSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string conclusion {
+            get {
+                return this.conclusionField;
+            }
+            set {
+                this.conclusionField = value;
+                this.RaisePropertyChanged("conclusion");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class AnimalDisease : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ResearchMethod : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(QuarantineEvent))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalMedicationEvent))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LaboratoryResearchEvent))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class VeterinaryEvent : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string idField;
+        
+        private string nameField;
+        
+        private VeterinaryEventType typeField;
+        
+        private bool typeFieldSpecified;
+        
+        private System.DateTime actualDateTimeField;
+        
+        private bool actualDateTimeFieldSpecified;
+        
+        private object itemField;
+        
+        private Organization operatorField;
+        
+        private Document[] referencedDocumentField;
+        
+        private string notesField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string ID {
+            get {
+                return this.idField;
+            }
+            set {
+                this.idField = value;
+                this.RaisePropertyChanged("ID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public VeterinaryEventType type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool typeSpecified {
+            get {
+                return this.typeFieldSpecified;
+            }
+            set {
+                this.typeFieldSpecified = value;
+                this.RaisePropertyChanged("typeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public System.DateTime actualDateTime {
+            get {
+                return this.actualDateTimeField;
+            }
+            set {
+                this.actualDateTimeField = value;
+                this.RaisePropertyChanged("actualDateTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool actualDateTimeSpecified {
+            get {
+                return this.actualDateTimeFieldSpecified;
+            }
+            set {
+                this.actualDateTimeFieldSpecified = value;
+                this.RaisePropertyChanged("actualDateTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("location", typeof(Location), Order=4)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public Organization @operator {
+            get {
+                return this.operatorField;
+            }
+            set {
+                this.operatorField = value;
+                this.RaisePropertyChanged("operator");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("referencedDocument", Order=6)]
+        public Document[] referencedDocument {
+            get {
+                return this.referencedDocumentField;
+            }
+            set {
+                this.referencedDocumentField = value;
+                this.RaisePropertyChanged("referencedDocument");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string notes {
+            get {
+                return this.notesField;
+            }
+            set {
+                this.notesField = value;
+                this.RaisePropertyChanged("notes");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public enum VeterinaryEventType {
+        
+        /// <remarks/>
+        UND,
+        
+        /// <remarks/>
+        LBR,
+        
+        /// <remarks/>
+        VSE,
+        
+        /// <remarks/>
+        IMM,
+        
+        /// <remarks/>
+        MED,
+        
+        /// <remarks/>
+        QRT,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class QuarantineEvent : VeterinaryEvent {
+        
+        private string durationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="positiveInteger", Order=0)]
+        public string duration {
+            get {
+                return this.durationField;
+            }
+            set {
+                this.durationField = value;
+                this.RaisePropertyChanged("duration");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class AnimalMedicationEvent : VeterinaryEvent {
+        
+        private AnimalDisease diseaseField;
+        
+        private MedicinalDrug medicinalDrugField;
+        
+        private System.DateTime effectiveBeforeDateField;
+        
+        private bool effectiveBeforeDateFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public AnimalDisease disease {
+            get {
+                return this.diseaseField;
+            }
+            set {
+                this.diseaseField = value;
+                this.RaisePropertyChanged("disease");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public MedicinalDrug medicinalDrug {
+            get {
+                return this.medicinalDrugField;
+            }
+            set {
+                this.medicinalDrugField = value;
+                this.RaisePropertyChanged("medicinalDrug");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public System.DateTime effectiveBeforeDate {
+            get {
+                return this.effectiveBeforeDateField;
+            }
+            set {
+                this.effectiveBeforeDateField = value;
+                this.RaisePropertyChanged("effectiveBeforeDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool effectiveBeforeDateSpecified {
+            get {
+                return this.effectiveBeforeDateFieldSpecified;
+            }
+            set {
+                this.effectiveBeforeDateFieldSpecified = value;
+                this.RaisePropertyChanged("effectiveBeforeDateSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class MedicinalDrug : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string idField;
+        
+        private string nameField;
+        
+        private string seriesField;
+        
+        private BusinessMember producerField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string ID {
+            get {
+                return this.idField;
+            }
+            set {
+                this.idField = value;
+                this.RaisePropertyChanged("ID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string series {
+            get {
+                return this.seriesField;
+            }
+            set {
+                this.seriesField = value;
+                this.RaisePropertyChanged("series");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public BusinessMember producer {
+            get {
+                return this.producerField;
+            }
+            set {
+                this.producerField = value;
+                this.RaisePropertyChanged("producer");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class RegionalizationClause : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private RegionalizationCondition conditionField;
+        
+        private string textField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public RegionalizationCondition condition {
+            get {
+                return this.conditionField;
+            }
+            set {
+                this.conditionField = value;
+                this.RaisePropertyChanged("condition");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("text");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationCondition : GenericVersioningEntity {
+        
+        private string referenceNumberField;
+        
+        private string textField;
+        
+        private bool strictField;
+        
+        private bool strictFieldSpecified;
+        
+        private AnimalDisease[] relatedDiseaseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string referenceNumber {
+            get {
+                return this.referenceNumberField;
+            }
+            set {
+                this.referenceNumberField = value;
+                this.RaisePropertyChanged("referenceNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("text");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public bool strict {
+            get {
+                return this.strictField;
+            }
+            set {
+                this.strictField = value;
+                this.RaisePropertyChanged("strict");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool strictSpecified {
+            get {
+                return this.strictFieldSpecified;
+            }
+            set {
+                this.strictFieldSpecified = value;
+                this.RaisePropertyChanged("strictSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("relatedDisease", Order=3)]
+        public AnimalDisease[] relatedDisease {
+            get {
+                return this.relatedDiseaseField;
+            }
+            set {
+                this.relatedDiseaseField = value;
+                this.RaisePropertyChanged("relatedDisease");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class ReferencedDocument : Document {
+        
+        private ReferenceType relationshipTypeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ReferenceType relationshipType {
+            get {
+                return this.relationshipTypeField;
+            }
+            set {
+                this.relationshipTypeField = value;
+                this.RaisePropertyChanged("relationshipType");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum ReferenceType {
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        Item1,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("2")]
+        Item2,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        Item3,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("4")]
+        Item4,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("5")]
+        Item5,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("6")]
+        Item6,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
+    public partial class VetDocumentStatusChange : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private VetDocumentStatus statusField;
+        
+        private User specifiedPersonField;
+        
+        private System.DateTime actualDateTimeField;
+        
+        private string reasonField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public VetDocumentStatus status {
+            get {
+                return this.statusField;
+            }
+            set {
+                this.statusField = value;
+                this.RaisePropertyChanged("status");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public User specifiedPerson {
+            get {
+                return this.specifiedPersonField;
+            }
+            set {
+                this.specifiedPersonField = value;
+                this.RaisePropertyChanged("specifiedPerson");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public System.DateTime actualDateTime {
+            get {
+                return this.actualDateTimeField;
+            }
+            set {
+                this.actualDateTimeField = value;
+                this.RaisePropertyChanged("actualDateTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string reason {
+            get {
+                return this.reasonField;
+            }
+            set {
+                this.reasonField = value;
+                this.RaisePropertyChanged("reason");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ActivityLocationList : EntityList {
+        
+        private BusinessMember[] locationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("location", Order=0)]
+        public BusinessMember[] location {
+            get {
+                return this.locationField;
+            }
+            set {
+                this.locationField = value;
+                this.RaisePropertyChanged("location");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ResearchMethodList : EntityList {
+        
+        private ResearchMethod[] methodField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("method", Order=0)]
+        public ResearchMethod[] method {
+            get {
+                return this.methodField;
+            }
+            set {
+                this.methodField = value;
+                this.RaisePropertyChanged("method");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class AnimalDiseaseList : EntityList {
+        
+        private AnimalDisease[] diseaseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("disease", Order=0)]
+        public AnimalDisease[] disease {
+            get {
+                return this.diseaseField;
+            }
+            set {
+                this.diseaseField = value;
+                this.RaisePropertyChanged("disease");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationShippingRuleList : EntityList {
+        
+        private RegionalizationShippingRule[] ruleField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("rule", Order=0)]
+        public RegionalizationShippingRule[] rule {
+            get {
+                return this.ruleField;
+            }
+            set {
+                this.ruleField = value;
+                this.RaisePropertyChanged("rule");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationShippingRule : GenericVersioningEntity {
+        
+        private string referenceNumberField;
+        
+        private RegionalizationStatus fromR13nStatusField;
+        
+        private RegionalizationStatus toR13nStatusField;
+        
+        private SubProduct[] cargoTypeField;
+        
+        private RegionalizationDecision decisionField;
+        
+        private bool decisionFieldSpecified;
+        
+        private RegionalizationRequirement[] requirementField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string referenceNumber {
+            get {
+                return this.referenceNumberField;
+            }
+            set {
+                this.referenceNumberField = value;
+                this.RaisePropertyChanged("referenceNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public RegionalizationStatus fromR13nStatus {
+            get {
+                return this.fromR13nStatusField;
+            }
+            set {
+                this.fromR13nStatusField = value;
+                this.RaisePropertyChanged("fromR13nStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public RegionalizationStatus toR13nStatus {
+            get {
+                return this.toR13nStatusField;
+            }
+            set {
+                this.toR13nStatusField = value;
+                this.RaisePropertyChanged("toR13nStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("cargoType", Order=3)]
+        public SubProduct[] cargoType {
+            get {
+                return this.cargoTypeField;
+            }
+            set {
+                this.cargoTypeField = value;
+                this.RaisePropertyChanged("cargoType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public RegionalizationDecision decision {
+            get {
+                return this.decisionField;
+            }
+            set {
+                this.decisionField = value;
+                this.RaisePropertyChanged("decision");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool decisionSpecified {
+            get {
+                return this.decisionFieldSpecified;
+            }
+            set {
+                this.decisionFieldSpecified = value;
+                this.RaisePropertyChanged("decisionSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("requirement", Order=5)]
+        public RegionalizationRequirement[] requirement {
+            get {
+                return this.requirementField;
+            }
+            set {
+                this.requirementField = value;
+                this.RaisePropertyChanged("requirement");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationStatus : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private AnimalDisease relatedDiseaseField;
+        
+        private ProsperityType prosperityField;
+        
+        private VaccinationType vaccinationField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public AnimalDisease relatedDisease {
+            get {
+                return this.relatedDiseaseField;
+            }
+            set {
+                this.relatedDiseaseField = value;
+                this.RaisePropertyChanged("relatedDisease");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ProsperityType prosperity {
+            get {
+                return this.prosperityField;
+            }
+            set {
+                this.prosperityField = value;
+                this.RaisePropertyChanged("prosperity");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public VaccinationType vaccination {
+            get {
+                return this.vaccinationField;
+            }
+            set {
+                this.vaccinationField = value;
+                this.RaisePropertyChanged("vaccination");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum ProsperityType {
+        
+        /// <remarks/>
+        UNDEFINED,
+        
+        /// <remarks/>
+        UNKNOWN,
+        
+        /// <remarks/>
+        SAFE,
+        
+        /// <remarks/>
+        UNSAFE,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum VaccinationType {
+        
+        /// <remarks/>
+        UNDEFINED,
+        
+        /// <remarks/>
+        APPLIED,
+        
+        /// <remarks/>
+        UNVACCINATED,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public enum RegionalizationDecision {
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("1")]
+        Item1,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("2")]
+        Item2,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("3")]
+        Item3,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationRequirement : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private AnimalDisease relatedDiseaseField;
+        
+        private RegionalizationDecision typeField;
+        
+        private RegionalizationCondition[][] conditionGroupField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public AnimalDisease relatedDisease {
+            get {
+                return this.relatedDiseaseField;
+            }
+            set {
+                this.relatedDiseaseField = value;
+                this.RaisePropertyChanged("relatedDisease");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public RegionalizationDecision type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("condition", typeof(RegionalizationCondition), IsNullable=false)]
+        public RegionalizationCondition[][] conditionGroup {
+            get {
+                return this.conditionGroupField;
+            }
+            set {
+                this.conditionGroupField = value;
+                this.RaisePropertyChanged("conditionGroup");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationRegionStatusList : EntityList {
+        
+        private RegionalizationRegionStatus[] statusField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("status", Order=0)]
+        public RegionalizationRegionStatus[] status {
+            get {
+                return this.statusField;
+            }
+            set {
+                this.statusField = value;
+                this.RaisePropertyChanged("status");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationRegionStatus : GenericVersioningEntity {
+        
+        private string referenceNumberField;
+        
+        private Area r13nZoneField;
+        
+        private Area[] excludedR13nZoneField;
+        
+        private RegionalizationStatus[] r13nStatusField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
+        public string referenceNumber {
+            get {
+                return this.referenceNumberField;
+            }
+            set {
+                this.referenceNumberField = value;
+                this.RaisePropertyChanged("referenceNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public Area r13nZone {
+            get {
+                return this.r13nZoneField;
+            }
+            set {
+                this.r13nZoneField = value;
+                this.RaisePropertyChanged("r13nZone");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("excludedR13nZone", Order=2)]
+        public Area[] excludedR13nZone {
+            get {
+                return this.excludedR13nZoneField;
+            }
+            set {
+                this.excludedR13nZoneField = value;
+                this.RaisePropertyChanged("excludedR13nZone");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("r13nStatus", Order=3)]
+        public RegionalizationStatus[] r13nStatus {
+            get {
+                return this.r13nStatusField;
+            }
+            set {
+                this.r13nStatusField = value;
+                this.RaisePropertyChanged("r13nStatus");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionalizationConditionList : EntityList {
+        
+        private RegionalizationCondition[] conditionField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("condition", Order=0)]
+        public RegionalizationCondition[] condition {
+            get {
+                return this.conditionField;
+            }
+            set {
+                this.conditionField = value;
+                this.RaisePropertyChanged("condition");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ProductItemList : EntityList {
+        
+        private ProductItem[] productItemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("productItem", Order=0)]
+        public ProductItem[] productItem {
+            get {
+                return this.productItemField;
+            }
+            set {
+                this.productItemField = value;
+                this.RaisePropertyChanged("productItem");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class SubProductList : EntityList {
+        
+        private SubProduct[] subProductField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("subProduct", Order=0)]
+        public SubProduct[] subProduct {
+            get {
+                return this.subProductField;
+            }
+            set {
+                this.subProductField = value;
+                this.RaisePropertyChanged("subProduct");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class ProductList : EntityList {
+        
+        private Product[] productField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("product", Order=0)]
+        public Product[] product {
+            get {
+                return this.productField;
+            }
+            set {
+                this.productField = value;
+                this.RaisePropertyChanged("product");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class BusinessEntityList : EntityList {
+        
+        private BusinessEntity[] businessEntityField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("businessEntity", Order=0)]
+        public BusinessEntity[] businessEntity {
+            get {
+                return this.businessEntityField;
+            }
+            set {
+                this.businessEntityField = value;
+                this.RaisePropertyChanged("businessEntity");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class EnterpriseList : EntityList {
+        
+        private Enterprise[] enterpriseField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("enterprise", Order=0)]
+        public Enterprise[] enterprise {
+            get {
+                return this.enterpriseField;
+            }
+            set {
+                this.enterpriseField = value;
+                this.RaisePropertyChanged("enterprise");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class StreetList : EntityList {
+        
+        private Street[] streetField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("street", Order=0)]
+        public Street[] street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("street");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Street : AddressObjectView {
+        
+        private string localityGuidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string localityGuid {
+            get {
+                return this.localityGuidField;
+            }
+            set {
+                this.localityGuidField = value;
+                this.RaisePropertyChanged("localityGuid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Street))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Locality))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(District))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Region))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class AddressObjectView : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private string englishNameField;
+        
+        private string viewField;
+        
+        private string regionCodeField;
+        
+        private string typeField;
+        
+        private string countryGuidField;
+        
+        private bool hasStreetsField;
+        
+        private bool hasStreetsFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string englishName {
+            get {
+                return this.englishNameField;
+            }
+            set {
+                this.englishNameField = value;
+                this.RaisePropertyChanged("englishName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string view {
+            get {
+                return this.viewField;
+            }
+            set {
+                this.viewField = value;
+                this.RaisePropertyChanged("view");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string regionCode {
+            get {
+                return this.regionCodeField;
+            }
+            set {
+                this.regionCodeField = value;
+                this.RaisePropertyChanged("regionCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string countryGuid {
+            get {
+                return this.countryGuidField;
+            }
+            set {
+                this.countryGuidField = value;
+                this.RaisePropertyChanged("countryGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public bool hasStreets {
+            get {
+                return this.hasStreetsField;
+            }
+            set {
+                this.hasStreetsField = value;
+                this.RaisePropertyChanged("hasStreets");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool hasStreetsSpecified {
+            get {
+                return this.hasStreetsFieldSpecified;
+            }
+            set {
+                this.hasStreetsFieldSpecified = value;
+                this.RaisePropertyChanged("hasStreetsSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Locality : AddressObjectView {
+        
+        private string regionGuidField;
+        
+        private string districtGuidField;
+        
+        private string cityGuidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string regionGuid {
+            get {
+                return this.regionGuidField;
+            }
+            set {
+                this.regionGuidField = value;
+                this.RaisePropertyChanged("regionGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string districtGuid {
+            get {
+                return this.districtGuidField;
+            }
+            set {
+                this.districtGuidField = value;
+                this.RaisePropertyChanged("districtGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string cityGuid {
+            get {
+                return this.cityGuidField;
+            }
+            set {
+                this.cityGuidField = value;
+                this.RaisePropertyChanged("cityGuid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class District : AddressObjectView {
+        
+        private string regionGuidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string regionGuid {
+            get {
+                return this.regionGuidField;
+            }
+            set {
+                this.regionGuidField = value;
+                this.RaisePropertyChanged("regionGuid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Region : AddressObjectView {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class LocalityList : EntityList {
+        
+        private Locality[] localityField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("locality", Order=0)]
+        public Locality[] locality {
+            get {
+                return this.localityField;
+            }
+            set {
+                this.localityField = value;
+                this.RaisePropertyChanged("locality");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class DistrictList : EntityList {
+        
+        private District[] districtField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("district", Order=0)]
+        public District[] district {
+            get {
+                return this.districtField;
+            }
+            set {
+                this.districtField = value;
+                this.RaisePropertyChanged("district");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class RegionList : EntityList {
+        
+        private Region[] regionField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("region", Order=0)]
+        public Region[] region {
+            get {
+                return this.regionField;
+            }
+            set {
+                this.regionField = value;
+                this.RaisePropertyChanged("region");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class CountryList : EntityList {
+        
+        private Country[] countryField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("country", Order=0)]
+        public Country[] country {
+            get {
+                return this.countryField;
+            }
+            set {
+                this.countryField = value;
+                this.RaisePropertyChanged("country");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class UnitList : EntityList {
+        
+        private Unit[] unitField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("unit", Order=0)]
+        public Unit[] unit {
+            get {
+                return this.unitField;
+            }
+            set {
+                this.unitField = value;
+                this.RaisePropertyChanged("unit");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Unit : GenericVersioningEntity {
+        
+        private string nameField;
+        
+        private string fullNameField;
+        
+        private string commonUnitGuidField;
+        
+        private string factorField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string fullName {
+            get {
+                return this.fullNameField;
+            }
+            set {
+                this.fullNameField = value;
+                this.RaisePropertyChanged("fullName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string commonUnitGuid {
+            get {
+                return this.commonUnitGuidField;
+            }
+            set {
+                this.commonUnitGuidField = value;
+                this.RaisePropertyChanged("commonUnitGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=3)]
+        public string factor {
+            get {
+                return this.factorField;
+            }
+            set {
+                this.factorField = value;
+                this.RaisePropertyChanged("factor");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class PurposeList : EntityList {
+        
+        private Purpose[] purposeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("purpose", Order=0)]
+        public Purpose[] purpose {
+            get {
+                return this.purposeField;
+            }
+            set {
+                this.purposeField = value;
+                this.RaisePropertyChanged("purpose");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class EnterpriseOfficialRegistration : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string idField;
+        
+        private BusinessEntity businessEntityField;
+        
+        private string kppField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ID {
+            get {
+                return this.idField;
+            }
+            set {
+                this.idField = value;
+                this.RaisePropertyChanged("ID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public BusinessEntity businessEntity {
+            get {
+                return this.businessEntityField;
+            }
+            set {
+                this.businessEntityField = value;
+                this.RaisePropertyChanged("businessEntity");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string kpp {
+            get {
+                return this.kppField;
+            }
+            set {
+                this.kppField = value;
+                this.RaisePropertyChanged("kpp");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
+    public partial class Packaging : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private PackingType packagingTypeField;
+        
+        private string quantityField;
+        
+        private decimal volumeField;
+        
+        private bool volumeFieldSpecified;
+        
+        private Unit unitField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public PackingType packagingType {
+            get {
+                return this.packagingTypeField;
+            }
+            set {
+                this.packagingTypeField = value;
+                this.RaisePropertyChanged("packagingType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
+        public string quantity {
+            get {
+                return this.quantityField;
+            }
+            set {
+                this.quantityField = value;
+                this.RaisePropertyChanged("quantity");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public decimal volume {
+            get {
+                return this.volumeField;
+            }
+            set {
+                this.volumeField = value;
+                this.RaisePropertyChanged("volume");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool volumeSpecified {
+            get {
+                return this.volumeFieldSpecified;
+            }
+            set {
+                this.volumeFieldSpecified = value;
+                this.RaisePropertyChanged("volumeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public Unit unit {
+            get {
+                return this.unitField;
+            }
+            set {
+                this.unitField = value;
+                this.RaisePropertyChanged("unit");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
     }
@@ -3571,2490 +7918,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationShippingRule : GenericVersioningEntity {
-        
-        private string referenceNumberField;
-        
-        private RegionalizationStatus fromR13nStatusField;
-        
-        private RegionalizationStatus toR13nStatusField;
-        
-        private SubProduct[] cargoTypeField;
-        
-        private RegionalizationDecision decisionField;
-        
-        private bool decisionFieldSpecified;
-        
-        private RegionalizationRequirement[] requirementField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string referenceNumber {
-            get {
-                return this.referenceNumberField;
-            }
-            set {
-                this.referenceNumberField = value;
-                this.RaisePropertyChanged("referenceNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public RegionalizationStatus fromR13nStatus {
-            get {
-                return this.fromR13nStatusField;
-            }
-            set {
-                this.fromR13nStatusField = value;
-                this.RaisePropertyChanged("fromR13nStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public RegionalizationStatus toR13nStatus {
-            get {
-                return this.toR13nStatusField;
-            }
-            set {
-                this.toR13nStatusField = value;
-                this.RaisePropertyChanged("toR13nStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("cargoType", Order=3)]
-        public SubProduct[] cargoType {
-            get {
-                return this.cargoTypeField;
-            }
-            set {
-                this.cargoTypeField = value;
-                this.RaisePropertyChanged("cargoType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public RegionalizationDecision decision {
-            get {
-                return this.decisionField;
-            }
-            set {
-                this.decisionField = value;
-                this.RaisePropertyChanged("decision");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool decisionSpecified {
-            get {
-                return this.decisionFieldSpecified;
-            }
-            set {
-                this.decisionFieldSpecified = value;
-                this.RaisePropertyChanged("decisionSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("requirement", Order=5)]
-        public RegionalizationRequirement[] requirement {
-            get {
-                return this.requirementField;
-            }
-            set {
-                this.requirementField = value;
-                this.RaisePropertyChanged("requirement");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationStatus : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private AnimalDisease relatedDiseaseField;
-        
-        private ProsperityType prosperityField;
-        
-        private VaccinationType vaccinationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public AnimalDisease relatedDisease {
-            get {
-                return this.relatedDiseaseField;
-            }
-            set {
-                this.relatedDiseaseField = value;
-                this.RaisePropertyChanged("relatedDisease");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ProsperityType prosperity {
-            get {
-                return this.prosperityField;
-            }
-            set {
-                this.prosperityField = value;
-                this.RaisePropertyChanged("prosperity");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public VaccinationType vaccination {
-            get {
-                return this.vaccinationField;
-            }
-            set {
-                this.vaccinationField = value;
-                this.RaisePropertyChanged("vaccination");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class AnimalDisease : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum ProsperityType {
-        
-        /// <remarks/>
-        UNDEFINED,
-        
-        /// <remarks/>
-        UNKNOWN,
-        
-        /// <remarks/>
-        SAFE,
-        
-        /// <remarks/>
-        UNSAFE,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum VaccinationType {
-        
-        /// <remarks/>
-        UNDEFINED,
-        
-        /// <remarks/>
-        APPLIED,
-        
-        /// <remarks/>
-        UNVACCINATED,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class SubProduct : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private string codeField;
-        
-        private string englishNameField;
-        
-        private string productGuidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string code {
-            get {
-                return this.codeField;
-            }
-            set {
-                this.codeField = value;
-                this.RaisePropertyChanged("code");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string englishName {
-            get {
-                return this.englishNameField;
-            }
-            set {
-                this.englishNameField = value;
-                this.RaisePropertyChanged("englishName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string productGuid {
-            get {
-                return this.productGuidField;
-            }
-            set {
-                this.productGuidField = value;
-                this.RaisePropertyChanged("productGuid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum RegionalizationDecision {
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationRequirement : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private AnimalDisease relatedDiseaseField;
-        
-        private RegionalizationDecision typeField;
-        
-        private RegionalizationCondition[][] conditionGroupField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public AnimalDisease relatedDisease {
-            get {
-                return this.relatedDiseaseField;
-            }
-            set {
-                this.relatedDiseaseField = value;
-                this.RaisePropertyChanged("relatedDisease");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public RegionalizationDecision type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("condition", typeof(RegionalizationCondition), IsNullable=false)]
-        public RegionalizationCondition[][] conditionGroup {
-            get {
-                return this.conditionGroupField;
-            }
-            set {
-                this.conditionGroupField = value;
-                this.RaisePropertyChanged("conditionGroup");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationCondition : GenericVersioningEntity {
-        
-        private string referenceNumberField;
-        
-        private string textField;
-        
-        private bool strictField;
-        
-        private bool strictFieldSpecified;
-        
-        private AnimalDisease[] relatedDiseaseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string referenceNumber {
-            get {
-                return this.referenceNumberField;
-            }
-            set {
-                this.referenceNumberField = value;
-                this.RaisePropertyChanged("referenceNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("text");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public bool strict {
-            get {
-                return this.strictField;
-            }
-            set {
-                this.strictField = value;
-                this.RaisePropertyChanged("strict");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool strictSpecified {
-            get {
-                return this.strictFieldSpecified;
-            }
-            set {
-                this.strictFieldSpecified = value;
-                this.RaisePropertyChanged("strictSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("relatedDisease", Order=3)]
-        public AnimalDisease[] relatedDisease {
-            get {
-                return this.relatedDiseaseField;
-            }
-            set {
-                this.relatedDiseaseField = value;
-                this.RaisePropertyChanged("relatedDisease");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationRegionStatus : GenericVersioningEntity {
-        
-        private string referenceNumberField;
-        
-        private Area r13nZoneField;
-        
-        private Area[] excludedR13nZoneField;
-        
-        private RegionalizationStatus[] r13nStatusField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string referenceNumber {
-            get {
-                return this.referenceNumberField;
-            }
-            set {
-                this.referenceNumberField = value;
-                this.RaisePropertyChanged("referenceNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public Area r13nZone {
-            get {
-                return this.r13nZoneField;
-            }
-            set {
-                this.r13nZoneField = value;
-                this.RaisePropertyChanged("r13nZone");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("excludedR13nZone", Order=2)]
-        public Area[] excludedR13nZone {
-            get {
-                return this.excludedR13nZoneField;
-            }
-            set {
-                this.excludedR13nZoneField = value;
-                this.RaisePropertyChanged("excludedR13nZone");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("r13nStatus", Order=3)]
-        public RegionalizationStatus[] r13nStatus {
-            get {
-                return this.r13nStatusField;
-            }
-            set {
-                this.r13nStatusField = value;
-                this.RaisePropertyChanged("r13nStatus");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Area : Address {
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Unit : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private string fullNameField;
-        
-        private string commonUnitGuidField;
-        
-        private string factorField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string fullName {
-            get {
-                return this.fullNameField;
-            }
-            set {
-                this.fullNameField = value;
-                this.RaisePropertyChanged("fullName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string commonUnitGuid {
-            get {
-                return this.commonUnitGuidField;
-            }
-            set {
-                this.commonUnitGuidField = value;
-                this.RaisePropertyChanged("commonUnitGuid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=3)]
-        public string factor {
-            get {
-                return this.factorField;
-            }
-            set {
-                this.factorField = value;
-                this.RaisePropertyChanged("factor");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ResearchMethod : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Indicator : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Purpose : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private bool forSubstandardField;
-        
-        private bool forSubstandardFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool forSubstandard {
-            get {
-                return this.forSubstandardField;
-            }
-            set {
-                this.forSubstandardField = value;
-                this.RaisePropertyChanged("forSubstandard");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool forSubstandardSpecified {
-            get {
-                return this.forSubstandardFieldSpecified;
-            }
-            set {
-                this.forSubstandardFieldSpecified = value;
-                this.RaisePropertyChanged("forSubstandardSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Enterprise : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private string englishNameField;
-        
-        private string typeField;
-        
-        private string[] numberListField;
-        
-        private Address addressField;
-        
-        private EnterpriseActivityList activityListField;
-        
-        private BusinessEntity ownerField;
-        
-        private EnterpriseOfficialRegistration[] officialRegistrationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string englishName {
-            get {
-                return this.englishNameField;
-            }
-            set {
-                this.englishNameField = value;
-                this.RaisePropertyChanged("englishName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=2)]
-        public string type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=3)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("enterpriseNumber", IsNullable=false)]
-        public string[] numberList {
-            get {
-                return this.numberListField;
-            }
-            set {
-                this.numberListField = value;
-                this.RaisePropertyChanged("numberList");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public Address address {
-            get {
-                return this.addressField;
-            }
-            set {
-                this.addressField = value;
-                this.RaisePropertyChanged("address");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public EnterpriseActivityList activityList {
-            get {
-                return this.activityListField;
-            }
-            set {
-                this.activityListField = value;
-                this.RaisePropertyChanged("activityList");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public BusinessEntity owner {
-            get {
-                return this.ownerField;
-            }
-            set {
-                this.ownerField = value;
-                this.RaisePropertyChanged("owner");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("officialRegistration", Order=7)]
-        public EnterpriseOfficialRegistration[] officialRegistration {
-            get {
-                return this.officialRegistrationField;
-            }
-            set {
-                this.officialRegistrationField = value;
-                this.RaisePropertyChanged("officialRegistration");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class EnterpriseActivityList : EntityList {
-        
-        private EnterpriseActivity[] activityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("activity", Order=0)]
-        public EnterpriseActivity[] activity {
-            get {
-                return this.activityField;
-            }
-            set {
-                this.activityField = value;
-                this.RaisePropertyChanged("activity");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ActivityLocationList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResearchMethodList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalDiseaseList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationShippingRuleList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationRegionStatusList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionalizationConditionList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductItemList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SubProductList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BusinessEntityList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(EnterpriseActivityList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StreetList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocalityList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DistrictList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RegionList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(CountryList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(UnitList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(PurposeList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(UserList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntryList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(WorkingAreaList))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(VetDocumentList))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/base")]
-    public partial class EntityList : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private int countField;
-        
-        private bool countFieldSpecified;
-        
-        private long totalField;
-        
-        private bool totalFieldSpecified;
-        
-        private int offsetField;
-        
-        private bool offsetFieldSpecified;
-        
-        private bool hasMoreField;
-        
-        private bool hasMoreFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int count {
-            get {
-                return this.countField;
-            }
-            set {
-                this.countField = value;
-                this.RaisePropertyChanged("count");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool countSpecified {
-            get {
-                return this.countFieldSpecified;
-            }
-            set {
-                this.countFieldSpecified = value;
-                this.RaisePropertyChanged("countSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public long total {
-            get {
-                return this.totalField;
-            }
-            set {
-                this.totalField = value;
-                this.RaisePropertyChanged("total");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool totalSpecified {
-            get {
-                return this.totalFieldSpecified;
-            }
-            set {
-                this.totalFieldSpecified = value;
-                this.RaisePropertyChanged("totalSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int offset {
-            get {
-                return this.offsetField;
-            }
-            set {
-                this.offsetField = value;
-                this.RaisePropertyChanged("offset");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool offsetSpecified {
-            get {
-                return this.offsetFieldSpecified;
-            }
-            set {
-                this.offsetFieldSpecified = value;
-                this.RaisePropertyChanged("offsetSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public bool hasMore {
-            get {
-                return this.hasMoreField;
-            }
-            set {
-                this.hasMoreField = value;
-                this.RaisePropertyChanged("hasMore");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool hasMoreSpecified {
-            get {
-                return this.hasMoreFieldSpecified;
-            }
-            set {
-                this.hasMoreFieldSpecified = value;
-                this.RaisePropertyChanged("hasMoreSpecified");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ActivityLocationList : EntityList {
-        
-        private BusinessMember[] locationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("location", Order=0)]
-        public BusinessMember[] location {
-            get {
-                return this.locationField;
-            }
-            set {
-                this.locationField = value;
-                this.RaisePropertyChanged("location");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ResearchMethodList : EntityList {
-        
-        private ResearchMethod[] methodField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("method", Order=0)]
-        public ResearchMethod[] method {
-            get {
-                return this.methodField;
-            }
-            set {
-                this.methodField = value;
-                this.RaisePropertyChanged("method");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class AnimalDiseaseList : EntityList {
-        
-        private AnimalDisease[] diseaseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("disease", Order=0)]
-        public AnimalDisease[] disease {
-            get {
-                return this.diseaseField;
-            }
-            set {
-                this.diseaseField = value;
-                this.RaisePropertyChanged("disease");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationShippingRuleList : EntityList {
-        
-        private RegionalizationShippingRule[] ruleField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("rule", Order=0)]
-        public RegionalizationShippingRule[] rule {
-            get {
-                return this.ruleField;
-            }
-            set {
-                this.ruleField = value;
-                this.RaisePropertyChanged("rule");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationRegionStatusList : EntityList {
-        
-        private RegionalizationRegionStatus[] statusField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("status", Order=0)]
-        public RegionalizationRegionStatus[] status {
-            get {
-                return this.statusField;
-            }
-            set {
-                this.statusField = value;
-                this.RaisePropertyChanged("status");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionalizationConditionList : EntityList {
-        
-        private RegionalizationCondition[] conditionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("condition", Order=0)]
-        public RegionalizationCondition[] condition {
-            get {
-                return this.conditionField;
-            }
-            set {
-                this.conditionField = value;
-                this.RaisePropertyChanged("condition");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ProductItemList : EntityList {
-        
-        private ProductItem[] productItemField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("productItem", Order=0)]
-        public ProductItem[] productItem {
-            get {
-                return this.productItemField;
-            }
-            set {
-                this.productItemField = value;
-                this.RaisePropertyChanged("productItem");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ProductItem : GenericVersioningEntity {
-        
-        private string globalIDField;
-        
-        private string nameField;
-        
-        private string codeField;
-        
-        private ProductType productTypeField;
-        
-        private bool productTypeFieldSpecified;
-        
-        private Product productField;
-        
-        private SubProduct subProductField;
-        
-        private bool correspondsToGostField;
-        
-        private bool correspondsToGostFieldSpecified;
-        
-        private string gostField;
-        
-        private BusinessEntity producerField;
-        
-        private BusinessEntity tmOwnerField;
-        
-        private ProductItemProducing[] producingField;
-        
-        private Packaging packagingField;
-        
-        private bool isPublicField;
-        
-        private bool isPublicFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string globalID {
-            get {
-                return this.globalIDField;
-            }
-            set {
-                this.globalIDField = value;
-                this.RaisePropertyChanged("globalID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string code {
-            get {
-                return this.codeField;
-            }
-            set {
-                this.codeField = value;
-                this.RaisePropertyChanged("code");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ProductType productType {
-            get {
-                return this.productTypeField;
-            }
-            set {
-                this.productTypeField = value;
-                this.RaisePropertyChanged("productType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool productTypeSpecified {
-            get {
-                return this.productTypeFieldSpecified;
-            }
-            set {
-                this.productTypeFieldSpecified = value;
-                this.RaisePropertyChanged("productTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public Product product {
-            get {
-                return this.productField;
-            }
-            set {
-                this.productField = value;
-                this.RaisePropertyChanged("product");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public SubProduct subProduct {
-            get {
-                return this.subProductField;
-            }
-            set {
-                this.subProductField = value;
-                this.RaisePropertyChanged("subProduct");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public bool correspondsToGost {
-            get {
-                return this.correspondsToGostField;
-            }
-            set {
-                this.correspondsToGostField = value;
-                this.RaisePropertyChanged("correspondsToGost");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool correspondsToGostSpecified {
-            get {
-                return this.correspondsToGostFieldSpecified;
-            }
-            set {
-                this.correspondsToGostFieldSpecified = value;
-                this.RaisePropertyChanged("correspondsToGostSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public string gost {
-            get {
-                return this.gostField;
-            }
-            set {
-                this.gostField = value;
-                this.RaisePropertyChanged("gost");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public BusinessEntity producer {
-            get {
-                return this.producerField;
-            }
-            set {
-                this.producerField = value;
-                this.RaisePropertyChanged("producer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public BusinessEntity tmOwner {
-            get {
-                return this.tmOwnerField;
-            }
-            set {
-                this.tmOwnerField = value;
-                this.RaisePropertyChanged("tmOwner");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("producing", Order=10)]
-        public ProductItemProducing[] producing {
-            get {
-                return this.producingField;
-            }
-            set {
-                this.producingField = value;
-                this.RaisePropertyChanged("producing");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public Packaging packaging {
-            get {
-                return this.packagingField;
-            }
-            set {
-                this.packagingField = value;
-                this.RaisePropertyChanged("packaging");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-        public bool isPublic {
-            get {
-                return this.isPublicField;
-            }
-            set {
-                this.isPublicField = value;
-                this.RaisePropertyChanged("isPublic");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool isPublicSpecified {
-            get {
-                return this.isPublicFieldSpecified;
-            }
-            set {
-                this.isPublicFieldSpecified = value;
-                this.RaisePropertyChanged("isPublicSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum ProductType {
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("6")]
-        Item6,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("7")]
-        Item7,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("8")]
-        Item8,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Product : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private string codeField;
-        
-        private string englishNameField;
-        
-        private ProductType productTypeField;
-        
-        private bool productTypeFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string code {
-            get {
-                return this.codeField;
-            }
-            set {
-                this.codeField = value;
-                this.RaisePropertyChanged("code");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string englishName {
-            get {
-                return this.englishNameField;
-            }
-            set {
-                this.englishNameField = value;
-                this.RaisePropertyChanged("englishName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ProductType productType {
-            get {
-                return this.productTypeField;
-            }
-            set {
-                this.productTypeField = value;
-                this.RaisePropertyChanged("productType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool productTypeSpecified {
-            get {
-                return this.productTypeFieldSpecified;
-            }
-            set {
-                this.productTypeFieldSpecified = value;
-                this.RaisePropertyChanged("productTypeSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ProductItemProducing : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private Enterprise locationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public Enterprise location {
-            get {
-                return this.locationField;
-            }
-            set {
-                this.locationField = value;
-                this.RaisePropertyChanged("location");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Packaging : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private PackingType packagingTypeField;
-        
-        private string quantityField;
-        
-        private decimal volumeField;
-        
-        private bool volumeFieldSpecified;
-        
-        private Unit unitField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public PackingType packagingType {
-            get {
-                return this.packagingTypeField;
-            }
-            set {
-                this.packagingTypeField = value;
-                this.RaisePropertyChanged("packagingType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=1)]
-        public string quantity {
-            get {
-                return this.quantityField;
-            }
-            set {
-                this.quantityField = value;
-                this.RaisePropertyChanged("quantity");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public decimal volume {
-            get {
-                return this.volumeField;
-            }
-            set {
-                this.volumeField = value;
-                this.RaisePropertyChanged("volume");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool volumeSpecified {
-            get {
-                return this.volumeFieldSpecified;
-            }
-            set {
-                this.volumeFieldSpecified = value;
-                this.RaisePropertyChanged("volumeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public Unit unit {
-            get {
-                return this.unitField;
-            }
-            set {
-                this.unitField = value;
-                this.RaisePropertyChanged("unit");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class SubProductList : EntityList {
-        
-        private SubProduct[] subProductField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("subProduct", Order=0)]
-        public SubProduct[] subProduct {
-            get {
-                return this.subProductField;
-            }
-            set {
-                this.subProductField = value;
-                this.RaisePropertyChanged("subProduct");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class ProductList : EntityList {
-        
-        private Product[] productField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("product", Order=0)]
-        public Product[] product {
-            get {
-                return this.productField;
-            }
-            set {
-                this.productField = value;
-                this.RaisePropertyChanged("product");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class BusinessEntityList : EntityList {
-        
-        private BusinessEntity[] businessEntityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("businessEntity", Order=0)]
-        public BusinessEntity[] businessEntity {
-            get {
-                return this.businessEntityField;
-            }
-            set {
-                this.businessEntityField = value;
-                this.RaisePropertyChanged("businessEntity");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class EnterpriseList : EntityList {
-        
-        private Enterprise[] enterpriseField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("enterprise", Order=0)]
-        public Enterprise[] enterprise {
-            get {
-                return this.enterpriseField;
-            }
-            set {
-                this.enterpriseField = value;
-                this.RaisePropertyChanged("enterprise");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class StreetList : EntityList {
-        
-        private Street[] streetField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("street", Order=0)]
-        public Street[] street {
-            get {
-                return this.streetField;
-            }
-            set {
-                this.streetField = value;
-                this.RaisePropertyChanged("street");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Street : AddressObjectView {
-        
-        private string localityGuidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string localityGuid {
-            get {
-                return this.localityGuidField;
-            }
-            set {
-                this.localityGuidField = value;
-                this.RaisePropertyChanged("localityGuid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Street))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Locality))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(District))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Region))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class AddressObjectView : GenericVersioningEntity {
-        
-        private string nameField;
-        
-        private string englishNameField;
-        
-        private string viewField;
-        
-        private string regionCodeField;
-        
-        private string typeField;
-        
-        private string countryGuidField;
-        
-        private bool hasStreetsField;
-        
-        private bool hasStreetsFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string englishName {
-            get {
-                return this.englishNameField;
-            }
-            set {
-                this.englishNameField = value;
-                this.RaisePropertyChanged("englishName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string view {
-            get {
-                return this.viewField;
-            }
-            set {
-                this.viewField = value;
-                this.RaisePropertyChanged("view");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string regionCode {
-            get {
-                return this.regionCodeField;
-            }
-            set {
-                this.regionCodeField = value;
-                this.RaisePropertyChanged("regionCode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string countryGuid {
-            get {
-                return this.countryGuidField;
-            }
-            set {
-                this.countryGuidField = value;
-                this.RaisePropertyChanged("countryGuid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public bool hasStreets {
-            get {
-                return this.hasStreetsField;
-            }
-            set {
-                this.hasStreetsField = value;
-                this.RaisePropertyChanged("hasStreets");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool hasStreetsSpecified {
-            get {
-                return this.hasStreetsFieldSpecified;
-            }
-            set {
-                this.hasStreetsFieldSpecified = value;
-                this.RaisePropertyChanged("hasStreetsSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Locality : AddressObjectView {
-        
-        private string regionGuidField;
-        
-        private string districtGuidField;
-        
-        private string cityGuidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string regionGuid {
-            get {
-                return this.regionGuidField;
-            }
-            set {
-                this.regionGuidField = value;
-                this.RaisePropertyChanged("regionGuid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string districtGuid {
-            get {
-                return this.districtGuidField;
-            }
-            set {
-                this.districtGuidField = value;
-                this.RaisePropertyChanged("districtGuid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string cityGuid {
-            get {
-                return this.cityGuidField;
-            }
-            set {
-                this.cityGuidField = value;
-                this.RaisePropertyChanged("cityGuid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class District : AddressObjectView {
-        
-        private string regionGuidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string regionGuid {
-            get {
-                return this.regionGuidField;
-            }
-            set {
-                this.regionGuidField = value;
-                this.RaisePropertyChanged("regionGuid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Region : AddressObjectView {
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class LocalityList : EntityList {
-        
-        private Locality[] localityField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("locality", Order=0)]
-        public Locality[] locality {
-            get {
-                return this.localityField;
-            }
-            set {
-                this.localityField = value;
-                this.RaisePropertyChanged("locality");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class DistrictList : EntityList {
-        
-        private District[] districtField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("district", Order=0)]
-        public District[] district {
-            get {
-                return this.districtField;
-            }
-            set {
-                this.districtField = value;
-                this.RaisePropertyChanged("district");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class RegionList : EntityList {
-        
-        private Region[] regionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("region", Order=0)]
-        public Region[] region {
-            get {
-                return this.regionField;
-            }
-            set {
-                this.regionField = value;
-                this.RaisePropertyChanged("region");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class CountryList : EntityList {
-        
-        private Country[] countryField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("country", Order=0)]
-        public Country[] country {
-            get {
-                return this.countryField;
-            }
-            set {
-                this.countryField = value;
-                this.RaisePropertyChanged("country");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class UnitList : EntityList {
-        
-        private Unit[] unitField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("unit", Order=0)]
-        public Unit[] unit {
-            get {
-                return this.unitField;
-            }
-            set {
-                this.unitField = value;
-                this.RaisePropertyChanged("unit");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class PurposeList : EntityList {
-        
-        private Purpose[] purposeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("purpose", Order=0)]
-        public Purpose[] purpose {
-            get {
-                return this.purposeField;
-            }
-            set {
-                this.purposeField = value;
-                this.RaisePropertyChanged("purpose");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class UserList : EntityList {
-        
-        private User[] userField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("user", Order=0)]
-        public User[] user {
-            get {
-                return this.userField;
-            }
-            set {
-                this.userField = value;
-                this.RaisePropertyChanged("user");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class StockEntryList : EntityList {
-        
-        private StockEntry[] stockEntryField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("stockEntry", Order=0)]
-        public StockEntry[] stockEntry {
-            get {
-                return this.stockEntryField;
-            }
-            set {
-                this.stockEntryField = value;
-                this.RaisePropertyChanged("stockEntry");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StockEntrySearchPattern))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class StockEntry : GenericVersioningEntity {
-        
-        private string entryNumberField;
-        
-        private Batch batchField;
-        
-        private VetDocument[] vetDocumentField;
-        
-        private StockEntryEventList vetEventListField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string entryNumber {
-            get {
-                return this.entryNumberField;
-            }
-            set {
-                this.entryNumberField = value;
-                this.RaisePropertyChanged("entryNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public Batch batch {
-            get {
-                return this.batchField;
-            }
-            set {
-                this.batchField = value;
-                this.RaisePropertyChanged("batch");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("vetDocument", Order=2)]
-        public VetDocument[] vetDocument {
-            get {
-                return this.vetDocumentField;
-            }
-            set {
-                this.vetDocumentField = value;
-                this.RaisePropertyChanged("vetDocument");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public StockEntryEventList vetEventList {
-            get {
-                return this.vetEventListField;
-            }
-            set {
-                this.vetEventListField = value;
-                this.RaisePropertyChanged("vetEventList");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ProductiveBatch))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Consignment))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class Batch : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ProductType productTypeField;
-        
-        private bool productTypeFieldSpecified;
-        
-        private Product productField;
-        
-        private SubProduct subProductField;
-        
-        private ProductItem productItemField;
-        
-        private decimal volumeField;
-        
-        private bool volumeFieldSpecified;
-        
-        private Unit unitField;
-        
-        private GoodsDate dateOfProductionField;
-        
-        private GoodsDate expiryDateField;
-        
-        private string[] batchIDField;
-        
-        private bool perishableField;
-        
-        private bool perishableFieldSpecified;
-        
-        private BatchOrigin originField;
-        
-        private bool lowGradeCargoField;
-        
-        private bool lowGradeCargoFieldSpecified;
-        
-        private Package[] packageListField;
-        
-        private BusinessEntity ownerField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ProductType productType {
-            get {
-                return this.productTypeField;
-            }
-            set {
-                this.productTypeField = value;
-                this.RaisePropertyChanged("productType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool productTypeSpecified {
-            get {
-                return this.productTypeFieldSpecified;
-            }
-            set {
-                this.productTypeFieldSpecified = value;
-                this.RaisePropertyChanged("productTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public Product product {
-            get {
-                return this.productField;
-            }
-            set {
-                this.productField = value;
-                this.RaisePropertyChanged("product");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public SubProduct subProduct {
-            get {
-                return this.subProductField;
-            }
-            set {
-                this.subProductField = value;
-                this.RaisePropertyChanged("subProduct");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ProductItem productItem {
-            get {
-                return this.productItemField;
-            }
-            set {
-                this.productItemField = value;
-                this.RaisePropertyChanged("productItem");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public decimal volume {
-            get {
-                return this.volumeField;
-            }
-            set {
-                this.volumeField = value;
-                this.RaisePropertyChanged("volume");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool volumeSpecified {
-            get {
-                return this.volumeFieldSpecified;
-            }
-            set {
-                this.volumeFieldSpecified = value;
-                this.RaisePropertyChanged("volumeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public Unit unit {
-            get {
-                return this.unitField;
-            }
-            set {
-                this.unitField = value;
-                this.RaisePropertyChanged("unit");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public GoodsDate dateOfProduction {
-            get {
-                return this.dateOfProductionField;
-            }
-            set {
-                this.dateOfProductionField = value;
-                this.RaisePropertyChanged("dateOfProduction");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public GoodsDate expiryDate {
-            get {
-                return this.expiryDateField;
-            }
-            set {
-                this.expiryDateField = value;
-                this.RaisePropertyChanged("expiryDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("batchID", DataType="token", Order=8)]
-        public string[] batchID {
-            get {
-                return this.batchIDField;
-            }
-            set {
-                this.batchIDField = value;
-                this.RaisePropertyChanged("batchID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public bool perishable {
-            get {
-                return this.perishableField;
-            }
-            set {
-                this.perishableField = value;
-                this.RaisePropertyChanged("perishable");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool perishableSpecified {
-            get {
-                return this.perishableFieldSpecified;
-            }
-            set {
-                this.perishableFieldSpecified = value;
-                this.RaisePropertyChanged("perishableSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
-        public BatchOrigin origin {
-            get {
-                return this.originField;
-            }
-            set {
-                this.originField = value;
-                this.RaisePropertyChanged("origin");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public bool lowGradeCargo {
-            get {
-                return this.lowGradeCargoField;
-            }
-            set {
-                this.lowGradeCargoField = value;
-                this.RaisePropertyChanged("lowGradeCargo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool lowGradeCargoSpecified {
-            get {
-                return this.lowGradeCargoFieldSpecified;
-            }
-            set {
-                this.lowGradeCargoFieldSpecified = value;
-                this.RaisePropertyChanged("lowGradeCargoSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=12)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("package", Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2", IsNullable=false)]
-        public Package[] packageList {
-            get {
-                return this.packageListField;
-            }
-            set {
-                this.packageListField = value;
-                this.RaisePropertyChanged("packageList");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
-        public BusinessEntity owner {
-            get {
-                return this.ownerField;
-            }
-            set {
-                this.ownerField = value;
-                this.RaisePropertyChanged("owner");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
     public partial class GoodsDate : object, System.ComponentModel.INotifyPropertyChanged {
         
@@ -6677,1730 +8540,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class VetDocument : Document {
-        
-        private VetDocumentForm vetDFormField;
-        
-        private bool vetDFormFieldSpecified;
-        
-        private VetDocumentType vetDTypeField;
-        
-        private bool vetDTypeFieldSpecified;
-        
-        private VetDocumentStatus vetDStatusField;
-        
-        private bool vetDStatusFieldSpecified;
-        
-        private bool finalizedField;
-        
-        private bool finalizedFieldSpecified;
-        
-        private System.DateTime lastUpdateDateField;
-        
-        private bool lastUpdateDateFieldSpecified;
-        
-        private object itemField;
-        
-        private VeterinaryAuthentication authenticationField;
-        
-        private string precedingVetDocumentsField;
-        
-        private ReferencedDocument[] referencedDocumentField;
-        
-        private VetDocumentStatusChange[] statusChangeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public VetDocumentForm vetDForm {
-            get {
-                return this.vetDFormField;
-            }
-            set {
-                this.vetDFormField = value;
-                this.RaisePropertyChanged("vetDForm");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool vetDFormSpecified {
-            get {
-                return this.vetDFormFieldSpecified;
-            }
-            set {
-                this.vetDFormFieldSpecified = value;
-                this.RaisePropertyChanged("vetDFormSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public VetDocumentType vetDType {
-            get {
-                return this.vetDTypeField;
-            }
-            set {
-                this.vetDTypeField = value;
-                this.RaisePropertyChanged("vetDType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool vetDTypeSpecified {
-            get {
-                return this.vetDTypeFieldSpecified;
-            }
-            set {
-                this.vetDTypeFieldSpecified = value;
-                this.RaisePropertyChanged("vetDTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public VetDocumentStatus vetDStatus {
-            get {
-                return this.vetDStatusField;
-            }
-            set {
-                this.vetDStatusField = value;
-                this.RaisePropertyChanged("vetDStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool vetDStatusSpecified {
-            get {
-                return this.vetDStatusFieldSpecified;
-            }
-            set {
-                this.vetDStatusFieldSpecified = value;
-                this.RaisePropertyChanged("vetDStatusSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public bool finalized {
-            get {
-                return this.finalizedField;
-            }
-            set {
-                this.finalizedField = value;
-                this.RaisePropertyChanged("finalized");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool finalizedSpecified {
-            get {
-                return this.finalizedFieldSpecified;
-            }
-            set {
-                this.finalizedFieldSpecified = value;
-                this.RaisePropertyChanged("finalizedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public System.DateTime lastUpdateDate {
-            get {
-                return this.lastUpdateDateField;
-            }
-            set {
-                this.lastUpdateDateField = value;
-                this.RaisePropertyChanged("lastUpdateDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool lastUpdateDateSpecified {
-            get {
-                return this.lastUpdateDateFieldSpecified;
-            }
-            set {
-                this.lastUpdateDateFieldSpecified = value;
-                this.RaisePropertyChanged("lastUpdateDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("certifiedBatch", typeof(CertifiedBatch), Order=5)]
-        [System.Xml.Serialization.XmlElementAttribute("certifiedConsignment", typeof(CertifiedConsignment), Order=5)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public VeterinaryAuthentication authentication {
-            get {
-                return this.authenticationField;
-            }
-            set {
-                this.authenticationField = value;
-                this.RaisePropertyChanged("authentication");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public string precedingVetDocuments {
-            get {
-                return this.precedingVetDocumentsField;
-            }
-            set {
-                this.precedingVetDocumentsField = value;
-                this.RaisePropertyChanged("precedingVetDocuments");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("referencedDocument", Order=8)]
-        public ReferencedDocument[] referencedDocument {
-            get {
-                return this.referencedDocumentField;
-            }
-            set {
-                this.referencedDocumentField = value;
-                this.RaisePropertyChanged("referencedDocument");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("statusChange", Order=9)]
-        public VetDocumentStatusChange[] statusChange {
-            get {
-                return this.statusChangeField;
-            }
-            set {
-                this.statusChangeField = value;
-                this.RaisePropertyChanged("statusChange");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public enum VetDocumentForm {
-        
-        /// <remarks/>
-        CERTCU1,
-        
-        /// <remarks/>
-        LIC1,
-        
-        /// <remarks/>
-        CERTCU2,
-        
-        /// <remarks/>
-        LIC2,
-        
-        /// <remarks/>
-        CERTCU3,
-        
-        /// <remarks/>
-        LIC3,
-        
-        /// <remarks/>
-        NOTE4,
-        
-        /// <remarks/>
-        CERT5I,
-        
-        /// <remarks/>
-        CERT61,
-        
-        /// <remarks/>
-        CERT62,
-        
-        /// <remarks/>
-        CERT63,
-        
-        /// <remarks/>
-        PRODUCTIVE,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public enum VetDocumentType {
-        
-        /// <remarks/>
-        TRANSPORT,
-        
-        /// <remarks/>
-        PRODUCTIVE,
-        
-        /// <remarks/>
-        RETURNABLE,
-        
-        /// <remarks/>
-        INCOMING,
-        
-        /// <remarks/>
-        OUTGOING,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public enum VetDocumentStatus {
-        
-        /// <remarks/>
-        CREATED,
-        
-        /// <remarks/>
-        CONFIRMED,
-        
-        /// <remarks/>
-        WITHDRAWN,
-        
-        /// <remarks/>
-        UTILIZED,
-        
-        /// <remarks/>
-        FINALIZED,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class CertifiedBatch : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private BusinessMember producerField;
-        
-        private Batch batchField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public BusinessMember producer {
-            get {
-                return this.producerField;
-            }
-            set {
-                this.producerField = value;
-                this.RaisePropertyChanged("producer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public Batch batch {
-            get {
-                return this.batchField;
-            }
-            set {
-                this.batchField = value;
-                this.RaisePropertyChanged("batch");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class CertifiedConsignment : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private BusinessMember consignorField;
-        
-        private BusinessMember consigneeField;
-        
-        private BusinessEntity brokerField;
-        
-        private TransportInfo transportInfoField;
-        
-        private TransportationStorageType transportStorageTypeField;
-        
-        private bool transportStorageTypeFieldSpecified;
-        
-        private ShipmentRoutePoint[] shipmentRouteField;
-        
-        private Batch batchField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public BusinessMember consignor {
-            get {
-                return this.consignorField;
-            }
-            set {
-                this.consignorField = value;
-                this.RaisePropertyChanged("consignor");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public BusinessMember consignee {
-            get {
-                return this.consigneeField;
-            }
-            set {
-                this.consigneeField = value;
-                this.RaisePropertyChanged("consignee");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public BusinessEntity broker {
-            get {
-                return this.brokerField;
-            }
-            set {
-                this.brokerField = value;
-                this.RaisePropertyChanged("broker");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public TransportInfo transportInfo {
-            get {
-                return this.transportInfoField;
-            }
-            set {
-                this.transportInfoField = value;
-                this.RaisePropertyChanged("transportInfo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public TransportationStorageType transportStorageType {
-            get {
-                return this.transportStorageTypeField;
-            }
-            set {
-                this.transportStorageTypeField = value;
-                this.RaisePropertyChanged("transportStorageType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool transportStorageTypeSpecified {
-            get {
-                return this.transportStorageTypeFieldSpecified;
-            }
-            set {
-                this.transportStorageTypeFieldSpecified = value;
-                this.RaisePropertyChanged("transportStorageTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Order=5)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("routePoint", IsNullable=false)]
-        public ShipmentRoutePoint[] shipmentRoute {
-            get {
-                return this.shipmentRouteField;
-            }
-            set {
-                this.shipmentRouteField = value;
-                this.RaisePropertyChanged("shipmentRoute");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public Batch batch {
-            get {
-                return this.batchField;
-            }
-            set {
-                this.batchField = value;
-                this.RaisePropertyChanged("batch");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class TransportInfo : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private TransportType transportTypeField;
-        
-        private bool transportTypeFieldSpecified;
-        
-        private TransportNumber transportNumberField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public TransportType transportType {
-            get {
-                return this.transportTypeField;
-            }
-            set {
-                this.transportTypeField = value;
-                this.RaisePropertyChanged("transportType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool transportTypeSpecified {
-            get {
-                return this.transportTypeFieldSpecified;
-            }
-            set {
-                this.transportTypeFieldSpecified = value;
-                this.RaisePropertyChanged("transportTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public TransportNumber transportNumber {
-            get {
-                return this.transportNumberField;
-            }
-            set {
-                this.transportNumberField = value;
-                this.RaisePropertyChanged("transportNumber");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum TransportType {
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class TransportNumber : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string containerNumberField;
-        
-        private string wagonNumberField;
-        
-        private string vehicleNumberField;
-        
-        private string trailerNumberField;
-        
-        private string shipNameField;
-        
-        private string flightNumberField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string containerNumber {
-            get {
-                return this.containerNumberField;
-            }
-            set {
-                this.containerNumberField = value;
-                this.RaisePropertyChanged("containerNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string wagonNumber {
-            get {
-                return this.wagonNumberField;
-            }
-            set {
-                this.wagonNumberField = value;
-                this.RaisePropertyChanged("wagonNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string vehicleNumber {
-            get {
-                return this.vehicleNumberField;
-            }
-            set {
-                this.vehicleNumberField = value;
-                this.RaisePropertyChanged("vehicleNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string trailerNumber {
-            get {
-                return this.trailerNumberField;
-            }
-            set {
-                this.trailerNumberField = value;
-                this.RaisePropertyChanged("trailerNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string shipName {
-            get {
-                return this.shipNameField;
-            }
-            set {
-                this.shipNameField = value;
-                this.RaisePropertyChanged("shipName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string flightNumber {
-            get {
-                return this.flightNumberField;
-            }
-            set {
-                this.flightNumberField = value;
-                this.RaisePropertyChanged("flightNumber");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum TransportationStorageType {
-        
-        /// <remarks/>
-        FROZEN,
-        
-        /// <remarks/>
-        CHILLED,
-        
-        /// <remarks/>
-        COOLED,
-        
-        /// <remarks/>
-        VENTILATED,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class ShipmentRoutePoint : GenericEntity {
-        
-        private string sqnIdField;
-        
-        private object itemField;
-        
-        private bool transshipmentField;
-        
-        private bool transshipmentFieldSpecified;
-        
-        private TransportInfo nextTransportField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="positiveInteger", Order=0)]
-        public string sqnId {
-            get {
-                return this.sqnIdField;
-            }
-            set {
-                this.sqnIdField = value;
-                this.RaisePropertyChanged("sqnId");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute("location", typeof(Location), Order=1)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public bool transshipment {
-            get {
-                return this.transshipmentField;
-            }
-            set {
-                this.transshipmentField = value;
-                this.RaisePropertyChanged("transshipment");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool transshipmentSpecified {
-            get {
-                return this.transshipmentFieldSpecified;
-            }
-            set {
-                this.transshipmentFieldSpecified = value;
-                this.RaisePropertyChanged("transshipmentSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public TransportInfo nextTransport {
-            get {
-                return this.nextTransportField;
-            }
-            set {
-                this.nextTransportField = value;
-                this.RaisePropertyChanged("nextTransport");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class Location : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string nameField;
-        
-        private Address addressField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public Address address {
-            get {
-                return this.addressField;
-            }
-            set {
-                this.addressField = value;
-                this.RaisePropertyChanged("address");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class VeterinaryAuthentication : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private Purpose purposeField;
-        
-        private bool cargoInspectedField;
-        
-        private bool cargoInspectedFieldSpecified;
-        
-        private ResearchResult cargoExpertizedField;
-        
-        private bool cargoExpertizedFieldSpecified;
-        
-        private string locationProsperityField;
-        
-        private AnimalSpentPeriod animalSpentPeriodField;
-        
-        private bool animalSpentPeriodFieldSpecified;
-        
-        private string monthsSpentField;
-        
-        private LaboratoryResearchEvent[] laboratoryResearchField;
-        
-        private QuarantineEvent quarantineField;
-        
-        private AnimalMedicationEvent[] immunizationField;
-        
-        private VeterinaryEvent[] veterinaryEventField;
-        
-        private RegionalizationClause[] r13nClauseField;
-        
-        private string specialMarksField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public Purpose purpose {
-            get {
-                return this.purposeField;
-            }
-            set {
-                this.purposeField = value;
-                this.RaisePropertyChanged("purpose");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public bool cargoInspected {
-            get {
-                return this.cargoInspectedField;
-            }
-            set {
-                this.cargoInspectedField = value;
-                this.RaisePropertyChanged("cargoInspected");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool cargoInspectedSpecified {
-            get {
-                return this.cargoInspectedFieldSpecified;
-            }
-            set {
-                this.cargoInspectedFieldSpecified = value;
-                this.RaisePropertyChanged("cargoInspectedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ResearchResult cargoExpertized {
-            get {
-                return this.cargoExpertizedField;
-            }
-            set {
-                this.cargoExpertizedField = value;
-                this.RaisePropertyChanged("cargoExpertized");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool cargoExpertizedSpecified {
-            get {
-                return this.cargoExpertizedFieldSpecified;
-            }
-            set {
-                this.cargoExpertizedFieldSpecified = value;
-                this.RaisePropertyChanged("cargoExpertizedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string locationProsperity {
-            get {
-                return this.locationProsperityField;
-            }
-            set {
-                this.locationProsperityField = value;
-                this.RaisePropertyChanged("locationProsperity");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public AnimalSpentPeriod animalSpentPeriod {
-            get {
-                return this.animalSpentPeriodField;
-            }
-            set {
-                this.animalSpentPeriodField = value;
-                this.RaisePropertyChanged("animalSpentPeriod");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool animalSpentPeriodSpecified {
-            get {
-                return this.animalSpentPeriodFieldSpecified;
-            }
-            set {
-                this.animalSpentPeriodFieldSpecified = value;
-                this.RaisePropertyChanged("animalSpentPeriodSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string monthsSpent {
-            get {
-                return this.monthsSpentField;
-            }
-            set {
-                this.monthsSpentField = value;
-                this.RaisePropertyChanged("monthsSpent");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("laboratoryResearch", Order=6)]
-        public LaboratoryResearchEvent[] laboratoryResearch {
-            get {
-                return this.laboratoryResearchField;
-            }
-            set {
-                this.laboratoryResearchField = value;
-                this.RaisePropertyChanged("laboratoryResearch");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public QuarantineEvent quarantine {
-            get {
-                return this.quarantineField;
-            }
-            set {
-                this.quarantineField = value;
-                this.RaisePropertyChanged("quarantine");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("immunization", Order=8)]
-        public AnimalMedicationEvent[] immunization {
-            get {
-                return this.immunizationField;
-            }
-            set {
-                this.immunizationField = value;
-                this.RaisePropertyChanged("immunization");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("veterinaryEvent", Order=9)]
-        public VeterinaryEvent[] veterinaryEvent {
-            get {
-                return this.veterinaryEventField;
-            }
-            set {
-                this.veterinaryEventField = value;
-                this.RaisePropertyChanged("veterinaryEvent");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("r13nClause", Order=10)]
-        public RegionalizationClause[] r13nClause {
-            get {
-                return this.r13nClauseField;
-            }
-            set {
-                this.r13nClauseField = value;
-                this.RaisePropertyChanged("r13nClause");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public string specialMarks {
-            get {
-                return this.specialMarksField;
-            }
-            set {
-                this.specialMarksField = value;
-                this.RaisePropertyChanged("specialMarks");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum ResearchResult {
-        
-        /// <remarks/>
-        UNKNOWN,
-        
-        /// <remarks/>
-        UNDEFINED,
-        
-        /// <remarks/>
-        POSITIVE,
-        
-        /// <remarks/>
-        NEGATIVE,
-        
-        /// <remarks/>
-        UNFULFILLED,
-        
-        /// <remarks/>
-        VSERAW,
-        
-        /// <remarks/>
-        VSEFULL,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public enum AnimalSpentPeriod {
-        
-        /// <remarks/>
-        FROM_BIRTH,
-        
-        /// <remarks/>
-        NOT_LESS_SIX_MONTHS,
-        
-        /// <remarks/>
-        IN_MONTHS,
-        
-        /// <remarks/>
-        ZERO,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class LaboratoryResearchEvent : VeterinaryEvent {
-        
-        private string[] batchIDField;
-        
-        private string expertiseIDField;
-        
-        private GenericVersioningEntity item1Field;
-        
-        private ResearchMethod methodField;
-        
-        private ResearchResult resultField;
-        
-        private bool resultFieldSpecified;
-        
-        private string conclusionField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("batchID", DataType="token", Order=0)]
-        public string[] batchID {
-            get {
-                return this.batchIDField;
-            }
-            set {
-                this.batchIDField = value;
-                this.RaisePropertyChanged("batchID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string expertiseID {
-            get {
-                return this.expertiseIDField;
-            }
-            set {
-                this.expertiseIDField = value;
-                this.RaisePropertyChanged("expertiseID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("disease", typeof(AnimalDisease), Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("indicator", typeof(Indicator), Order=2)]
-        public GenericVersioningEntity Item1 {
-            get {
-                return this.item1Field;
-            }
-            set {
-                this.item1Field = value;
-                this.RaisePropertyChanged("Item1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ResearchMethod method {
-            get {
-                return this.methodField;
-            }
-            set {
-                this.methodField = value;
-                this.RaisePropertyChanged("method");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public ResearchResult result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool resultSpecified {
-            get {
-                return this.resultFieldSpecified;
-            }
-            set {
-                this.resultFieldSpecified = value;
-                this.RaisePropertyChanged("resultSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string conclusion {
-            get {
-                return this.conclusionField;
-            }
-            set {
-                this.conclusionField = value;
-                this.RaisePropertyChanged("conclusion");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(QuarantineEvent))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AnimalMedicationEvent))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LaboratoryResearchEvent))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class VeterinaryEvent : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string idField;
-        
-        private string nameField;
-        
-        private VeterinaryEventType typeField;
-        
-        private bool typeFieldSpecified;
-        
-        private System.DateTime actualDateTimeField;
-        
-        private bool actualDateTimeFieldSpecified;
-        
-        private object itemField;
-        
-        private Organization operatorField;
-        
-        private Document[] referencedDocumentField;
-        
-        private string notesField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string ID {
-            get {
-                return this.idField;
-            }
-            set {
-                this.idField = value;
-                this.RaisePropertyChanged("ID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public VeterinaryEventType type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool typeSpecified {
-            get {
-                return this.typeFieldSpecified;
-            }
-            set {
-                this.typeFieldSpecified = value;
-                this.RaisePropertyChanged("typeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public System.DateTime actualDateTime {
-            get {
-                return this.actualDateTimeField;
-            }
-            set {
-                this.actualDateTimeField = value;
-                this.RaisePropertyChanged("actualDateTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool actualDateTimeSpecified {
-            get {
-                return this.actualDateTimeFieldSpecified;
-            }
-            set {
-                this.actualDateTimeFieldSpecified = value;
-                this.RaisePropertyChanged("actualDateTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=4)]
-        [System.Xml.Serialization.XmlElementAttribute("location", typeof(Location), Order=4)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public Organization @operator {
-            get {
-                return this.operatorField;
-            }
-            set {
-                this.operatorField = value;
-                this.RaisePropertyChanged("operator");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("referencedDocument", Order=6)]
-        public Document[] referencedDocument {
-            get {
-                return this.referencedDocumentField;
-            }
-            set {
-                this.referencedDocumentField = value;
-                this.RaisePropertyChanged("referencedDocument");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public string notes {
-            get {
-                return this.notesField;
-            }
-            set {
-                this.notesField = value;
-                this.RaisePropertyChanged("notes");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public enum VeterinaryEventType {
-        
-        /// <remarks/>
-        UND,
-        
-        /// <remarks/>
-        LBR,
-        
-        /// <remarks/>
-        VSE,
-        
-        /// <remarks/>
-        IMM,
-        
-        /// <remarks/>
-        MED,
-        
-        /// <remarks/>
-        QRT,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class QuarantineEvent : VeterinaryEvent {
-        
-        private string durationField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="positiveInteger", Order=0)]
-        public string duration {
-            get {
-                return this.durationField;
-            }
-            set {
-                this.durationField = value;
-                this.RaisePropertyChanged("duration");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class AnimalMedicationEvent : VeterinaryEvent {
-        
-        private AnimalDisease diseaseField;
-        
-        private MedicinalDrug medicinalDrugField;
-        
-        private System.DateTime effectiveBeforeDateField;
-        
-        private bool effectiveBeforeDateFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public AnimalDisease disease {
-            get {
-                return this.diseaseField;
-            }
-            set {
-                this.diseaseField = value;
-                this.RaisePropertyChanged("disease");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public MedicinalDrug medicinalDrug {
-            get {
-                return this.medicinalDrugField;
-            }
-            set {
-                this.medicinalDrugField = value;
-                this.RaisePropertyChanged("medicinalDrug");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public System.DateTime effectiveBeforeDate {
-            get {
-                return this.effectiveBeforeDateField;
-            }
-            set {
-                this.effectiveBeforeDateField = value;
-                this.RaisePropertyChanged("effectiveBeforeDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool effectiveBeforeDateSpecified {
-            get {
-                return this.effectiveBeforeDateFieldSpecified;
-            }
-            set {
-                this.effectiveBeforeDateFieldSpecified = value;
-                this.RaisePropertyChanged("effectiveBeforeDateSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class MedicinalDrug : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string idField;
-        
-        private string nameField;
-        
-        private string seriesField;
-        
-        private BusinessMember producerField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="token", Order=0)]
-        public string ID {
-            get {
-                return this.idField;
-            }
-            set {
-                this.idField = value;
-                this.RaisePropertyChanged("ID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string series {
-            get {
-                return this.seriesField;
-            }
-            set {
-                this.seriesField = value;
-                this.RaisePropertyChanged("series");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public BusinessMember producer {
-            get {
-                return this.producerField;
-            }
-            set {
-                this.producerField = value;
-                this.RaisePropertyChanged("producer");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class RegionalizationClause : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private RegionalizationCondition conditionField;
-        
-        private string textField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public RegionalizationCondition condition {
-            get {
-                return this.conditionField;
-            }
-            set {
-                this.conditionField = value;
-                this.RaisePropertyChanged("condition");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("text");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class ReferencedDocument : Document {
-        
-        private ReferenceType relationshipTypeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ReferenceType relationshipType {
-            get {
-                return this.relationshipTypeField;
-            }
-            set {
-                this.relationshipTypeField = value;
-                this.RaisePropertyChanged("relationshipType");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public enum ReferenceType {
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("1")]
-        Item1,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("2")]
-        Item2,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("3")]
-        Item3,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("4")]
-        Item4,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("5")]
-        Item5,
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlEnumAttribute("6")]
-        Item6,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class VetDocumentStatusChange : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private VetDocumentStatus statusField;
-        
-        private User specifiedPersonField;
-        
-        private System.DateTime actualDateTimeField;
-        
-        private string reasonField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public VetDocumentStatus status {
-            get {
-                return this.statusField;
-            }
-            set {
-                this.statusField = value;
-                this.RaisePropertyChanged("status");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public User specifiedPerson {
-            get {
-                return this.specifiedPersonField;
-            }
-            set {
-                this.specifiedPersonField = value;
-                this.RaisePropertyChanged("specifiedPerson");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public System.DateTime actualDateTime {
-            get {
-                return this.actualDateTimeField;
-            }
-            set {
-                this.actualDateTimeField = value;
-                this.RaisePropertyChanged("actualDateTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string reason {
-            get {
-                return this.reasonField;
-            }
-            set {
-                this.reasonField = value;
-                this.RaisePropertyChanged("reason");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
     public partial class StockEntryEventList : object, System.ComponentModel.INotifyPropertyChanged {
         
         private LaboratoryResearchEvent[] laboratoryResearchField;
@@ -8520,145 +8659,6 @@ namespace MercuryClassLibrary.ApplicationManagementService {
         
         /// <remarks/>
         NOT_BLANK,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class WorkingAreaList : EntityList {
-        
-        private WorkingArea[] workingAreaField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("workingArea", Order=0)]
-        public WorkingArea[] workingArea {
-            get {
-                return this.workingAreaField;
-            }
-            set {
-                this.workingAreaField = value;
-                this.RaisePropertyChanged("workingArea");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class WorkingArea : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("area", typeof(Area), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("enterprise", typeof(Enterprise), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/vet-document/v2")]
-    public partial class VetDocumentList : EntityList {
-        
-        private VetDocument[] vetDocumentField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("vetDocument", Order=0)]
-        public VetDocument[] vetDocument {
-            get {
-                return this.vetDocumentField;
-            }
-            set {
-                this.vetDocumentField = value;
-                this.RaisePropertyChanged("vetDocument");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2612.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://api.vetrf.ru/schema/cdm/dictionary/v2")]
-    public partial class EnterpriseOfficialRegistration : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string idField;
-        
-        private BusinessEntity businessEntityField;
-        
-        private string kppField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ID {
-            get {
-                return this.idField;
-            }
-            set {
-                this.idField = value;
-                this.RaisePropertyChanged("ID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public BusinessEntity businessEntity {
-            get {
-                return this.businessEntityField;
-            }
-            set {
-                this.businessEntityField = value;
-                this.RaisePropertyChanged("businessEntity");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string kpp {
-            get {
-                return this.kppField;
-            }
-            set {
-                this.kppField = value;
-                this.RaisePropertyChanged("kpp");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
     }
     
     /// <remarks/>
@@ -12140,12 +12140,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class processIncomingConsignmentRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest;
+        public Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest;
         
         public processIncomingConsignmentRequestRequest() {
         }
         
-        public processIncomingConsignmentRequestRequest(MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest) {
+        public processIncomingConsignmentRequestRequest(Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest) {
             this.processIncomingConsignmentRequest = processIncomingConsignmentRequest;
         }
     }
@@ -12157,12 +12157,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class processIncomingConsignmentRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentResponse;
+        public Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentResponse;
         
         public processIncomingConsignmentRequestResponse() {
         }
         
-        public processIncomingConsignmentRequestResponse(MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentResponse) {
+        public processIncomingConsignmentRequestResponse(Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentResponse) {
             this.processIncomingConsignmentResponse = processIncomingConsignmentResponse;
         }
     }
@@ -12174,12 +12174,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class prepareOutgoingConsignmentRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest;
+        public Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest;
         
         public prepareOutgoingConsignmentRequestRequest() {
         }
         
-        public prepareOutgoingConsignmentRequestRequest(MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest) {
+        public prepareOutgoingConsignmentRequestRequest(Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest) {
             this.prepareOutgoingConsignmentRequest = prepareOutgoingConsignmentRequest;
         }
     }
@@ -12191,12 +12191,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class prepareOutgoingConsignmentRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentResponse;
+        public Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentResponse;
         
         public prepareOutgoingConsignmentRequestResponse() {
         }
         
-        public prepareOutgoingConsignmentRequestResponse(MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentResponse) {
+        public prepareOutgoingConsignmentRequestResponse(Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentResponse) {
             this.prepareOutgoingConsignmentResponse = prepareOutgoingConsignmentResponse;
         }
     }
@@ -12208,12 +12208,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class registerProductionOperationRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest;
+        public Cs_Mercury.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest;
         
         public registerProductionOperationRequestRequest() {
         }
         
-        public registerProductionOperationRequestRequest(MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest) {
+        public registerProductionOperationRequestRequest(Cs_Mercury.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest) {
             this.registerProductionOperationRequest = registerProductionOperationRequest;
         }
     }
@@ -12225,12 +12225,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class registerProductionOperationRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationResponse;
+        public Cs_Mercury.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationResponse;
         
         public registerProductionOperationRequestResponse() {
         }
         
-        public registerProductionOperationRequestResponse(MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationResponse) {
+        public registerProductionOperationRequestResponse(Cs_Mercury.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationResponse) {
             this.registerProductionOperationResponse = registerProductionOperationResponse;
         }
     }
@@ -12242,12 +12242,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class mergeStockEntriesRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest;
+        public Cs_Mercury.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest;
         
         public mergeStockEntriesRequestRequest() {
         }
         
-        public mergeStockEntriesRequestRequest(MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest) {
+        public mergeStockEntriesRequestRequest(Cs_Mercury.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest) {
             this.mergeStockEntriesRequest = mergeStockEntriesRequest;
         }
     }
@@ -12259,12 +12259,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class mergeStockEntriesRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesResponse;
+        public Cs_Mercury.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesResponse;
         
         public mergeStockEntriesRequestResponse() {
         }
         
-        public mergeStockEntriesRequestResponse(MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesResponse) {
+        public mergeStockEntriesRequestResponse(Cs_Mercury.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesResponse) {
             this.mergeStockEntriesResponse = mergeStockEntriesResponse;
         }
     }
@@ -12276,12 +12276,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class withdrawVetDocumentRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest;
+        public Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest;
         
         public withdrawVetDocumentRequestRequest() {
         }
         
-        public withdrawVetDocumentRequestRequest(MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest) {
+        public withdrawVetDocumentRequestRequest(Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest) {
             this.withdrawVetDocumentRequest = withdrawVetDocumentRequest;
         }
     }
@@ -12293,12 +12293,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class withdrawVetDocumentRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentResponse;
+        public Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentResponse;
         
         public withdrawVetDocumentRequestResponse() {
         }
         
-        public withdrawVetDocumentRequestResponse(MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentResponse) {
+        public withdrawVetDocumentRequestResponse(Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentResponse) {
             this.withdrawVetDocumentResponse = withdrawVetDocumentResponse;
         }
     }
@@ -12310,12 +12310,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyBusinessEntityRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest;
+        public Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest;
         
         public modifyBusinessEntityRequestRequest() {
         }
         
-        public modifyBusinessEntityRequestRequest(MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest) {
+        public modifyBusinessEntityRequestRequest(Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest) {
             this.modifyBusinessEntityRequest = modifyBusinessEntityRequest;
         }
     }
@@ -12327,12 +12327,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyBusinessEntityRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityResponse;
+        public Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityResponse;
         
         public modifyBusinessEntityRequestResponse() {
         }
         
-        public modifyBusinessEntityRequestResponse(MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityResponse) {
+        public modifyBusinessEntityRequestResponse(Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityResponse) {
             this.modifyBusinessEntityResponse = modifyBusinessEntityResponse;
         }
     }
@@ -12344,12 +12344,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyEnterpriseRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest;
+        public Cs_Mercury.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest;
         
         public modifyEnterpriseRequestRequest() {
         }
         
-        public modifyEnterpriseRequestRequest(MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest) {
+        public modifyEnterpriseRequestRequest(Cs_Mercury.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest) {
             this.modifyEnterpriseRequest = modifyEnterpriseRequest;
         }
     }
@@ -12361,12 +12361,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyEnterpriseRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseResponse;
+        public Cs_Mercury.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseResponse;
         
         public modifyEnterpriseRequestResponse() {
         }
         
-        public modifyEnterpriseRequestResponse(MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseResponse) {
+        public modifyEnterpriseRequestResponse(Cs_Mercury.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseResponse) {
             this.modifyEnterpriseResponse = modifyEnterpriseResponse;
         }
     }
@@ -12378,12 +12378,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyActivityLocationsRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest;
+        public Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest;
         
         public modifyActivityLocationsRequestRequest() {
         }
         
-        public modifyActivityLocationsRequestRequest(MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest) {
+        public modifyActivityLocationsRequestRequest(Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest) {
             this.modifyActivityLocationsRequest = modifyActivityLocationsRequest;
         }
     }
@@ -12395,12 +12395,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyActivityLocationsRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsResponse;
+        public Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsResponse;
         
         public modifyActivityLocationsRequestResponse() {
         }
         
-        public modifyActivityLocationsRequestResponse(MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsResponse) {
+        public modifyActivityLocationsRequestResponse(Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsResponse) {
             this.modifyActivityLocationsResponse = modifyActivityLocationsResponse;
         }
     }
@@ -12412,12 +12412,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class resolveDiscrepancyRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest;
+        public Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest;
         
         public resolveDiscrepancyRequestRequest() {
         }
         
-        public resolveDiscrepancyRequestRequest(MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest) {
+        public resolveDiscrepancyRequestRequest(Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest) {
             this.resolveDiscrepancyRequest = resolveDiscrepancyRequest;
         }
     }
@@ -12429,12 +12429,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class resolveDiscrepancyRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyResponse;
+        public Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyResponse;
         
         public resolveDiscrepancyRequestResponse() {
         }
         
-        public resolveDiscrepancyRequestResponse(MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyResponse) {
+        public resolveDiscrepancyRequestResponse(Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyResponse) {
             this.resolveDiscrepancyResponse = resolveDiscrepancyResponse;
         }
     }
@@ -12446,12 +12446,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyProducerStockListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest;
+        public Cs_Mercury.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest;
         
         public modifyProducerStockListRequestRequest() {
         }
         
-        public modifyProducerStockListRequestRequest(MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest) {
+        public modifyProducerStockListRequestRequest(Cs_Mercury.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest) {
             this.modifyProducerStockListRequest = modifyProducerStockListRequest;
         }
     }
@@ -12463,12 +12463,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class modifyProducerStockListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListResponse;
+        public Cs_Mercury.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListResponse;
         
         public modifyProducerStockListRequestResponse() {
         }
         
-        public modifyProducerStockListRequestResponse(MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListResponse) {
+        public modifyProducerStockListRequestResponse(Cs_Mercury.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListResponse) {
             this.modifyProducerStockListResponse = modifyProducerStockListResponse;
         }
     }
@@ -12480,12 +12480,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentByUuidRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest;
         
         public getVetDocumentByUuidRequestRequest() {
         }
         
-        public getVetDocumentByUuidRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest) {
+        public getVetDocumentByUuidRequestRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest) {
             this.getVetDocumentByUuidRequest = getVetDocumentByUuidRequest;
         }
     }
@@ -12497,12 +12497,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentByUuidRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidResponse;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidResponse;
         
         public getVetDocumentByUuidRequestResponse() {
         }
         
-        public getVetDocumentByUuidRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidResponse) {
+        public getVetDocumentByUuidRequestResponse(Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidResponse) {
             this.getVetDocumentByUuidResponse = getVetDocumentByUuidResponse;
         }
     }
@@ -12514,12 +12514,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest;
         
         public getVetDocumentListRequestRequest() {
         }
         
-        public getVetDocumentListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest) {
+        public getVetDocumentListRequestRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest) {
             this.getVetDocumentListRequest = getVetDocumentListRequest;
         }
     }
@@ -12531,12 +12531,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListResponse;
         
         public getVetDocumentListRequestResponse() {
         }
         
-        public getVetDocumentListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListResponse) {
+        public getVetDocumentListRequestResponse(Cs_Mercury.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListResponse) {
             this.getVetDocumentListResponse = getVetDocumentListResponse;
         }
     }
@@ -12548,12 +12548,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentChangesListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest;
         
         public getVetDocumentChangesListRequestRequest() {
         }
         
-        public getVetDocumentChangesListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest) {
+        public getVetDocumentChangesListRequestRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest) {
             this.getVetDocumentChangesListRequest = getVetDocumentChangesListRequest;
         }
     }
@@ -12565,12 +12565,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getVetDocumentChangesListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListResponse;
         
         public getVetDocumentChangesListRequestResponse() {
         }
         
-        public getVetDocumentChangesListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListResponse) {
+        public getVetDocumentChangesListRequestResponse(Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListResponse) {
             this.getVetDocumentChangesListResponse = getVetDocumentChangesListResponse;
         }
     }
@@ -12582,12 +12582,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryByGuidRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest;
         
         public getStockEntryByGuidRequestRequest() {
         }
         
-        public getStockEntryByGuidRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest) {
+        public getStockEntryByGuidRequestRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest) {
             this.getStockEntryByGuidRequest = getStockEntryByGuidRequest;
         }
     }
@@ -12599,12 +12599,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryByGuidRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidResponse;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidResponse;
         
         public getStockEntryByGuidRequestResponse() {
         }
         
-        public getStockEntryByGuidRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidResponse) {
+        public getStockEntryByGuidRequestResponse(Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidResponse) {
             this.getStockEntryByGuidResponse = getStockEntryByGuidResponse;
         }
     }
@@ -12616,12 +12616,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryByUuidRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest;
         
         public getStockEntryByUuidRequestRequest() {
         }
         
-        public getStockEntryByUuidRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest) {
+        public getStockEntryByUuidRequestRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest) {
             this.getStockEntryByUuidRequest = getStockEntryByUuidRequest;
         }
     }
@@ -12633,12 +12633,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryByUuidRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidResponse;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidResponse;
         
         public getStockEntryByUuidRequestResponse() {
         }
         
-        public getStockEntryByUuidRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidResponse) {
+        public getStockEntryByUuidRequestResponse(Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidResponse) {
             this.getStockEntryByUuidResponse = getStockEntryByUuidResponse;
         }
     }
@@ -12650,12 +12650,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest;
         
         public getStockEntryListRequestRequest() {
         }
         
-        public getStockEntryListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest) {
+        public getStockEntryListRequestRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest) {
             this.getStockEntryListRequest = getStockEntryListRequest;
         }
     }
@@ -12667,12 +12667,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryListResponse getStockEntryListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryListResponse getStockEntryListResponse;
         
         public getStockEntryListRequestResponse() {
         }
         
-        public getStockEntryListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetStockEntryListResponse getStockEntryListResponse) {
+        public getStockEntryListRequestResponse(Cs_Mercury.ApplicationManagementService.GetStockEntryListResponse getStockEntryListResponse) {
             this.getStockEntryListResponse = getStockEntryListResponse;
         }
     }
@@ -12684,12 +12684,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryChangesListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest;
         
         public getStockEntryChangesListRequestRequest() {
         }
         
-        public getStockEntryChangesListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest) {
+        public getStockEntryChangesListRequestRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest) {
             this.getStockEntryChangesListRequest = getStockEntryChangesListRequest;
         }
     }
@@ -12701,12 +12701,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryChangesListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListResponse;
         
         public getStockEntryChangesListRequestResponse() {
         }
         
-        public getStockEntryChangesListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListResponse) {
+        public getStockEntryChangesListRequestResponse(Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListResponse) {
             this.getStockEntryChangesListResponse = getStockEntryChangesListResponse;
         }
     }
@@ -12718,12 +12718,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryVersionListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest;
         
         public getStockEntryVersionListRequestRequest() {
         }
         
-        public getStockEntryVersionListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest) {
+        public getStockEntryVersionListRequestRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest) {
             this.getStockEntryVersionListRequest = getStockEntryVersionListRequest;
         }
     }
@@ -12735,12 +12735,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getStockEntryVersionListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListResponse;
         
         public getStockEntryVersionListRequestResponse() {
         }
         
-        public getStockEntryVersionListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListResponse) {
+        public getStockEntryVersionListRequestResponse(Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListResponse) {
             this.getStockEntryVersionListResponse = getStockEntryVersionListResponse;
         }
     }
@@ -12752,12 +12752,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateTransportMovementDetailsRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest;
+        public Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest;
         
         public updateTransportMovementDetailsRequestRequest() {
         }
         
-        public updateTransportMovementDetailsRequestRequest(MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest) {
+        public updateTransportMovementDetailsRequestRequest(Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest) {
             this.updateTransportMovementDetailsRequest = updateTransportMovementDetailsRequest;
         }
     }
@@ -12769,12 +12769,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateTransportMovementDetailsRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsResponse;
+        public Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsResponse;
         
         public updateTransportMovementDetailsRequestResponse() {
         }
         
-        public updateTransportMovementDetailsRequestResponse(MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsResponse) {
+        public updateTransportMovementDetailsRequestResponse(Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsResponse) {
             this.updateTransportMovementDetailsResponse = updateTransportMovementDetailsResponse;
         }
     }
@@ -12786,12 +12786,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateVeterinaryEventsRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest;
+        public Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest;
         
         public updateVeterinaryEventsRequestRequest() {
         }
         
-        public updateVeterinaryEventsRequestRequest(MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest) {
+        public updateVeterinaryEventsRequestRequest(Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest) {
             this.updateVeterinaryEventsRequest = updateVeterinaryEventsRequest;
         }
     }
@@ -12803,12 +12803,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateVeterinaryEventsRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsResponse;
+        public Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsResponse;
         
         public updateVeterinaryEventsRequestResponse() {
         }
         
-        public updateVeterinaryEventsRequestResponse(MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsResponse) {
+        public updateVeterinaryEventsRequestResponse(Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsResponse) {
             this.updateVeterinaryEventsResponse = updateVeterinaryEventsResponse;
         }
     }
@@ -12820,12 +12820,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class checkShipmentRegionalizationRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest;
+        public Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest;
         
         public checkShipmentRegionalizationRequestRequest() {
         }
         
-        public checkShipmentRegionalizationRequestRequest(MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest) {
+        public checkShipmentRegionalizationRequestRequest(Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest) {
             this.checkShipmentRegionalizationRequest = checkShipmentRegionalizationRequest;
         }
     }
@@ -12837,12 +12837,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class checkShipmentRegionalizationRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationResponse;
+        public Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationResponse;
         
         public checkShipmentRegionalizationRequestResponse() {
         }
         
-        public checkShipmentRegionalizationRequestResponse(MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationResponse) {
+        public checkShipmentRegionalizationRequestResponse(Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationResponse) {
             this.checkShipmentRegionalizationResponse = checkShipmentRegionalizationResponse;
         }
     }
@@ -12854,12 +12854,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class addBusinessEntityUserRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest;
+        public Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest;
         
         public addBusinessEntityUserRequestRequest() {
         }
         
-        public addBusinessEntityUserRequestRequest(MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest) {
+        public addBusinessEntityUserRequestRequest(Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest) {
             this.addBusinessEntityUserRequest = addBusinessEntityUserRequest;
         }
     }
@@ -12871,12 +12871,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class addBusinessEntityUserRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserResponse;
+        public Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserResponse;
         
         public addBusinessEntityUserRequestResponse() {
         }
         
-        public addBusinessEntityUserRequestResponse(MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserResponse) {
+        public addBusinessEntityUserRequestResponse(Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserResponse) {
             this.addBusinessEntityUserResponse = addBusinessEntityUserResponse;
         }
     }
@@ -12888,12 +12888,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getBusinessEntityUserListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest;
         
         public getBusinessEntityUserListRequestRequest() {
         }
         
-        public getBusinessEntityUserListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest) {
+        public getBusinessEntityUserListRequestRequest(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest) {
             this.getBusinessEntityUserListRequest = getBusinessEntityUserListRequest;
         }
     }
@@ -12905,12 +12905,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getBusinessEntityUserListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListResponse;
         
         public getBusinessEntityUserListRequestResponse() {
         }
         
-        public getBusinessEntityUserListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListResponse) {
+        public getBusinessEntityUserListRequestResponse(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListResponse) {
             this.getBusinessEntityUserListResponse = getBusinessEntityUserListResponse;
         }
     }
@@ -12922,12 +12922,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getBusinessEntityUserRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest;
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest;
         
         public getBusinessEntityUserRequestRequest() {
         }
         
-        public getBusinessEntityUserRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest) {
+        public getBusinessEntityUserRequestRequest(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest) {
             this.getBusinessEntityUserRequest = getBusinessEntityUserRequest;
         }
     }
@@ -12939,12 +12939,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getBusinessEntityUserRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserResponse;
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserResponse;
         
         public getBusinessEntityUserRequestResponse() {
         }
         
-        public getBusinessEntityUserRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserResponse) {
+        public getBusinessEntityUserRequestResponse(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserResponse) {
             this.getBusinessEntityUserResponse = getBusinessEntityUserResponse;
         }
     }
@@ -12956,12 +12956,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateUserAuthoritiesRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest;
+        public Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest;
         
         public updateUserAuthoritiesRequestRequest() {
         }
         
-        public updateUserAuthoritiesRequestRequest(MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest) {
+        public updateUserAuthoritiesRequestRequest(Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest) {
             this.updateUserAuthoritiesRequest = updateUserAuthoritiesRequest;
         }
     }
@@ -12973,12 +12973,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateUserAuthoritiesRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesResponse;
+        public Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesResponse;
         
         public updateUserAuthoritiesRequestResponse() {
         }
         
-        public updateUserAuthoritiesRequestResponse(MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesResponse) {
+        public updateUserAuthoritiesRequestResponse(Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesResponse) {
             this.updateUserAuthoritiesResponse = updateUserAuthoritiesResponse;
         }
     }
@@ -12990,12 +12990,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateUserWorkingAreasRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest;
+        public Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest;
         
         public updateUserWorkingAreasRequestRequest() {
         }
         
-        public updateUserWorkingAreasRequestRequest(MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest) {
+        public updateUserWorkingAreasRequestRequest(Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest) {
             this.updateUserWorkingAreasRequest = updateUserWorkingAreasRequest;
         }
     }
@@ -13007,12 +13007,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class updateUserWorkingAreasRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasResponse;
+        public Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasResponse;
         
         public updateUserWorkingAreasRequestResponse() {
         }
         
-        public updateUserWorkingAreasRequestResponse(MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasResponse) {
+        public updateUserWorkingAreasRequestResponse(Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasResponse) {
             this.updateUserWorkingAreasResponse = updateUserWorkingAreasResponse;
         }
     }
@@ -13024,12 +13024,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class unbindBusinessEntityUserRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest;
+        public Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest;
         
         public unbindBusinessEntityUserRequestRequest() {
         }
         
-        public unbindBusinessEntityUserRequestRequest(MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest) {
+        public unbindBusinessEntityUserRequestRequest(Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest) {
             this.unbindBusinessEntityUserRequest = unbindBusinessEntityUserRequest;
         }
     }
@@ -13041,12 +13041,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class unbindBusinessEntityUserRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserResponse;
+        public Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserResponse;
         
         public unbindBusinessEntityUserRequestResponse() {
         }
         
-        public unbindBusinessEntityUserRequestResponse(MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserResponse) {
+        public unbindBusinessEntityUserRequestResponse(Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserResponse) {
             this.unbindBusinessEntityUserResponse = unbindBusinessEntityUserResponse;
         }
     }
@@ -13058,12 +13058,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getAppliedUserAuthorityListRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest;
+        public Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest;
         
         public getAppliedUserAuthorityListRequestRequest() {
         }
         
-        public getAppliedUserAuthorityListRequestRequest(MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest) {
+        public getAppliedUserAuthorityListRequestRequest(Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest) {
             this.getAppliedUserAuthorityListRequest = getAppliedUserAuthorityListRequest;
         }
     }
@@ -13075,23 +13075,23 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class getAppliedUserAuthorityListRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListResponse;
+        public Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListResponse;
         
         public getAppliedUserAuthorityListRequestResponse() {
         }
         
-        public getAppliedUserAuthorityListRequestResponse(MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListResponse) {
+        public getAppliedUserAuthorityListRequestResponse(Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListResponse) {
             this.getAppliedUserAuthorityListResponse = getAppliedUserAuthorityListResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface MercuryG2BServicePortTypeChannel : MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType, System.ServiceModel.IClientChannel {
+    public interface MercuryG2BServicePortTypeChannel : Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MercuryG2BServicePortTypeClient : System.ServiceModel.ClientBase<MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType>, MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType {
+    public partial class MercuryG2BServicePortTypeClient : System.ServiceModel.ClientBase<Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType>, Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType {
         
         public MercuryG2BServicePortTypeClient() {
         }
@@ -13113,338 +13113,338 @@ namespace MercuryClassLibrary.ApplicationManagementService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.processIncomingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.processIncomingConsignmentRequest(Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestRequest request) {
             return base.Channel.processIncomingConsignmentRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentResponse processIncomingConsignmentRequest(Cs_Mercury.ApplicationManagementService.ProcessIncomingConsignmentRequest processIncomingConsignmentRequest1) {
+            Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestRequest();
             inValue.processIncomingConsignmentRequest = processIncomingConsignmentRequest1;
-            MercuryClassLibrary.ApplicationManagementService.processIncomingConsignmentRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).processIncomingConsignmentRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.processIncomingConsignmentRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).processIncomingConsignmentRequest(inValue);
             return retVal.processIncomingConsignmentResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.prepareOutgoingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.prepareOutgoingConsignmentRequest(Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest request) {
             return base.Channel.prepareOutgoingConsignmentRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentRequest(MercuryClassLibrary.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentResponse prepareOutgoingConsignmentRequest(Cs_Mercury.ApplicationManagementService.PrepareOutgoingConsignmentRequest prepareOutgoingConsignmentRequest1) {
+            Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestRequest();
             inValue.prepareOutgoingConsignmentRequest = prepareOutgoingConsignmentRequest1;
-            MercuryClassLibrary.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).prepareOutgoingConsignmentRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.prepareOutgoingConsignmentRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).prepareOutgoingConsignmentRequest(inValue);
             return retVal.prepareOutgoingConsignmentResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.registerProductionOperationRequest(MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.registerProductionOperationRequest(Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestRequest request) {
             return base.Channel.registerProductionOperationRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationRequest(MercuryClassLibrary.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.RegisterProductionOperationResponse registerProductionOperationRequest(Cs_Mercury.ApplicationManagementService.RegisterProductionOperationRequest registerProductionOperationRequest1) {
+            Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestRequest();
             inValue.registerProductionOperationRequest = registerProductionOperationRequest1;
-            MercuryClassLibrary.ApplicationManagementService.registerProductionOperationRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).registerProductionOperationRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.registerProductionOperationRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).registerProductionOperationRequest(inValue);
             return retVal.registerProductionOperationResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.mergeStockEntriesRequest(MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.mergeStockEntriesRequest(Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestRequest request) {
             return base.Channel.mergeStockEntriesRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesRequest(MercuryClassLibrary.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.MergeStockEntriesResponse mergeStockEntriesRequest(Cs_Mercury.ApplicationManagementService.MergeStockEntriesRequest mergeStockEntriesRequest1) {
+            Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestRequest();
             inValue.mergeStockEntriesRequest = mergeStockEntriesRequest1;
-            MercuryClassLibrary.ApplicationManagementService.mergeStockEntriesRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).mergeStockEntriesRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.mergeStockEntriesRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).mergeStockEntriesRequest(inValue);
             return retVal.mergeStockEntriesResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.withdrawVetDocumentRequest(MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.withdrawVetDocumentRequest(Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestRequest request) {
             return base.Channel.withdrawVetDocumentRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentRequest(MercuryClassLibrary.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentResponse withdrawVetDocumentRequest(Cs_Mercury.ApplicationManagementService.WithdrawVetDocumentRequest withdrawVetDocumentRequest1) {
+            Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestRequest();
             inValue.withdrawVetDocumentRequest = withdrawVetDocumentRequest1;
-            MercuryClassLibrary.ApplicationManagementService.withdrawVetDocumentRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).withdrawVetDocumentRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.withdrawVetDocumentRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).withdrawVetDocumentRequest(inValue);
             return retVal.withdrawVetDocumentResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.modifyBusinessEntityRequest(MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.modifyBusinessEntityRequest(Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestRequest request) {
             return base.Channel.modifyBusinessEntityRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityRequest(MercuryClassLibrary.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityResponse modifyBusinessEntityRequest(Cs_Mercury.ApplicationManagementService.ModifyBusinessEntityRequest modifyBusinessEntityRequest1) {
+            Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestRequest();
             inValue.modifyBusinessEntityRequest = modifyBusinessEntityRequest1;
-            MercuryClassLibrary.ApplicationManagementService.modifyBusinessEntityRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyBusinessEntityRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.modifyBusinessEntityRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyBusinessEntityRequest(inValue);
             return retVal.modifyBusinessEntityResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.modifyEnterpriseRequest(MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.modifyEnterpriseRequest(Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestRequest request) {
             return base.Channel.modifyEnterpriseRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseRequest(MercuryClassLibrary.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ModifyEnterpriseResponse modifyEnterpriseRequest(Cs_Mercury.ApplicationManagementService.ModifyEnterpriseRequest modifyEnterpriseRequest1) {
+            Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestRequest();
             inValue.modifyEnterpriseRequest = modifyEnterpriseRequest1;
-            MercuryClassLibrary.ApplicationManagementService.modifyEnterpriseRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyEnterpriseRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.modifyEnterpriseRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyEnterpriseRequest(inValue);
             return retVal.modifyEnterpriseResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.modifyActivityLocationsRequest(MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.modifyActivityLocationsRequest(Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestRequest request) {
             return base.Channel.modifyActivityLocationsRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsRequest(MercuryClassLibrary.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsResponse modifyActivityLocationsRequest(Cs_Mercury.ApplicationManagementService.ModifyActivityLocationsRequest modifyActivityLocationsRequest1) {
+            Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestRequest();
             inValue.modifyActivityLocationsRequest = modifyActivityLocationsRequest1;
-            MercuryClassLibrary.ApplicationManagementService.modifyActivityLocationsRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyActivityLocationsRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.modifyActivityLocationsRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyActivityLocationsRequest(inValue);
             return retVal.modifyActivityLocationsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.resolveDiscrepancyRequest(MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.resolveDiscrepancyRequest(Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestRequest request) {
             return base.Channel.resolveDiscrepancyRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyRequest(MercuryClassLibrary.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyResponse resolveDiscrepancyRequest(Cs_Mercury.ApplicationManagementService.ResolveDiscrepancyRequest resolveDiscrepancyRequest1) {
+            Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestRequest();
             inValue.resolveDiscrepancyRequest = resolveDiscrepancyRequest1;
-            MercuryClassLibrary.ApplicationManagementService.resolveDiscrepancyRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).resolveDiscrepancyRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.resolveDiscrepancyRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).resolveDiscrepancyRequest(inValue);
             return retVal.resolveDiscrepancyResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.modifyProducerStockListRequest(MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.modifyProducerStockListRequest(Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestRequest request) {
             return base.Channel.modifyProducerStockListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListRequest(MercuryClassLibrary.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.ModifyProducerStockListResponse modifyProducerStockListRequest(Cs_Mercury.ApplicationManagementService.ModifyProducerStockListRequest modifyProducerStockListRequest1) {
+            Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestRequest();
             inValue.modifyProducerStockListRequest = modifyProducerStockListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.modifyProducerStockListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyProducerStockListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.modifyProducerStockListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).modifyProducerStockListRequest(inValue);
             return retVal.modifyProducerStockListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentByUuidRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentByUuidRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestRequest request) {
             return base.Channel.getVetDocumentByUuidRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidResponse getVetDocumentByUuidRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentByUuidRequest getVetDocumentByUuidRequest1) {
+            Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestRequest();
             inValue.getVetDocumentByUuidRequest = getVetDocumentByUuidRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentByUuidRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentByUuidRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getVetDocumentByUuidRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentByUuidRequest(inValue);
             return retVal.getVetDocumentByUuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentListRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentListRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestRequest request) {
             return base.Channel.getVetDocumentListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentListResponse getVetDocumentListRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentListRequest getVetDocumentListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestRequest();
             inValue.getVetDocumentListRequest = getVetDocumentListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getVetDocumentListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentListRequest(inValue);
             return retVal.getVetDocumentListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentChangesListRequest(MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getVetDocumentChangesListRequest(Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestRequest request) {
             return base.Channel.getVetDocumentChangesListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListRequest(MercuryClassLibrary.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListResponse getVetDocumentChangesListRequest(Cs_Mercury.ApplicationManagementService.GetVetDocumentChangesListRequest getVetDocumentChangesListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestRequest();
             inValue.getVetDocumentChangesListRequest = getVetDocumentChangesListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getVetDocumentChangesListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentChangesListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getVetDocumentChangesListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getVetDocumentChangesListRequest(inValue);
             return retVal.getVetDocumentChangesListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryByGuidRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryByGuidRequest(Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestRequest request) {
             return base.Channel.getStockEntryByGuidRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidResponse getStockEntryByGuidRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryByGuidRequest getStockEntryByGuidRequest1) {
+            Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestRequest();
             inValue.getStockEntryByGuidRequest = getStockEntryByGuidRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryByGuidRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryByGuidRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getStockEntryByGuidRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryByGuidRequest(inValue);
             return retVal.getStockEntryByGuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryByUuidRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryByUuidRequest(Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestRequest request) {
             return base.Channel.getStockEntryByUuidRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidResponse getStockEntryByUuidRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryByUuidRequest getStockEntryByUuidRequest1) {
+            Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestRequest();
             inValue.getStockEntryByUuidRequest = getStockEntryByUuidRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryByUuidRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryByUuidRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getStockEntryByUuidRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryByUuidRequest(inValue);
             return retVal.getStockEntryByUuidResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getStockEntryListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryListRequestRequest request) {
             return base.Channel.getStockEntryListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryListResponse getStockEntryListRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryListResponse getStockEntryListRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryListRequest getStockEntryListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getStockEntryListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getStockEntryListRequestRequest();
             inValue.getStockEntryListRequest = getStockEntryListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getStockEntryListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryListRequest(inValue);
             return retVal.getStockEntryListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryChangesListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryChangesListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestRequest request) {
             return base.Channel.getStockEntryChangesListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListResponse getStockEntryChangesListRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryChangesListRequest getStockEntryChangesListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestRequest();
             inValue.getStockEntryChangesListRequest = getStockEntryChangesListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryChangesListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryChangesListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getStockEntryChangesListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryChangesListRequest(inValue);
             return retVal.getStockEntryChangesListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryVersionListRequest(MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getStockEntryVersionListRequest(Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestRequest request) {
             return base.Channel.getStockEntryVersionListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListRequest(MercuryClassLibrary.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListResponse getStockEntryVersionListRequest(Cs_Mercury.ApplicationManagementService.GetStockEntryVersionListRequest getStockEntryVersionListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestRequest();
             inValue.getStockEntryVersionListRequest = getStockEntryVersionListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getStockEntryVersionListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryVersionListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getStockEntryVersionListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getStockEntryVersionListRequest(inValue);
             return retVal.getStockEntryVersionListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.updateTransportMovementDetailsRequest(MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.updateTransportMovementDetailsRequest(Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestRequest request) {
             return base.Channel.updateTransportMovementDetailsRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsRequest(MercuryClassLibrary.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsResponse updateTransportMovementDetailsRequest(Cs_Mercury.ApplicationManagementService.UpdateTransportMovementDetailsRequest updateTransportMovementDetailsRequest1) {
+            Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestRequest();
             inValue.updateTransportMovementDetailsRequest = updateTransportMovementDetailsRequest1;
-            MercuryClassLibrary.ApplicationManagementService.updateTransportMovementDetailsRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateTransportMovementDetailsRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.updateTransportMovementDetailsRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateTransportMovementDetailsRequest(inValue);
             return retVal.updateTransportMovementDetailsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.updateVeterinaryEventsRequest(MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.updateVeterinaryEventsRequest(Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestRequest request) {
             return base.Channel.updateVeterinaryEventsRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsRequest(MercuryClassLibrary.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsResponse updateVeterinaryEventsRequest(Cs_Mercury.ApplicationManagementService.UpdateVeterinaryEventsRequest updateVeterinaryEventsRequest1) {
+            Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestRequest();
             inValue.updateVeterinaryEventsRequest = updateVeterinaryEventsRequest1;
-            MercuryClassLibrary.ApplicationManagementService.updateVeterinaryEventsRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateVeterinaryEventsRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.updateVeterinaryEventsRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateVeterinaryEventsRequest(inValue);
             return retVal.updateVeterinaryEventsResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.checkShipmentRegionalizationRequest(MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.checkShipmentRegionalizationRequest(Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestRequest request) {
             return base.Channel.checkShipmentRegionalizationRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationRequest(MercuryClassLibrary.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationResponse checkShipmentRegionalizationRequest(Cs_Mercury.ApplicationManagementService.CheckShipmentRegionalizationRequest checkShipmentRegionalizationRequest1) {
+            Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestRequest();
             inValue.checkShipmentRegionalizationRequest = checkShipmentRegionalizationRequest1;
-            MercuryClassLibrary.ApplicationManagementService.checkShipmentRegionalizationRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).checkShipmentRegionalizationRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.checkShipmentRegionalizationRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).checkShipmentRegionalizationRequest(inValue);
             return retVal.checkShipmentRegionalizationResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.addBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.addBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestRequest request) {
             return base.Channel.addBusinessEntityUserRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserResponse addBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.AddBusinessEntityUserRequest addBusinessEntityUserRequest1) {
+            Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestRequest();
             inValue.addBusinessEntityUserRequest = addBusinessEntityUserRequest1;
-            MercuryClassLibrary.ApplicationManagementService.addBusinessEntityUserRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).addBusinessEntityUserRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.addBusinessEntityUserRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).addBusinessEntityUserRequest(inValue);
             return retVal.addBusinessEntityUserResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getBusinessEntityUserListRequest(MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getBusinessEntityUserListRequest(Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestRequest request) {
             return base.Channel.getBusinessEntityUserListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListRequest(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListResponse getBusinessEntityUserListRequest(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserListRequest getBusinessEntityUserListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestRequest();
             inValue.getBusinessEntityUserListRequest = getBusinessEntityUserListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getBusinessEntityUserListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getBusinessEntityUserListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getBusinessEntityUserListRequest(inValue);
             return retVal.getBusinessEntityUserListResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestRequest request) {
             return base.Channel.getBusinessEntityUserRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserResponse getBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.GetBusinessEntityUserRequest getBusinessEntityUserRequest1) {
+            Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestRequest();
             inValue.getBusinessEntityUserRequest = getBusinessEntityUserRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getBusinessEntityUserRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getBusinessEntityUserRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getBusinessEntityUserRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getBusinessEntityUserRequest(inValue);
             return retVal.getBusinessEntityUserResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.updateUserAuthoritiesRequest(MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.updateUserAuthoritiesRequest(Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestRequest request) {
             return base.Channel.updateUserAuthoritiesRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesRequest(MercuryClassLibrary.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesResponse updateUserAuthoritiesRequest(Cs_Mercury.ApplicationManagementService.UpdateUserAuthoritiesRequest updateUserAuthoritiesRequest1) {
+            Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestRequest();
             inValue.updateUserAuthoritiesRequest = updateUserAuthoritiesRequest1;
-            MercuryClassLibrary.ApplicationManagementService.updateUserAuthoritiesRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateUserAuthoritiesRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.updateUserAuthoritiesRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateUserAuthoritiesRequest(inValue);
             return retVal.updateUserAuthoritiesResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.updateUserWorkingAreasRequest(MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.updateUserWorkingAreasRequest(Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestRequest request) {
             return base.Channel.updateUserWorkingAreasRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasRequest(MercuryClassLibrary.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasResponse updateUserWorkingAreasRequest(Cs_Mercury.ApplicationManagementService.UpdateUserWorkingAreasRequest updateUserWorkingAreasRequest1) {
+            Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestRequest();
             inValue.updateUserWorkingAreasRequest = updateUserWorkingAreasRequest1;
-            MercuryClassLibrary.ApplicationManagementService.updateUserWorkingAreasRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateUserWorkingAreasRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.updateUserWorkingAreasRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).updateUserWorkingAreasRequest(inValue);
             return retVal.updateUserWorkingAreasResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.unbindBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.unbindBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestRequest request) {
             return base.Channel.unbindBusinessEntityUserRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserRequest(MercuryClassLibrary.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserResponse unbindBusinessEntityUserRequest(Cs_Mercury.ApplicationManagementService.UnbindBusinessEntityUserRequest unbindBusinessEntityUserRequest1) {
+            Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestRequest();
             inValue.unbindBusinessEntityUserRequest = unbindBusinessEntityUserRequest1;
-            MercuryClassLibrary.ApplicationManagementService.unbindBusinessEntityUserRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).unbindBusinessEntityUserRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.unbindBusinessEntityUserRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).unbindBusinessEntityUserRequest(inValue);
             return retVal.unbindBusinessEntityUserResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType.getAppliedUserAuthorityListRequest(MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType.getAppliedUserAuthorityListRequest(Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest request) {
             return base.Channel.getAppliedUserAuthorityListRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListRequest(MercuryClassLibrary.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListResponse getAppliedUserAuthorityListRequest(Cs_Mercury.ApplicationManagementService.GetAppliedUserAuthorityListRequest getAppliedUserAuthorityListRequest1) {
+            Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestRequest();
             inValue.getAppliedUserAuthorityListRequest = getAppliedUserAuthorityListRequest1;
-            MercuryClassLibrary.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.MercuryG2BServicePortType)(this)).getAppliedUserAuthorityListRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.getAppliedUserAuthorityListRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.MercuryG2BServicePortType)(this)).getAppliedUserAuthorityListRequest(inValue);
             return retVal.getAppliedUserAuthorityListResponse;
         }
     }
@@ -13455,22 +13455,22 @@ namespace MercuryClassLibrary.ApplicationManagementService {
         
         // CODEGEN: Контракт генерации сообщений с операцией submitApplicationRequest не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="submitApplicationRequest", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="unsupportedApplicationDataTypeFault", Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="unknownServiceIdFault", Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="accessDeniedFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="unsupportedApplicationDataTypeFault", Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="unknownServiceIdFault", Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="submitApplicationRequest", Name="accessDeniedFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestResponse submitApplicationRequest(MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestRequest request);
+        Cs_Mercury.ApplicationManagementService.submitApplicationRequestResponse submitApplicationRequest(Cs_Mercury.ApplicationManagementService.submitApplicationRequestRequest request);
         
         // CODEGEN: Контракт генерации сообщений с операцией receiveApplicationResult не является ни RPC, ни упакованным документом.
         [System.ServiceModel.OperationContractAttribute(Action="receiveApplicationResult", ReplyAction="*")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
-        [System.ServiceModel.FaultContractAttribute(typeof(MercuryClassLibrary.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="accessDeniedFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="entityNotFoundFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="internalServiceFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="incorrectRequestFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
+        [System.ServiceModel.FaultContractAttribute(typeof(Cs_Mercury.ApplicationManagementService.FaultInfo), Action="receiveApplicationResult", Name="accessDeniedFault", Namespace="http://api.vetrf.ru/schema/cdm/base/ws-definitions")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse1 receiveApplicationResult(MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest1 request);
+        Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse1 receiveApplicationResult(Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest1 request);
     }
     
     /// <remarks/>
@@ -13558,12 +13558,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class submitApplicationRequestRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.submitApplicationRequest submitApplicationRequest;
+        public Cs_Mercury.ApplicationManagementService.submitApplicationRequest submitApplicationRequest;
         
         public submitApplicationRequestRequest() {
         }
         
-        public submitApplicationRequestRequest(MercuryClassLibrary.ApplicationManagementService.submitApplicationRequest submitApplicationRequest) {
+        public submitApplicationRequestRequest(Cs_Mercury.ApplicationManagementService.submitApplicationRequest submitApplicationRequest) {
             this.submitApplicationRequest = submitApplicationRequest;
         }
     }
@@ -13575,12 +13575,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class submitApplicationRequestResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.submitApplicationResponse submitApplicationResponse;
+        public Cs_Mercury.ApplicationManagementService.submitApplicationResponse submitApplicationResponse;
         
         public submitApplicationRequestResponse() {
         }
         
-        public submitApplicationRequestResponse(MercuryClassLibrary.ApplicationManagementService.submitApplicationResponse submitApplicationResponse) {
+        public submitApplicationRequestResponse(Cs_Mercury.ApplicationManagementService.submitApplicationResponse submitApplicationResponse) {
             this.submitApplicationResponse = submitApplicationResponse;
         }
     }
@@ -13684,12 +13684,12 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class receiveApplicationResultRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest;
+        public Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest;
         
         public receiveApplicationResultRequest1() {
         }
         
-        public receiveApplicationResultRequest1(MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest) {
+        public receiveApplicationResultRequest1(Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest) {
             this.receiveApplicationResultRequest = receiveApplicationResultRequest;
         }
     }
@@ -13701,23 +13701,23 @@ namespace MercuryClassLibrary.ApplicationManagementService {
     public partial class receiveApplicationResultResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://api.vetrf.ru/schema/cdm/application/ws-definitions", Order=0)]
-        public MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResultResponse;
+        public Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResultResponse;
         
         public receiveApplicationResultResponse1() {
         }
         
-        public receiveApplicationResultResponse1(MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResultResponse) {
+        public receiveApplicationResultResponse1(Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResultResponse) {
             this.receiveApplicationResultResponse = receiveApplicationResultResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ApplicationManagementServicePortTypeChannel : MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType, System.ServiceModel.IClientChannel {
+    public interface ApplicationManagementServicePortTypeChannel : Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ApplicationManagementServicePortTypeClient : System.ServiceModel.ClientBase<MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType>, MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType {
+    public partial class ApplicationManagementServicePortTypeClient : System.ServiceModel.ClientBase<Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType>, Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType {
         
         public ApplicationManagementServicePortTypeClient() {
         }
@@ -13739,26 +13739,26 @@ namespace MercuryClassLibrary.ApplicationManagementService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestResponse MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType.submitApplicationRequest(MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestRequest request) {
+        Cs_Mercury.ApplicationManagementService.submitApplicationRequestResponse Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType.submitApplicationRequest(Cs_Mercury.ApplicationManagementService.submitApplicationRequestRequest request) {
             return base.Channel.submitApplicationRequest(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.submitApplicationResponse submitApplicationRequest(MercuryClassLibrary.ApplicationManagementService.submitApplicationRequest submitApplicationRequest1) {
-            MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestRequest inValue = new MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestRequest();
+        public Cs_Mercury.ApplicationManagementService.submitApplicationResponse submitApplicationRequest(Cs_Mercury.ApplicationManagementService.submitApplicationRequest submitApplicationRequest1) {
+            Cs_Mercury.ApplicationManagementService.submitApplicationRequestRequest inValue = new Cs_Mercury.ApplicationManagementService.submitApplicationRequestRequest();
             inValue.submitApplicationRequest = submitApplicationRequest1;
-            MercuryClassLibrary.ApplicationManagementService.submitApplicationRequestResponse retVal = ((MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType)(this)).submitApplicationRequest(inValue);
+            Cs_Mercury.ApplicationManagementService.submitApplicationRequestResponse retVal = ((Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType)(this)).submitApplicationRequest(inValue);
             return retVal.submitApplicationResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse1 MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType.receiveApplicationResult(MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest1 request) {
+        Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse1 Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType.receiveApplicationResult(Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest1 request) {
             return base.Channel.receiveApplicationResult(request);
         }
         
-        public MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResult(MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest) {
-            MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest1 inValue = new MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultRequest1();
+        public Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse receiveApplicationResult(Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest receiveApplicationResultRequest) {
+            Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest1 inValue = new Cs_Mercury.ApplicationManagementService.receiveApplicationResultRequest1();
             inValue.receiveApplicationResultRequest = receiveApplicationResultRequest;
-            MercuryClassLibrary.ApplicationManagementService.receiveApplicationResultResponse1 retVal = ((MercuryClassLibrary.ApplicationManagementService.ApplicationManagementServicePortType)(this)).receiveApplicationResult(inValue);
+            Cs_Mercury.ApplicationManagementService.receiveApplicationResultResponse1 retVal = ((Cs_Mercury.ApplicationManagementService.ApplicationManagementServicePortType)(this)).receiveApplicationResult(inValue);
             return retVal.receiveApplicationResultResponse;
         }
     }

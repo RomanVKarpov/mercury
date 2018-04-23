@@ -1,13 +1,14 @@
-﻿using MercuryClassLibrary.ApplicationManagementService;
+﻿using Cs_Mercury.ApplicationManagementService;
 using System;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
+using System.Threading;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace MercuryClassLibrary
+namespace Cs_Mercury
 {
     public class InspectorBehavior : IEndpointBehavior
     {
@@ -100,6 +101,7 @@ namespace MercuryClassLibrary
             };
 
             service = new ApplicationManagementServicePortTypeClient(binding, addr);
+            //service.InnerChannel.OperationTimeout = new TimeSpan(0, 0, 10);
 
             service.Endpoint.EndpointBehaviors.Add(new InspectorBehavior());
 
@@ -121,7 +123,7 @@ namespace MercuryClassLibrary
         public static string GetLogin() => Login;
         public static string GetApiKey() => ApiKey;
 
-        public void ModifyEnterpriseOperation(string ownerGuid, string transactionId, string enterpriseName, string ActivityName, string reason)
+        public submitApplicationResponse ModifyEnterpriseOperation(string ownerGuid, string transactionId, string enterpriseName, string ActivityName, string reason)
         {
             var Ent = new Enterprise()
             {
@@ -159,31 +161,6 @@ namespace MercuryClassLibrary
                 }
             };
 
-            //Ent.activityList = new EnterpriseActivityList
-            //{
-            //    activity = new EnterpriseActivity[1]
-            //    {
-            //        new EnterpriseActivity
-            //        {
-            //            name = ActivityName
-            //        }
-            //    }
-            //};
-
-            //var activityList = new EnterpriseActivityList();
-            //EnterpriseActivity[] activity = new EnterpriseActivity[1];
-            //activity[0] = new EnterpriseActivity
-            //{
-            //    name = "Реализация пищевых продуктов"
-            //};
-
-            //activityList.activity = activity;
-
-            //Ent.activityList = activityList;
-
-            //Enterprise[] entList = new Enterprise[1] { Ent };
-            //entList[0] = Ent;
-
             var modifyEnt = new ModifyEnterpriseRequest
             {
                 localTransactionId = transactionId,
@@ -208,17 +185,35 @@ namespace MercuryClassLibrary
 
             var dataObject = SerializeToXmlElement(wrapper, modifyEnt);
 
-            AppRequest(ownerGuid, dataObject);
+            return AppRequest(ownerGuid, dataObject);
         }
 
-        public void AppRequest(string issuerId, XmlElement data)
+        public submitApplicationResponse GetVetDocumentListOperation(string IssuerId, string EnterpriseGuid, 
+                    string LocalTransactionId, int vetDocumentType, int VetDocumentStatus)
         {
-            var mod = data.ToString();
+            var vetList = new GetVetDocumentListRequest
+            {
+                localTransactionId = LocalTransactionId,
+                initiator = new User
+                {
+                    login = Common.Login
+                },
+                vetDocumentType = (VetDocumentType)vetDocumentType,
+                vetDocumentStatus = (VetDocumentStatus)VetDocumentStatus,
+                enterpriseGuid = EnterpriseGuid
+            };
 
-            //var dat1 = new ApplicationDataWrapper
-            //{
-            //    Any = data
-            //};
+            var wrapper = new getVetDocumentListRequestRequest(vetList);
+            var dataObject = SerializeToXmlElement(wrapper, vetList);
+
+            return AppRequest(IssuerId, dataObject);
+        }
+
+        public submitApplicationResponse AppRequest(string issuerId, XmlElement data)
+        {
+            //var mod = data.ToString();
+
+            submitApplicationResponse response = null;
 
             var req = new submitApplicationRequest
             {
@@ -238,15 +233,15 @@ namespace MercuryClassLibrary
 
             try
             {
-                var response = service.submitApplicationRequest(req);
+                response = service.submitApplicationRequest(req);
             }
-            catch (System.ServiceModel.FaultException<FaultInfo> ex)
+            catch (FaultException<FaultInfo> ex)
             {
                 LastError.SetError(ex);
                 Common.ServiceModelExceptionToString(ex);
             }
 
-
+            return response;
         }
 
         public static XmlElement SerializeToXmlElement(object wrapper, object element)
@@ -282,7 +277,45 @@ namespace MercuryClassLibrary
             return elem;
         }
 
-        public void AppResponse(string applicationId, string issuerId)
+        public T Merc_getResponse<T>(string issuerId, string applicationId) where T : class, new()
+        {
+            T deserialized = null;
+
+            receiveApplicationResultResponse response = AppResponse(issuerId, applicationId);
+
+            if (response.application.status == ApplicationStatus.IN_PROCESS)
+            {
+                LastError.SetError(response.application.status);
+            }
+            else
+            {
+                //int cnt = 0;
+                //int max = 10;
+                //bool continueRequest = true;
+
+                //var perf1 = DateTime.Now;
+
+                //while ((cnt < max) && (continueRequest))
+                //{
+                //    cnt++;
+
+                //    response = AppResponse(issuerId, applicationId);
+                //    continueRequest = (response?.application?.result == null);
+                //    if (continueRequest)
+                //    {
+                //        Thread.Sleep(500);
+                //    }
+                //}
+
+                //var perfEnd = DateTime.Now - perf1;
+
+                deserialized = Deserialize<T>(response?.application?.result?.Any);
+            }
+
+            return deserialized;
+        }
+
+        public receiveApplicationResultResponse AppResponse(string issuerId, string applicationId)
         {
             var req = new receiveApplicationResultRequest
             {
@@ -292,6 +325,38 @@ namespace MercuryClassLibrary
             };
 
             var response = service.receiveApplicationResult(req);
+
+            return response;
         }
+
+        //public static T Convert<T>(XmlElement xmlres) where T : class, new()
+        //{
+        //    return Deserialize<T>(xmlres);
+        //}
+
+        private T Deserialize<T>(XmlNode data) where T : class, new()
+        {
+            if (data == null)
+                return null;
+
+            var attr = new XmlRootAttribute
+            {
+                ElementName = data.LocalName, // "getVetDocumentListResponse",
+                Namespace = data.NamespaceURI // "http://api.vetrf.ru/schema/cdm/mercury/g2b/applications/v2"
+            };
+
+            var ser = new XmlSerializer(typeof(T), attr);
+            using (var xmlNodeReader = new XmlNodeReader(data))
+            {
+                return (T)ser.Deserialize(xmlNodeReader);
+            }
+        }
+
+        //public submitApplicationResponse GetSubmitResponse()
+        //{
+        //    submitApplicationResponse response = new submitApplicationResponse();
+
+        //    response.application
+        //}
     }
 }

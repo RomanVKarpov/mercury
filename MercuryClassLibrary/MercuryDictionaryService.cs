@@ -1,18 +1,31 @@
-﻿using MercuryClassLibrary.EnterpriseService;
+﻿using Cs_Mercury.EnterpriseService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MercuryClassLibrary
+namespace Cs_Mercury
 {
-    public class DictionaryService
+    [Guid("5A3FDFE7-01F0-4B79-A183-C171FAF38C0F")]
+    internal interface IDictServices { }
+
+    [Guid("56777FDA-4E7B-4CE4-8727-B1A38D06CB7C")]
+    public interface IMyEvents2 { }
+
+    [Guid("9F2494D4-B888-4D9C-8454-9905DA07F4C4"), ClassInterface(ClassInterfaceType.None), ComSourceInterfaces(typeof(IMyEvents2))]
+    public partial class DictionaryService: IDictServices
     {
         private static EnterpriseServicePortTypeClient service = null;
 
         public DictionaryService()
+        {
+
+        }
+
+        public bool Init()
         {
             if (!Common.Initialized)
             {
@@ -39,6 +52,13 @@ namespace MercuryClassLibrary
 
             service.ClientCredentials.UserName.UserName = Common.UserName;
             service.ClientCredentials.UserName.Password = Common.UserPassword;
+
+            return true;
+        }
+
+        public string GetTest(string guid)
+        {
+            return EnterpriseList(guid)[0];
         }
 
         public List<string> EnterpriseList(string guid)
@@ -105,11 +125,11 @@ namespace MercuryClassLibrary
             return res;
         }
 
-        private getBusinessEntityByGuidResponse GetBusinessEntityByGuid(string guid)
+        private getBusinessEntityByGuidResponse GetBusinessEntityByGuid(string Guid)
         {
             var req = new getBusinessEntityByGuidRequest
             {
-                guid = guid
+                guid = Guid
             };
 
             var res = new ResultInfo();
